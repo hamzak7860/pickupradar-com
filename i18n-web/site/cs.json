@@ -2,7 +2,7 @@
   "language": "cs",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Zjisti čekání, než vejdeš."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Nezávislé a nespojené s Uber Eats, Deliveroo ani Just Eat."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Nezávislé a nespojené s Uber Eats, Deliveroo, Just Eat, DoorDash ani Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Žádná nová hlášení? PickupRadar může ukázat {likelyFast} nebo {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): čekání při vyzvednutí pro kurýry ve Spojeném království"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): čekání při vyzvednutí pro kurýry ve Spojeném království a USA"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Podívej se, jak dlouho kurýři čekají v restauracích a obchodech, než vejdeš. Pro kurýry Uber Eats, Deliveroo a Just Eat ve Spojeném království. Bez registrace."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Podívej se, jak dlouho kurýři čekají v restauracích a obchodech, než vejdeš. Pro kurýry Uber Eats, Deliveroo, Just Eat, DoorDash a Grubhub ve Spojeném království a USA. Bez registrace."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Zjisti čekání, než vejdeš."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Rozvážíš pro Uber Eats, Deliveroo nebo Just Eat? Podívej se na nedávné čekání v místech vyzvednutí v restauracích a obchodech. Vyhni se dlouhému čekání. Klepni na {reportWait} a získej {radarPoints}. Bez registrace."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Rozvážíš pro Uber Eats, Deliveroo, Just Eat, DoorDash nebo Grubhub? Podívej se na nedávné čekání v místech vyzvednutí v restauracích a obchodech. Vyhni se dlouhému čekání. Klepni na {reportWait} a získej {radarPoints}. Bez registrace."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Dostupnost"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "Teď v Milton Keynes. Další je London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "Teď v Milton Keynes a Chicagu. Další jsou London a New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "Vhodné místo vyzvednutí blízko tebe bez nedávného čekání a bez {likelyFast} nebo {likelySlow}. Za hlášení dostaneš 15 RP místo 10."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Tohle jsou města Spojeného království v aplikaci. Nenajdeš své město? Požádej o něj v aplikaci. Nebo klepni na {notify} u města, které je {comingSoon}. Napíšeme ti, až bude v provozu."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Tohle jsou města Spojeného království a USA v aplikaci. Nenajdeš své město? Požádej o něj v aplikaci. Nebo klepni na {notify} u města, které je {comingSoon}. Napíšeme ti, až bude v provozu."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "V provozu teď"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Spojené království"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "Spojené státy"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Není součástí žádné rozvážkové aplikace"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar je nezávislé. Není součástí Uber Eats, Deliveroo, Just Eat ani jiné rozvážkové aplikace. Nikdy nepoužívá tvé účty u nich."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar je nezávislé. Není součástí Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub ani jiné rozvážkové aplikace. Nikdy nepoužívá tvé účty u nich."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "Bez přihlášení do rozvážkových aplikací."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Nikdy nechceme uživatelské jméno ani heslo k Uber Eats, Deliveroo nebo Just Eat."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Nikdy nechceme uživatelské jméno ani heslo k Uber Eats, Deliveroo, Just Eat, DoorDash nebo Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "Kdy si můžu aplikaci stáhnout?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "Aplikace pro iPhone a Android brzy přijdou. Zatím {preview} ukazuje skutečná místa vyzvednutí a čekání v Milton Keynes."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "Aplikace pro iPhone a Android brzy přijdou. Zatím {preview} ukazuje skutečná místa vyzvednutí a čekání v Milton Keynes a Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Živý náhled aplikace — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Vyzkoušej aplikaci PickupRadar se skutečnými daty z Milton Keynes. Rozhlédni se, hledej místa vyzvednutí a podívej se na obrazovku hlášení."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Vyzkoušej aplikaci PickupRadar se skutečnými daty z Milton Keynes a Chicago. Rozhlédni se, hledej místa vyzvednutí a podívej se na obrazovku hlášení."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Tohle je PickupRadar se skutečnými daty z Milton Keynes. Rozhlédni se. Vyhledej místo vyzvednutí a otevři ho. Nic, na co tady klepneš, se neodešle. Hlásit můžeš jen v mobilní aplikaci."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Tohle je PickupRadar se skutečnými daty z Milton Keynes a Chicago. Rozhlédni se. Vyhledej místo vyzvednutí a otevři ho. Nic, na co tady klepneš, se neodešle. Hlásit můžeš jen v mobilní aplikaci."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Úplný náhled aplikace PickupRadar se skutečnými daty z Milton Keynes"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Úplný náhled aplikace PickupRadar se skutečnými daty z Milton Keynes a Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Tvé účty v rozvážkových aplikacích"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar se nepřipojuje k tvým účtům Uber Eats, Deliveroo, Just Eat ani jiných rozvážkových aplikací. Nikdy nechceme přihlášení, hesla, údaje o účtu, údaje o zákaznících ani údaje o objednávkách. Kurýři sdílejí jen hlášení o vyzvednutí, třeba časy čekání a problémy míst vyzvednutí."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar se nepřipojuje k tvým účtům Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub ani jiných rozvážkových aplikací. Nikdy nechceme přihlášení, hesla, údaje o účtu, údaje o zákaznících ani údaje o objednávkách. Kurýři sdílejí jen hlášení o vyzvednutí, třeba časy čekání a problémy míst vyzvednutí."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Vyzkoušej PickupRadar, než se aplikace spustí."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Živý náhled ukazuje skutečná místa vyzvednutí a čekání v Milton Keynes. Hlášení a {radarPoints} jsou jen v mobilní aplikaci."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Živý náhled ukazuje skutečná místa vyzvednutí a čekání v Milton Keynes a Chicago. Hlášení a {radarPoints} jsou jen v mobilní aplikaci."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

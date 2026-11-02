@@ -2,7 +2,7 @@
   "language": "sm",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Iloa le taimi faatali a o lei e te ulufale."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Tutoatasi, ma e le fesoʻotaʻi ma Uber Eats, Deliveroo po o Just Eat."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Tutoatasi, ma e le fesoʻotaʻi ma Uber Eats, Deliveroo, Just Eat, DoorDash po o Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Leai se lipoti fou? E mafai ona faaalia e PickupRadar le {likelyFast} po o le {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): taimi faatali o piki mo avetaʻavale i Peretania"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): taimi faatali o piki mo avetaʻavale i Peretania ma Amerika"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Vaai pe o le a le umi e faatali ai avetaʻavale i faleaiga ma faleoloa a o lei e te ulufale. Mo avetaʻavale o Uber Eats, Deliveroo ma Just Eat i Peretania. E leai se lesitala."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Vaai pe o le a le umi e faatali ai avetaʻavale i faleaiga ma faleoloa a o lei e te ulufale. Mo avetaʻavale o Uber Eats, Deliveroo, Just Eat, DoorDash ma Grubhub i Peretania ma Amerika. E leai se lesitala."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Iloa le taimi faatali a o lei e te ulufale."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "E te aveina mo Uber Eats, Deliveroo po o Just Eat? Vaai i taimi faatali fou i nofoaga piki o faleaiga ma faleoloa. Aloese mai le faatali umi. Tap le {reportWait} ma maua {radarPoints}. E leai se lesitala."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "E te aveina mo Uber Eats, Deliveroo, Just Eat, DoorDash po o Grubhub? Vaai i taimi faatali fou i nofoaga piki o faleaiga ma faleoloa. Aloese mai le faatali umi. Tap le {reportWait} ma maua {radarPoints}. E leai se lesitala."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Avanoa"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "O lea i Milton Keynes. Sosoo ai London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "O lea i Milton Keynes ma Chicago. Sosoo ai London ma New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "O se nofoaga piki agavaa latalata ia te oe, e leai se taimi faatali fou, ma e leai se {likelyFast} po o le {likelySlow}. E te maua 15 RP mo lena lipoti, e le o le 10."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "O aai ia o Peretania i le polokalame. E le o e vaai i lau aai? Talosaga i le polokalame. Po o le tap le {notify} i se aai o loo {comingSoon}. Matou te imeli pe a ola."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "O aai ia o Peretania ma Amerika i le polokalame. E le o e vaai i lau aai? Talosaga i le polokalame. Po o le tap le {notify} i se aai o loo {comingSoon}. Matou te imeli pe a ola."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Ola nei"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Peretania"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "Amerika"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "E le o se vaega o soo se polokalame tiliva"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "E tutoatasi PickupRadar. E le o se vaega o Uber Eats, Deliveroo, Just Eat po o se isi polokalame tiliva. E le faaaoga lava lau account iina."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "E tutoatasi PickupRadar. E le o se vaega o Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub po o se isi polokalame tiliva. E le faaaoga lava lau account iina."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "E leai se ulufale i le polokalame tiliva."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Matou te le fesili lava i se igoa faaaoga po o se upu faalilolilo o Uber Eats, Deliveroo po o Just Eat."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Matou te le fesili lava i se igoa faaaoga po o se upu faalilolilo o Uber Eats, Deliveroo, Just Eat, DoorDash po o Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "O afea e mafai ai ona ou sii mai le polokalame?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "O le a oo mai nei polokalame iPhone ma Android. Mo le taimi nei, e faaalia e le {preview} nofoaga piki moni ma taimi faatali i Milton Keynes."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "O le a oo mai nei polokalame iPhone ma Android. Mo le taimi nei, e faaalia e le {preview} nofoaga piki moni ma taimi faatali i Milton Keynes ma Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Vaaiga ola o le polokalame — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Taumafai le polokalame PickupRadar i faamatalaga moni o Milton Keynes. Vaai solo, saili se nofoaga piki ma vaai i le lau lipoti."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Taumafai le polokalame PickupRadar i faamatalaga moni o Milton Keynes ma Chicago. Vaai solo, saili se nofoaga piki ma vaai i le lau lipoti."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "O PickupRadar lea i faamatalaga moni o Milton Keynes. Vaai solo. Saili se nofoaga piki ma tatala. E leai se mea e te tap iinei e lafo. E na o le polokalame telefoni e mafai ona e lipoti ai."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "O PickupRadar lea i faamatalaga moni o Milton Keynes ma Chicago. Vaai solo. Saili se nofoaga piki ma tatala. E leai se mea e te tap iinei e lafo. E na o le polokalame telefoni e mafai ona e lipoti ai."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Vaaiga atoa o le polokalame PickupRadar i faamatalaga moni o Milton Keynes"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Vaaiga atoa o le polokalame PickupRadar i faamatalaga moni o Milton Keynes ma Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Lau account o le polokalame tiliva"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "E le fesoʻotaʻi PickupRadar i lau account o Uber Eats, Deliveroo, Just Eat po o se isi polokalame tiliva. Matou te le fesili lava i se ulufale, upu faalilolilo, faamatalaga o le account, faamatalaga a tagata faatau po o faamatalaga o le oka. E na o lipoti piki e faasoa e avetaʻavale, e pei o le taimi faatali ma faafitauli o le nofoaga piki."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "E le fesoʻotaʻi PickupRadar i lau account o Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub po o se isi polokalame tiliva. Matou te le fesili lava i se ulufale, upu faalilolilo, faamatalaga o le account, faamatalaga a tagata faatau po o faamatalaga o le oka. E na o lipoti piki e faasoa e avetaʻavale, e pei o le taimi faatali ma faafitauli o le nofoaga piki."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Taumafai PickupRadar a o lei faalauiloa le polokalame."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "E faaalia e le vaaiga ola nofoaga piki moni ma taimi faatali i Milton Keynes. O le lipoti ma {radarPoints} e na o le polokalame telefoni."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "E faaalia e le vaaiga ola nofoaga piki moni ma taimi faatali i Milton Keynes ma Chicago. O le lipoti ma {radarPoints} e na o le polokalame telefoni."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

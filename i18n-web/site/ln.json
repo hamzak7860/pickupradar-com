@@ -2,7 +2,7 @@
   "language": "ln",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Yeba ntango ya kozela liboso oyingela."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Ezali na bomoko, mpe ezali na boyokani te na Uber Eats, Deliveroo to Just Eat."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Ezali na bomoko, mpe ezali na boyokani te na Uber Eats, Deliveroo, Just Eat, DoorDash to Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Lapolo ya sika ezali te? PickupRadar ekoki kolakisa {likelyFast} to {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): ntango ya kozela ya kozwa mpo na ba chauffeur na Royaume-Uni"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): ntango ya kozela ya kozwa mpo na ba chauffeur na Royaume-Uni mpe na États-Unis"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Tala chauffeur bazelaka ntango boni na ba restora mpe ba magazini liboso oyingela. Mpo na ba chauffeur ya Uber Eats, Deliveroo mpe Just Eat na Royaume-Uni. Kokomisa nkombo ezali te."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Tala chauffeur bazelaka ntango boni na ba restora mpe ba magazini liboso oyingela. Mpo na ba chauffeur ya Uber Eats, Deliveroo, Just Eat, DoorDash mpe Grubhub na Royaume-Uni mpe na États-Unis. Kokomisa nkombo ezali te."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Yeba ntango ya kozela liboso oyingela."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Ozali kopesa biloko mpo na Uber Eats, Deliveroo to Just Eat? Tala ntango ya kozela ya sika na bisika ya kozwa ya ba restora mpe ba magazini. Pema kozela ya molai. Finá {reportWait} mpe zwa {radarPoints}. Kokomisa nkombo ezali te."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Ozali kopesa biloko mpo na Uber Eats, Deliveroo, Just Eat, DoorDash to Grubhub? Tala ntango ya kozela ya sika na bisika ya kozwa ya ba restora mpe ba magazini. Pema kozela ya molai. Finá {reportWait} mpe zwa {radarPoints}. Kokomisa nkombo ezali te."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Kozala"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "Sikoyo na Milton Keynes. Oyo elandi London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "Sikoyo na Milton Keynes mpe Chicago. Oyo elandi London mpe New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "Esika ya kozwa oyo ebongi pene na yo, kozanga ntango ya kozela ya sika, mpe kozanga {likelyFast} to {likelySlow}. Ozwí 15 RP mpo na lapolo wana, ezali 10 te."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Oyo ezali bingumba ya Royaume-Uni na appli. Omoni engumba na yo te? Senga yango na appli. To finá {notify} na engumba oyo ezali {comingSoon}. Totindeli imel ntango ekokoma ya sikawa."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Oyo ezali bingumba ya Royaume-Uni mpe ya États-Unis na appli. Omoni engumba na yo te? Senga yango na appli. To finá {notify} na engumba oyo ezali {comingSoon}. Totindeli imel ntango ekokoma ya sikawa."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Ya sikawa sikoyo"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Royaume-Uni"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "États-Unis"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Ezali eteni ya appli moko te ya kopesa"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar ezali na bomoko. Ezali eteni te ya Uber Eats, Deliveroo, Just Eat to appli mosusu ya kopesa. Esalelaka kɔnti na yo kuna te."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar ezali na bomoko. Ezali eteni te ya Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub to appli mosusu ya kopesa. Esalelaka kɔnti na yo kuna te."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "Kokota na appli ya kopesa ezali te."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Tosengaka nkombo to mot de passe ya Uber Eats, Deliveroo to Just Eat te."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Tosengaka nkombo to mot de passe ya Uber Eats, Deliveroo, Just Eat, DoorDash to Grubhub te."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "Ntango nini nakoki kozwa appli?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "Ba appli ya iPhone mpe Android ekoya noki. Mpo na sikoyo, {preview} elakisi bisika ya kozwa ya solo mpe ntango ya kozela na Milton Keynes."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "Ba appli ya iPhone mpe Android ekoya noki. Mpo na sikoyo, {preview} elakisi bisika ya kozwa ya solo mpe ntango ya kozela na Milton Keynes mpe Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Botali ya sikawa ya appli — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Meka appli PickupRadar na makambo ya solo ya Milton Keynes. Tala zingazinga, luka esika ya kozwa mpe tala ekran ya lapolo."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Meka appli PickupRadar na makambo ya solo ya Milton Keynes mpe Chicago. Tala zingazinga, luka esika ya kozwa mpe tala ekran ya lapolo."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Oyo ezali PickupRadar na makambo ya solo ya Milton Keynes. Tala zingazinga. Luka esika ya kozwa mpe fungola yango. Eloko oyo ofini awa ekotindama te. Okoki koyebisa kaka na appli ya telefone."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Oyo ezali PickupRadar na makambo ya solo ya Milton Keynes mpe Chicago. Tala zingazinga. Luka esika ya kozwa mpe fungola yango. Eloko oyo ofini awa ekotindama te. Okoki koyebisa kaka na appli ya telefone."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Botali mobimba ya appli PickupRadar na makambo ya solo ya Milton Keynes"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Botali mobimba ya appli PickupRadar na makambo ya solo ya Milton Keynes mpe Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Kɔnti na yo ya appli ya kopesa"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar ekangami te na kɔnti na yo ya Uber Eats, Deliveroo, Just Eat to appli mosusu ya kopesa. Tosengaka kokota, mot de passe, makambo ya kɔnti, makambo ya client to makambo ya komande te. Ba chauffeur bakabolaka kaka balapolo ya kozwa, lokola ntango ya kozela mpe likambo ya esika ya kozwa."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar ekangami te na kɔnti na yo ya Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub to appli mosusu ya kopesa. Tosengaka kokota, mot de passe, makambo ya kɔnti, makambo ya client to makambo ya komande te. Ba chauffeur bakabolaka kaka balapolo ya kozwa, lokola ntango ya kozela mpe likambo ya esika ya kozwa."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Meka PickupRadar liboso appli ebima."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Botali ya sikawa elakisi bisika ya kozwa ya solo mpe ntango ya kozela na Milton Keynes. Koyebisa mpe {radarPoints} ezali kaka na appli ya telefone."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Botali ya sikawa elakisi bisika ya kozwa ya solo mpe ntango ya kozela na Milton Keynes mpe Chicago. Koyebisa mpe {radarPoints} ezali kaka na appli ya telefone."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

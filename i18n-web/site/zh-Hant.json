@@ -2,7 +2,7 @@
   "language": "zh-Hant",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "進門之前先知道要等多久。"
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar。獨立營運，與 Uber Eats、Deliveroo 或 Just Eat 無關。"
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar。獨立營運，與 Uber Eats、Deliveroo、Just Eat、DoorDash 或 Grubhub 無關。"
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "沒有近期回報？PickupRadar 可能會顯示 {likelyFast} 或 {likelySlow}："
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar)：英國外送員的取餐等待時間"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar)：英國和美國外送員的取餐等待時間"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "進門之前先看外送員在餐廳和商店要等多久。給英國的 Uber Eats、Deliveroo 和 Just Eat 外送員。不必註冊。"
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "進門之前先看外送員在餐廳和商店要等多久。給英國和美國的 Uber Eats、Deliveroo、Just Eat、DoorDash 和 Grubhub 外送員。不必註冊。"
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar。進門之前先知道要等多久。"
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "你為 Uber Eats、Deliveroo 或 Just Eat 外送嗎？查看餐廳和商店取餐點的近期等待。避開長時間等待。點 {reportWait}，賺取 {radarPoints}。不必註冊。"
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "你為 Uber Eats、Deliveroo、Just Eat、DoorDash 或 Grubhub 外送嗎？查看餐廳和商店取餐點的近期等待。避開長時間等待。點 {reportWait}，賺取 {radarPoints}。不必註冊。"
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "可用情況"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "目前已在 Milton Keynes。下一個是 London。"
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "目前已在 Milton Keynes 和 Chicago。接下來是 London 和 New York。"
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "你附近符合條件的取餐點，沒有近期等待，也沒有 {likelyFast} 或 {likelySlow}。這次回報你獲得 15 RP，而不是 10。"
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "這些是應用程式裡的英國城市。找不到你的城市？在應用程式裡申請。或在 {comingSoon} 的城市上點 {notify}。上線後我們會寄電郵通知你。"
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "這些是應用程式裡的英國和美國城市。找不到你的城市？在應用程式裡申請。或在 {comingSoon} 的城市上點 {notify}。上線後我們會寄電郵通知你。"
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "現已上線"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "英國"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "美國"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "不屬於任何外送應用程式"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar 是獨立的。它不屬於 Uber Eats、Deliveroo、Just Eat 或任何其他外送應用程式。它從不使用你在那些應用程式裡的帳戶。"
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar 是獨立的。它不屬於 Uber Eats、Deliveroo、Just Eat、DoorDash、Grubhub 或任何其他外送應用程式。它從不使用你在那些應用程式裡的帳戶。"
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "不需要外送應用程式的登入資料。"
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} 我們從不索取你的 Uber Eats、Deliveroo 或 Just Eat 使用者名稱或密碼。"
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} 我們從不索取你的 Uber Eats、Deliveroo、Just Eat、DoorDash 或 Grubhub 使用者名稱或密碼。"
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "什麼時候可以下載應用程式？"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "iPhone 和 Android 應用程式即將推出。目前，{preview} 顯示 Milton Keynes 的真實取餐點和等待時間。"
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "iPhone 和 Android 應用程式即將推出。目前，{preview} 顯示 Milton Keynes 和 Chicago 的真實取餐點和等待時間。"
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "應用程式即時預覽 — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "用 Milton Keynes 的真實資料試用 PickupRadar 應用程式。四處看看，搜尋取餐點，並查看回報畫面。"
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "用 Milton Keynes 和 Chicago 的真實資料試用 PickupRadar 應用程式。四處看看，搜尋取餐點，並查看回報畫面。"
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "這是使用 Milton Keynes 真實資料的 PickupRadar。四處看看。搜尋並開啟一個取餐點。你在這裡點的內容都不會送出。只能在手機應用程式裡回報。"
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "這是使用 Milton Keynes 和 Chicago 真實資料的 PickupRadar。四處看看。搜尋並開啟一個取餐點。你在這裡點的內容都不會送出。只能在手機應用程式裡回報。"
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "使用 Milton Keynes 真實資料的完整 PickupRadar 應用程式預覽"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "使用 Milton Keynes 和 Chicago 真實資料的完整 PickupRadar 應用程式預覽"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "你的外送應用程式帳戶"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar 不會連接你的 Uber Eats、Deliveroo、Just Eat 或其他外送應用程式帳戶。我們從不索取登入資料、密碼、帳戶資料、顧客資料或訂單資料。外送員只分享取餐回報，例如等待時間和取餐點問題。"
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar 不會連接你的 Uber Eats、Deliveroo、Just Eat、DoorDash、Grubhub 或其他外送應用程式帳戶。我們從不索取登入資料、密碼、帳戶資料、顧客資料或訂單資料。外送員只分享取餐回報，例如等待時間和取餐點問題。"
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "應用程式推出之前先試用 PickupRadar。"
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "即時預覽顯示 Milton Keynes 的真實取餐點和等待時間。回報和 {radarPoints} 只在手機應用程式裡。"
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "即時預覽顯示 Milton Keynes 和 Chicago 的真實取餐點和等待時間。回報和 {radarPoints} 只在手機應用程式裡。"
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

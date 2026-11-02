@@ -2,7 +2,7 @@
   "language": "sw",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Jua muda wa kusubiri kabla hujaingia."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Huru na haihusiani na Uber Eats, Deliveroo wala Just Eat."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Huru na haihusiani na Uber Eats, Deliveroo, Just Eat, DoorDash wala Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Hakuna ripoti za hivi karibuni? PickupRadar inaweza kuonyesha {likelyFast} au {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): muda wa kusubiri kuchukua kwa madereva wa usafirishaji nchini Uingereza"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): muda wa kusubiri kuchukua kwa madereva wa usafirishaji nchini Uingereza na Marekani"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Ona madereva husubiri muda gani kwenye mikahawa na maduka kabla hujaingia. Kwa madereva wa Uber Eats, Deliveroo na Just Eat nchini Uingereza. Huhitaji kujisajili."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Ona madereva husubiri muda gani kwenye mikahawa na maduka kabla hujaingia. Kwa madereva wa Uber Eats, Deliveroo, Just Eat, DoorDash na Grubhub nchini Uingereza na Marekani. Huhitaji kujisajili."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Jua muda wa kusubiri kabla hujaingia."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Unasafirisha kwa Uber Eats, Deliveroo au Just Eat? Ona muda wa kusubiri wa hivi karibuni kwenye sehemu za kuchukua za mikahawa na maduka. Epuka kusubiri kwa muda mrefu. Gusa {reportWait} upate {radarPoints}. Huhitaji kujisajili."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Unasafirisha kwa Uber Eats, Deliveroo, Just Eat, DoorDash au Grubhub? Ona muda wa kusubiri wa hivi karibuni kwenye sehemu za kuchukua za mikahawa na maduka. Epuka kusubiri kwa muda mrefu. Gusa {reportWait} upate {radarPoints}. Huhitaji kujisajili."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Upatikanaji"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "Sasa iko Milton Keynes. Inayofuata ni London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "Sasa iko Milton Keynes na Chicago. Inayofuata ni London na New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "Sehemu ya kuchukua inayostahili karibu nawe, bila muda wa kusubiri wa hivi karibuni na bila {likelyFast} wala {likelySlow}. Unapata 15 RP kwa ripoti hiyo badala ya 10."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Hizi ni miji ya Uingereza kwenye programu. Huioni mji wako? Uombe kwenye programu. Au gusa {notify} kwenye mji {comingSoon}. Tutakutumia barua pepe utakapoanza."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Hizi ni miji ya Uingereza na Marekani kwenye programu. Huioni mji wako? Uombe kwenye programu. Au gusa {notify} kwenye mji {comingSoon}. Tutakutumia barua pepe utakapoanza."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Inafanya kazi sasa"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Uingereza"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "Marekani"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Si sehemu ya programu yoyote ya usafirishaji"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar ni huru. Si sehemu ya Uber Eats, Deliveroo, Just Eat wala programu nyingine yoyote ya usafirishaji. Haitumii akaunti zako huko."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar ni huru. Si sehemu ya Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub wala programu nyingine yoyote ya usafirishaji. Haitumii akaunti zako huko."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "Hakuna kuingia kwenye programu za usafirishaji."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Hatuombi jina la mtumiaji wala nenosiri la Uber Eats, Deliveroo au Just Eat."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Hatuombi jina la mtumiaji wala nenosiri la Uber Eats, Deliveroo, Just Eat, DoorDash au Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "Ninaweza kupakua programu lini?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "Programu za iPhone na Android zinakuja hivi karibuni. Kwa sasa, {preview} inaonyesha sehemu halisi za kuchukua na muda wa kusubiri huko Milton Keynes."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "Programu za iPhone na Android zinakuja hivi karibuni. Kwa sasa, {preview} inaonyesha sehemu halisi za kuchukua na muda wa kusubiri huko Milton Keynes na Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Onyesho la moja kwa moja la programu — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Jaribu programu ya PickupRadar kwa data halisi ya Milton Keynes. Angalia, tafuta sehemu za kuchukua na uone skrini ya ripoti."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Jaribu programu ya PickupRadar kwa data halisi ya Milton Keynes na Chicago. Angalia, tafuta sehemu za kuchukua na uone skrini ya ripoti."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Hii ni PickupRadar yenye data halisi ya Milton Keynes. Angalia. Tafuta sehemu ya kuchukua uifungue. Hakuna unachogusa hapa kinachotumwa. Unaweza kuripoti kwenye programu ya simu pekee."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Hii ni PickupRadar yenye data halisi ya Milton Keynes na Chicago. Angalia. Tafuta sehemu ya kuchukua uifungue. Hakuna unachogusa hapa kinachotumwa. Unaweza kuripoti kwenye programu ya simu pekee."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Onyesho kamili la programu ya PickupRadar lenye data halisi ya Milton Keynes"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Onyesho kamili la programu ya PickupRadar lenye data halisi ya Milton Keynes na Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Akaunti zako za programu za usafirishaji"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar haiunganishi na akaunti zako za Uber Eats, Deliveroo, Just Eat au programu nyingine za usafirishaji. Hatuombi kuingia, manenosiri, maelezo ya akaunti, maelezo ya wateja wala maelezo ya oda. Madereva hushiriki ripoti za kuchukua tu, kama muda wa kusubiri na matatizo ya sehemu za kuchukua."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar haiunganishi na akaunti zako za Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub au programu nyingine za usafirishaji. Hatuombi kuingia, manenosiri, maelezo ya akaunti, maelezo ya wateja wala maelezo ya oda. Madereva hushiriki ripoti za kuchukua tu, kama muda wa kusubiri na matatizo ya sehemu za kuchukua."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Jaribu PickupRadar kabla programu haijazinduliwa."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Onyesho la moja kwa moja linaonyesha sehemu halisi za kuchukua na muda wa kusubiri huko Milton Keynes. Kuripoti na {radarPoints} viko kwenye programu ya simu pekee."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Onyesho la moja kwa moja linaonyesha sehemu halisi za kuchukua na muda wa kusubiri huko Milton Keynes na Chicago. Kuripoti na {radarPoints} viko kwenye programu ya simu pekee."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

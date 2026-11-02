@@ -2,7 +2,7 @@
   "language": "bn",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "ঢোকার আগে অপেক্ষা জেনে নিন।"
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. স্বাধীন এবং Uber Eats, Deliveroo বা Just Eat-এর সঙ্গে যুক্ত নয়।"
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. স্বাধীন এবং Uber Eats, Deliveroo, Just Eat, DoorDash বা Grubhub-এর সঙ্গে যুক্ত নয়।"
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "সাম্প্রতিক রিপোর্ট নেই? PickupRadar {likelyFast} বা {likelySlow} দেখাতে পারে:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): যুক্তরাজ্যের ডেলিভারি ড্রাইভারদের জন্য পিকআপ অপেক্ষার সময়"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): যুক্তরাজ্য ও যুক্তরাষ্ট্রের ডেলিভারি ড্রাইভারদের জন্য পিকআপ অপেক্ষার সময়"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "ঢোকার আগে দেখুন ড্রাইভাররা রেস্তোরাঁ ও দোকানে কতক্ষণ অপেক্ষা করেন। যুক্তরাজ্যের Uber Eats, Deliveroo ও Just Eat ড্রাইভারদের জন্য। সাইন-আপ লাগে না।"
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "ঢোকার আগে দেখুন ড্রাইভাররা রেস্তোরাঁ ও দোকানে কতক্ষণ অপেক্ষা করেন। যুক্তরাজ্য ও যুক্তরাষ্ট্রের Uber Eats, Deliveroo, Just Eat, DoorDash ও Grubhub ড্রাইভারদের জন্য। সাইন-আপ লাগে না।"
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. ঢোকার আগে অপেক্ষা জেনে নিন।"
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "আপনি কি Uber Eats, Deliveroo বা Just Eat-এর জন্য ডেলিভারি করেন? রেস্তোরাঁ ও দোকানে সাম্প্রতিক পিকআপ অপেক্ষা দেখুন। লম্বা অপেক্ষা এড়ান। {reportWait} ট্যাপ করুন এবং {radarPoints} অর্জন করুন। সাইন-আপ লাগে না।"
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "আপনি কি Uber Eats, Deliveroo, Just Eat, DoorDash বা Grubhub-এর জন্য ডেলিভারি করেন? রেস্তোরাঁ ও দোকানে সাম্প্রতিক পিকআপ অপেক্ষা দেখুন। লম্বা অপেক্ষা এড়ান। {reportWait} ট্যাপ করুন এবং {radarPoints} অর্জন করুন। সাইন-আপ লাগে না।"
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "প্রাপ্যতা"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "এখন Milton Keynes-এ। পরবর্তী London।"
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "এখন Milton Keynes ও Chicago-তে। পরবর্তী London ও New York।"
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "আপনার কাছে যোগ্য পিকআপ পয়েন্ট, সাম্প্রতিক অপেক্ষা নেই এবং {likelyFast} বা {likelySlow} নেই। রিপোর্টে 10-এর বদলে 15 RP পাবেন।"
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "অ্যাপে যুক্তরাজ্যের এই শহরগুলো আছে। আপনার শহর নেই? অ্যাপে অনুরোধ করুন। অথবা {comingSoon} শহরে {notify} ট্যাপ করুন। লাইভ হলে আমরা ইমেইল পাঠাব।"
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "অ্যাপে যুক্তরাজ্য ও যুক্তরাষ্ট্রের এই শহরগুলো আছে। আপনার শহর নেই? অ্যাপে অনুরোধ করুন। অথবা {comingSoon} শহরে {notify} ট্যাপ করুন। লাইভ হলে আমরা ইমেইল পাঠাব।"
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "এখন লাইভ"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "যুক্তরাজ্য"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "যুক্তরাষ্ট্র"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "কোনো ডেলিভারি অ্যাপের অংশ নয়"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar স্বাধীন। এটি Uber Eats, Deliveroo, Just Eat বা অন্য কোনো ডেলিভারি অ্যাপের অংশ নয়। তাদের অ্যাকাউন্ট কখনো ব্যবহার করে না।"
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar স্বাধীন। এটি Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub বা অন্য কোনো ডেলিভারি অ্যাপের অংশ নয়। তাদের অ্যাকাউন্ট কখনো ব্যবহার করে না।"
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "ডেলিভারি অ্যাপ লগইন নেই।"
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} আমরা কখনো Uber Eats, Deliveroo বা Just Eat-এর ইউজারনেম বা পাসওয়ার্ড চাই না।"
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} আমরা কখনো Uber Eats, Deliveroo, Just Eat, DoorDash বা Grubhub-এর ইউজারনেম বা পাসওয়ার্ড চাই না।"
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "অ্যাপ কখন ডাউনলোড করতে পারি?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "iPhone ও Android অ্যাপ শিগগিরই আসছে। আপাতত {preview} Milton Keynes-এর আসল পিকআপ পয়েন্ট ও অপেক্ষা দেখায়।"
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "iPhone ও Android অ্যাপ শিগগিরই আসছে। আপাতত {preview} Milton Keynes ও Chicago-এর আসল পিকআপ পয়েন্ট ও অপেক্ষা দেখায়।"
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "লাইভ অ্যাপ প্রিভিউ — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Milton Keynes-এর আসল ডেটা দিয়ে PickupRadar অ্যাপ চেষ্টা করুন। ঘুরে দেখুন, পিকআপ পয়েন্ট খুঁজুন এবং রিপোর্ট স্ক্রিন দেখুন।"
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Milton Keynes ও Chicago-এর আসল ডেটা দিয়ে PickupRadar অ্যাপ চেষ্টা করুন। ঘুরে দেখুন, পিকআপ পয়েন্ট খুঁজুন এবং রিপোর্ট স্ক্রিন দেখুন।"
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "এটি Milton Keynes-এর আসল ডেটা দিয়ে PickupRadar। ঘুরে দেখুন। একটি পিকআপ পয়েন্ট খুঁজে খুলুন। এখানে যা ট্যাপ করেন তা পাঠানো হয় না। শুধু মোবাইল অ্যাপে রিপোর্ট করতে পারেন।"
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "এটি Milton Keynes ও Chicago-এর আসল ডেটা দিয়ে PickupRadar। ঘুরে দেখুন। একটি পিকআপ পয়েন্ট খুঁজে খুলুন। এখানে যা ট্যাপ করেন তা পাঠানো হয় না। শুধু মোবাইল অ্যাপে রিপোর্ট করতে পারেন।"
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Milton Keynes-এর আসল ডেটা দিয়ে পুরো PickupRadar অ্যাপ প্রিভিউ"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Milton Keynes ও Chicago-এর আসল ডেটা দিয়ে পুরো PickupRadar অ্যাপ প্রিভিউ"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "আপনার ডেলিভারি অ্যাপ অ্যাকাউন্ট"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar আপনার Uber Eats, Deliveroo, Just Eat বা অন্য ডেলিভারি অ্যাপ অ্যাকাউন্টের সঙ্গে যুক্ত হয় না। আমরা কখনো ডেলিভারি অ্যাপ লগইন, পাসওয়ার্ড, অ্যাকাউন্ট তথ্য, গ্রাহকের তথ্য বা অর্ডার তথ্য চাই না। ড্রাইভাররা শুধু পিকআপ রিপোর্ট শেয়ার করেন, যেমন অপেক্ষার সময় ও পিকআপ পয়েন্ট সমস্যা।"
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar আপনার Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub বা অন্য ডেলিভারি অ্যাপ অ্যাকাউন্টের সঙ্গে যুক্ত হয় না। আমরা কখনো ডেলিভারি অ্যাপ লগইন, পাসওয়ার্ড, অ্যাকাউন্ট তথ্য, গ্রাহকের তথ্য বা অর্ডার তথ্য চাই না। ড্রাইভাররা শুধু পিকআপ রিপোর্ট শেয়ার করেন, যেমন অপেক্ষার সময় ও পিকআপ পয়েন্ট সমস্যা।"
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "অ্যাপ চালু হওয়ার আগে PickupRadar চেষ্টা করুন।"
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "লাইভ প্রিভিউ Milton Keynes-এর আসল পিকআপ পয়েন্ট ও অপেক্ষা দেখায়। রিপোর্টিং ও {radarPoints} শুধু মোবাইল অ্যাপে আছে।"
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "লাইভ প্রিভিউ Milton Keynes ও Chicago-এর আসল পিকআপ পয়েন্ট ও অপেক্ষা দেখায়। রিপোর্টিং ও {radarPoints} শুধু মোবাইল অ্যাপে আছে।"
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

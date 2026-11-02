@@ -2,7 +2,7 @@
   "language": "om",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Yeroo eegumsaa osoo hin seenin dura beeki."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Of danda'aa, Uber Eats, Deliveroo yookaan Just Eat waliin hin hidhamne."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Of danda'aa, Uber Eats, Deliveroo, Just Eat, DoorDash yookaan Grubhub waliin hin hidhamne."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Gabaasni haaraan hin jiru? PickupRadar {likelyFast} yookaan {likelySlow} agarsiisuu danda'a:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): yeroo eegumsa fudhannaa konkolaachistootaaf Mootummaa Gamtooftuu keessatti"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): yeroo eegumsa fudhannaa konkolaachistootaaf Mootummaa Gamtooftuu fi Ameerikaa keessatti"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Osoo hin seenin dura konkolaachistoonni mana nyaataa fi dukkaana keessatti hammam akka eegan ilaali. Konkolaachistoota Uber Eats, Deliveroo fi Just Eat Mootummaa Gamtooftuu keessatti. Galmeen hin barbaachisu."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Osoo hin seenin dura konkolaachistoonni mana nyaataa fi dukkaana keessatti hammam akka eegan ilaali. Konkolaachistoota Uber Eats, Deliveroo, Just Eat, DoorDash fi Grubhub Mootummaa Gamtooftuu fi Ameerikaa keessatti. Galmeen hin barbaachisu."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Yeroo eegumsaa osoo hin seenin dura beeki."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Uber Eats, Deliveroo yookaan Just Eat tiif ni geessitaa? Bakka fudhannaa mana nyaataa fi dukkaana irratti yeroo eegumsaa haaraa ilaali. Eegumsa dheeraa irraa fagaadhu. {reportWait} tuqi {radarPoints} argadhu. Galmeen hin barbaachisu."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Uber Eats, Deliveroo, Just Eat, DoorDash yookaan Grubhub tiif ni geessitaa? Bakka fudhannaa mana nyaataa fi dukkaana irratti yeroo eegumsaa haaraa ilaali. Eegumsa dheeraa irraa fagaadhu. {reportWait} tuqi {radarPoints} argadhu. Galmeen hin barbaachisu."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Argamuu"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "Amma Milton Keynes keessatti. Itti aansee London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "Amma Milton Keynes fi Chicago keessatti. Itti aansee London fi New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "Bakka fudhannaa ulaagaa guutu si dhiyoo jiru, yeroo eegumsaa haaraa hin qabu, {likelyFast} yookaan {likelySlow} hin qabu. Gabaasa sanaaf 15 RP argatta, 10 miti."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Kanneen magaalota Mootummaa Gamtooftuu appii keessaa dha. Magaalaa kee hin arginee? Appii keessatti gaafadhu. Yookaan magaalaa {comingSoon} ta'e irratti {notify} tuqi. Yeroo seenu imeelii siif ergina."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Kanneen magaalota Mootummaa Gamtooftuu fi Ameerikaa appii keessaa dha. Magaalaa kee hin arginee? Appii keessatti gaafadhu. Yookaan magaalaa {comingSoon} ta'e irratti {notify} tuqi. Yeroo seenu imeelii siif ergina."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Amma jira"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Mootummaa Gamtooftuu"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "Ameerikaa"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Appii geejjibaa kamiyyuu keessaa miti"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar of danda'aa dha. Uber Eats, Deliveroo, Just Eat yookaan appii geejjibaa biraa kamiyyuu keessaa miti. Akkaawuntii kee achitti gonkumaa hin fayyadamu."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar of danda'aa dha. Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub yookaan appii geejjibaa biraa kamiyyuu keessaa miti. Akkaawuntii kee achitti gonkumaa hin fayyadamu."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "Seenuun appii geejjibaa hin jiru."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Maqaa fayyadamaa yookaan jecha iccitii Uber Eats, Deliveroo yookaan Just Eat gonkumaa hin gaafannu."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Maqaa fayyadamaa yookaan jecha iccitii Uber Eats, Deliveroo, Just Eat, DoorDash yookaan Grubhub gonkumaa hin gaafannu."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "Appii yoom buufachuu danda'a?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "Appilii iPhone fi Android dhiyeenyaan dhufu. Ammaaf {preview} bakkeewwan fudhannaa dhugaa fi yeroo eegumsaa Milton Keynes agarsiisa."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "Appilii iPhone fi Android dhiyeenyaan dhufu. Ammaaf {preview} bakkeewwan fudhannaa dhugaa fi yeroo eegumsaa Milton Keynes fi Chicago agarsiisa."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Ilaalcha kallattii appii — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Appii PickupRadar odeeffannoo dhugaa Milton Keynes waliin yaali. Naannoo ilaali, bakka fudhannaa barbaadi, fuula gabaasaas ilaali."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Appii PickupRadar odeeffannoo dhugaa Milton Keynes fi Chicago waliin yaali. Naannoo ilaali, bakka fudhannaa barbaadi, fuula gabaasaas ilaali."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Kun PickupRadar odeeffannoo dhugaa Milton Keynes waliini. Naannoo ilaali. Bakka fudhannaa barbaadi baniis. Wanti asitti tuqxe hin ergamu. Appii bilbilaa qofatti gabaasuu dandeessa."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Kun PickupRadar odeeffannoo dhugaa Milton Keynes fi Chicago waliini. Naannoo ilaali. Bakka fudhannaa barbaadi baniis. Wanti asitti tuqxe hin ergamu. Appii bilbilaa qofatti gabaasuu dandeessa."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Ilaalcha guutuu appii PickupRadar odeeffannoo dhugaa Milton Keynes waliin"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Ilaalcha guutuu appii PickupRadar odeeffannoo dhugaa Milton Keynes fi Chicago waliin"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Akkaawuntii appii geejjibaa kee"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar akkaawuntii kee Uber Eats, Deliveroo, Just Eat yookaan appii geejjibaa biraa kamiyyuu waliin hin hidhamu. Seenuu, jecha iccitii, bal'ina akkaawuntii, bal'ina maamilaa yookaan bal'ina ajajaa gonkumaa hin gaafannu. Konkolaachistoonni gabaasa fudhannaa qofa qoodu, akka yeroo eegumsaa fi rakkoo bakka fudhannaa."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar akkaawuntii kee Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub yookaan appii geejjibaa biraa kamiyyuu waliin hin hidhamu. Seenuu, jecha iccitii, bal'ina akkaawuntii, bal'ina maamilaa yookaan bal'ina ajajaa gonkumaa hin gaafannu. Konkolaachistoonni gabaasa fudhannaa qofa qoodu, akka yeroo eegumsaa fi rakkoo bakka fudhannaa."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Appiin osoo hin baasin dura PickupRadar yaali."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Ilaalchi kallattii bakkeewwan fudhannaa dhugaa fi yeroo eegumsaa Milton Keynes agarsiisa. Gabaasuun fi {radarPoints} appii bilbilaa qofa keessa jiru."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Ilaalchi kallattii bakkeewwan fudhannaa dhugaa fi yeroo eegumsaa Milton Keynes fi Chicago agarsiisa. Gabaasuun fi {radarPoints} appii bilbilaa qofa keessa jiru."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

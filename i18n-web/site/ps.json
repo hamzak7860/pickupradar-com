@@ -2,7 +2,7 @@
   "language": "ps",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "د ننوتو مخکې د انتظار وخت وپېژنئ."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. خپلواک دی او له Uber Eats، Deliveroo یا Just Eat سره تړاو نه لري."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. خپلواک دی او له Uber Eats، Deliveroo، Just Eat، DoorDash یا Grubhub سره تړاو نه لري."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "نوی راپور نشته؟ PickupRadar ممکن {likelyFast} یا {likelySlow} وښيي:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): په برتانیه کې د چلوونکو لپاره د اخیستلو انتظار"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): په برتانیه او امریکا کې د چلوونکو لپاره د اخیستلو انتظار"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "وګورئ چې چلوونکي د ننوتو مخکې په رستورانتونو او هټیو کې څومره انتظار کوي. په برتانیه کې د Uber Eats، Deliveroo او Just Eat چلوونکو لپاره. نوم‌لیکنه نشته."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "وګورئ چې چلوونکي د ننوتو مخکې په رستورانتونو او هټیو کې څومره انتظار کوي. په برتانیه او امریکا کې د Uber Eats، Deliveroo، Just Eat، DoorDash او Grubhub چلوونکو لپاره. نوم‌لیکنه نشته."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. د ننوتو مخکې د انتظار وخت وپېژنئ."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "د Uber Eats، Deliveroo یا Just Eat لپاره تحویلي کوئ؟ په رستورانتونو او هټیو کې د اخیستلو ټکو تازه انتظار وګورئ. اوږد انتظار له ځانه لرې کړئ. {reportWait} کېکاږئ او {radarPoints} ترلاسه کړئ. نوم‌لیکنه نشته."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "د Uber Eats، Deliveroo، Just Eat، DoorDash یا Grubhub لپاره تحویلي کوئ؟ په رستورانتونو او هټیو کې د اخیستلو ټکو تازه انتظار وګورئ. اوږد انتظار له ځانه لرې کړئ. {reportWait} کېکاږئ او {radarPoints} ترلاسه کړئ. نوم‌لیکنه نشته."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "شتون"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "اوس په Milton Keynes کې. بل London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "اوس په Milton Keynes او Chicago کې. بل London او New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "ستاسو ته نږدې وړ د اخیستلو ټکی، پرته له تازه انتظاره، او پرته له {likelyFast} یا {likelySlow}. د هغه راپور لپاره 15 RP ترلاسه کوئ، نه 10."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "دا په اپ کې د برتانیې ښارونه دي. خپل ښار نه وینئ؟ په اپ کې یې وغواړئ. یا په هغه ښار کې چې {comingSoon} وي {notify} کېکاږئ. کله چې ژوندی شي ایمیل درلېږو."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "دا په اپ کې د برتانیې او امریکا ښارونه دي. خپل ښار نه وینئ؟ په اپ کې یې وغواړئ. یا په هغه ښار کې چې {comingSoon} وي {notify} کېکاږئ. کله چې ژوندی شي ایمیل درلېږو."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "اوس ژوندی"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "برتانیه"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "امریکا"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "د هیڅ تحویلۍ اپ برخه نه ده"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar خپلواک دی. د Uber Eats، Deliveroo، Just Eat یا بل تحویلۍ اپ برخه نه ده. هلته هیڅکله ستاسو حساب نه کاروي."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar خپلواک دی. د Uber Eats، Deliveroo، Just Eat، DoorDash، Grubhub یا بل تحویلۍ اپ برخه نه ده. هلته هیڅکله ستاسو حساب نه کاروي."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "د تحویلۍ اپ ننوتل نشته."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} موږ هیڅکله د Uber Eats، Deliveroo یا Just Eat کارن‌نوم یا پټنوم نه غواړو."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} موږ هیڅکله د Uber Eats، Deliveroo، Just Eat، DoorDash یا Grubhub کارن‌نوم یا پټنوم نه غواړو."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "کله اپ ښکته کولای شم؟"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "د iPhone او Android اپونه ژر راځي. تر هغه، {preview} په Milton Keynes کې رښتیا د اخیستلو ټکي او انتظار ښيي."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "د iPhone او Android اپونه ژر راځي. تر هغه، {preview} په Milton Keynes او Chicago کې رښتیا د اخیستلو ټکي او انتظار ښيي."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "د اپ ژوندۍ مخکتنه — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "د PickupRadar اپ د Milton Keynes د رښتیا معلوماتو سره وازمویئ. شاوخوا وګورئ، د اخیستلو ټکی ومومئ او د راپور سکرین وګورئ."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "د PickupRadar اپ د Milton Keynes او Chicago د رښتیا معلوماتو سره وازمویئ. شاوخوا وګورئ، د اخیستلو ټکی ومومئ او د راپور سکرین وګورئ."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "دا PickupRadar د Milton Keynes د رښتیا معلوماتو سره دی. شاوخوا وګورئ. د اخیستلو ټکی ومومئ او پرانیږئ یې. دلته هیڅ شی چې کېکاږئ نه لېږل کېږي. یوازې د موبایل په اپ کې راپور ورکولئ."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "دا PickupRadar د Milton Keynes او Chicago د رښتیا معلوماتو سره دی. شاوخوا وګورئ. د اخیستلو ټکی ومومئ او پرانیږئ یې. دلته هیڅ شی چې کېکاږئ نه لېږل کېږي. یوازې د موبایل په اپ کې راپور ورکولئ."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "د PickupRadar اپ بشپړه مخکتنه د Milton Keynes د رښتیا معلوماتو سره"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "د PickupRadar اپ بشپړه مخکتنه د Milton Keynes او Chicago د رښتیا معلوماتو سره"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "ستاسو د تحویلۍ اپ حساب"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar ستاسو د Uber Eats، Deliveroo، Just Eat یا بل تحویلۍ اپ له حساب سره نه نښلي. موږ هیڅکله ننوتل، پټنوم، د حساب جزئیات، د پیرودونکي جزئیات یا د فرمایش جزئیات نه غواړو. چلوونکي یوازې د اخیستلو راپورونه شریکوي، لکه انتظار او د اخیستلو ټکي ستونزه."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar ستاسو د Uber Eats، Deliveroo، Just Eat، DoorDash، Grubhub یا بل تحویلۍ اپ له حساب سره نه نښلي. موږ هیڅکله ننوتل، پټنوم، د حساب جزئیات، د پیرودونکي جزئیات یا د فرمایش جزئیات نه غواړو. چلوونکي یوازې د اخیستلو راپورونه شریکوي، لکه انتظار او د اخیستلو ټکي ستونزه."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "د اپ له خپرېدو مخکې PickupRadar وازمویئ."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "ژوندۍ مخکتنه په Milton Keynes کې رښتیا د اخیستلو ټکي او انتظار ښيي. راپور او {radarPoints} یوازې د موبایل په اپ کې دي."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "ژوندۍ مخکتنه په Milton Keynes او Chicago کې رښتیا د اخیستلو ټکي او انتظار ښيي. راپور او {radarPoints} یوازې د موبایل په اپ کې دي."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

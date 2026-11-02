@@ -1,4 +1,7 @@
-# Venue share pages (v/<venue-id>/) for WhatsApp and other link previews.
+# Venue share pages (v/<venue-id>/) on pickupradar.com for WhatsApp and other link previews.
+# This is the pickupradar-com repository. pickupradar.co.uk has its own copy of this
+# workflow in hamzak7860/pickupradar-site; the two never touch each other's files.
+# Cities: the live cities in preview.js (SITE_CITIES), now Milton Keynes and Chicago.
 #
 # Test run (default): Actions > Venue share pages > Run workflow. It builds every
 # page and image from public venue data and uploads them as a download
@@ -16,7 +19,7 @@
 # no-longer-active venues). If the safety checks stop a run, nothing is changed
 # and GitHub emails the repository owner that the run failed.
 
-name: Venue share pages
+name: Venue share pages (.com)
 
 on:
   workflow_dispatch:
@@ -26,10 +29,10 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '17 4 * * *' # every day at 04:17 UTC (05:17 UK summer time)
+    - cron: '47 4 * * *' # every day at 04:47 UTC, 30 minutes after the .co.uk run
 
 concurrency:
-  group: venue-pages
+  group: venue-pages-com
   cancel-in-progress: false
 
 permissions: {}
@@ -37,7 +40,7 @@ permissions: {}
 jobs:
   build:
     runs-on: ubuntu-24.04 # pinned: Playwright 1.55 cannot install its browser dependencies on Ubuntu 26
-    timeout-minutes: 30
+    timeout-minutes: 120 # first run draws about 5,700 images
     permissions:
       contents: read
     steps:
@@ -85,7 +88,7 @@ jobs:
     needs: build
     if: github.event_name == 'schedule' || inputs.publish
     runs-on: ubuntu-24.04 # pinned: Playwright 1.55 cannot install its browser dependencies on Ubuntu 26
-    timeout-minutes: 10
+    timeout-minutes: 40
     permissions:
       contents: write
       pages: write
@@ -121,12 +124,12 @@ jobs:
         run: |
           gh api -X POST "repos/${{ github.repository }}/pages/builds" --jq .status
           head=$(git rev-parse HEAD)
-          for i in $(seq 1 30); do
+          for i in $(seq 1 120); do
             sleep 10
             build=$(gh api "repos/${{ github.repository }}/pages/builds/latest" --jq '.status + " " + .commit')
             echo "Pages build: $build"
             if [ "$build" = "built $head" ]; then exit 0; fi
             case "$build" in errored*) echo "The Pages build failed."; exit 1;; esac
           done
-          echo "The Pages build did not finish in 5 minutes. Check Actions > pages-build-deployment."
+          echo "The Pages build did not finish in 20 minutes. Check Actions > pages-build-deployment."
           exit 1

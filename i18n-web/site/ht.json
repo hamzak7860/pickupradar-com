@@ -2,7 +2,7 @@
   "language": "ht",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Konnen tan datant la anvan ou antre."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Endepandan epi li pa gen rapò ak Uber Eats, Deliveroo oswa Just Eat."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Endepandan epi li pa gen rapò ak Uber Eats, Deliveroo, Just Eat, DoorDash oswa Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Pa gen nouvo rapò? PickupRadar ka montre {likelyFast} oswa {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): tan datant pou pran kòmand pou chofè nan Wayòm Ini"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): tan datant pou pran kòmand pou chofè nan Wayòm Ini ak Etazini"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Wè konbyen tan chofè yo ap tann nan restoran ak boutik anvan ou antre. Pou chofè Uber Eats, Deliveroo ak Just Eat nan Wayòm Ini. Pa bezwen enskripsyon."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Wè konbyen tan chofè yo ap tann nan restoran ak boutik anvan ou antre. Pou chofè Uber Eats, Deliveroo, Just Eat, DoorDash ak Grubhub nan Wayòm Ini ak Etazini. Pa bezwen enskripsyon."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Konnen tan datant la anvan ou antre."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Ou ap fè livrezon pou Uber Eats, Deliveroo oswa Just Eat? Wè dènye tan datant yo nan pwen pou pran kòmand nan restoran ak boutik. Evite yon long tann. Tape {reportWait} epi touche {radarPoints}. Pa bezwen enskripsyon."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Ou ap fè livrezon pou Uber Eats, Deliveroo, Just Eat, DoorDash oswa Grubhub? Wè dènye tan datant yo nan pwen pou pran kòmand nan restoran ak boutik. Evite yon long tann. Tape {reportWait} epi touche {radarPoints}. Pa bezwen enskripsyon."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Disponibilite"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "Kounye a nan Milton Keynes. Apre sa, London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "Kounye a nan Milton Keynes ak Chicago. Apre sa, London ak New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "Yon pwen pou pran kòmand ki kalifye toupre ou, san nouvo tan datant, epi san {likelyFast} oswa {likelySlow}. Ou touche 15 RP pou rapò sa a, olye de 10."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Men vil Wayòm Ini yo nan aplikasyon an. Ou pa wè vil ou a? Mande li nan aplikasyon an. Oswa tape {notify} sou yon vil ki {comingSoon}. Nou voye yon imèl lè li an dirèk."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Men vil Wayòm Ini ak Etazini yo nan aplikasyon an. Ou pa wè vil ou a? Mande li nan aplikasyon an. Oswa tape {notify} sou yon vil ki {comingSoon}. Nou voye yon imèl lè li an dirèk."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "An dirèk kounye a"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Wayòm Ini"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "Etazini"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Li pa fè pati okenn aplikasyon livrezon"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar endepandan. Li pa fè pati Uber Eats, Deliveroo, Just Eat oswa okenn lòt aplikasyon livrezon. Li pa janm itilize kont ou la."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar endepandan. Li pa fè pati Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub oswa okenn lòt aplikasyon livrezon. Li pa janm itilize kont ou la."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "Pa gen koneksyon nan aplikasyon livrezon an."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Nou pa janm mande non itilizatè oswa modpas Uber Eats, Deliveroo oswa Just Eat."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Nou pa janm mande non itilizatè oswa modpas Uber Eats, Deliveroo, Just Eat, DoorDash oswa Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "Kilè mwen ka telechaje aplikasyon an?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "Aplikasyon iPhone ak Android yo ap vini byento. Pou kounye a, {preview} montre vrè pwen pou pran kòmand ak tan datant nan Milton Keynes."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "Aplikasyon iPhone ak Android yo ap vini byento. Pou kounye a, {preview} montre vrè pwen pou pran kòmand ak tan datant nan Milton Keynes ak Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Preview aplikasyon an an dirèk — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Eseye aplikasyon PickupRadar ak done reyèl Milton Keynes. Gade ozalantou, chèche pwen pou pran kòmand epi wè ekran rapò a."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Eseye aplikasyon PickupRadar ak done reyèl Milton Keynes ak Chicago. Gade ozalantou, chèche pwen pou pran kòmand epi wè ekran rapò a."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Men PickupRadar ak done reyèl Milton Keynes. Gade ozalantou. Chèche yon pwen pou pran kòmand epi ouvri li. Anyen ou tape isit la pa voye. Ou ka rapòte sèlman nan aplikasyon telefòn nan."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Men PickupRadar ak done reyèl Milton Keynes ak Chicago. Gade ozalantou. Chèche yon pwen pou pran kòmand epi ouvri li. Anyen ou tape isit la pa voye. Ou ka rapòte sèlman nan aplikasyon telefòn nan."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Preview konplè aplikasyon PickupRadar ak done reyèl Milton Keynes"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Preview konplè aplikasyon PickupRadar ak done reyèl Milton Keynes ak Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Kont aplikasyon livrezon ou"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar pa konekte ak kont Uber Eats, Deliveroo, Just Eat oswa okenn lòt aplikasyon livrezon ou. Nou pa janm mande koneksyon, modpas, detay kont, detay kliyan oswa detay kòmand. Chofè yo pataje rapò pou pran kòmand sèlman, tankou tan datant ak pwoblèm nan pwen pou pran kòmand."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar pa konekte ak kont Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub oswa okenn lòt aplikasyon livrezon ou. Nou pa janm mande koneksyon, modpas, detay kont, detay kliyan oswa detay kòmand. Chofè yo pataje rapò pou pran kòmand sèlman, tankou tan datant ak pwoblèm nan pwen pou pran kòmand."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Eseye PickupRadar anvan aplikasyon an lanse."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Preview an dirèk la montre vrè pwen pou pran kòmand ak tan datant nan Milton Keynes. Rapòte ak {radarPoints} se nan aplikasyon telefòn nan sèlman."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Preview an dirèk la montre vrè pwen pou pran kòmand ak tan datant nan Milton Keynes ak Chicago. Rapòte ak {radarPoints} se nan aplikasyon telefòn nan sèlman."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

@@ -2,7 +2,7 @@
   "language": "vi",
   "status": "machine",
   "machineTranslatedBy": "Claude Opus 5.5",
-  "machineTranslatedOn": "2026-10-22",
+  "machineTranslatedOn": "2026-11-02",
   "reviewedBy": "",
   "reviewedOn": "",
   "strings": {
@@ -43,8 +43,8 @@
       "text": "Biết thời gian chờ trước khi bước vào."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo or Just Eat.",
-      "text": "© 2026 PickupRadar. Độc lập và không liên kết với Uber Eats, Deliveroo hay Just Eat."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
+      "text": "© 2026 PickupRadar. Độc lập và không liên kết với Uber Eats, Deliveroo, Just Eat, DoorDash hay Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Không có báo cáo gần đây? PickupRadar có thể hiện {likelyFast} hoặc {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK",
-      "text": "PickupRadar (Pickup Radar): thời gian chờ lấy hàng cho tài xế giao hàng ở Vương quốc Anh"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "text": "PickupRadar (Pickup Radar): thời gian chờ lấy hàng cho tài xế giao hàng ở Vương quốc Anh và Hoa Kỳ"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For Uber Eats, Deliveroo and Just Eat drivers in the UK. No sign-up needed.",
-      "text": "Xem tài xế chờ bao lâu ở nhà hàng và cửa hàng trước khi bạn vào. Dành cho tài xế Uber Eats, Deliveroo và Just Eat ở Vương quốc Anh. Không cần đăng ký."
+      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
+      "text": "Xem tài xế chờ bao lâu ở nhà hàng và cửa hàng trước khi bạn vào. Dành cho tài xế Uber Eats, Deliveroo, Just Eat, DoorDash và Grubhub ở Vương quốc Anh và Hoa Kỳ. Không cần đăng ký."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Biết thời gian chờ trước khi bước vào."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo or Just Eat? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Bạn giao hàng cho Uber Eats, Deliveroo hay Just Eat? Xem thời gian chờ lấy hàng gần đây ở nhà hàng và cửa hàng. Tránh chờ lâu. Chạm {reportWait} và nhận {radarPoints}. Không cần đăng ký."
+      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Bạn giao hàng cho Uber Eats, Deliveroo, Just Eat, DoorDash hay Grubhub? Xem thời gian chờ lấy hàng gần đây ở nhà hàng và cửa hàng. Tránh chờ lâu. Chạm {reportWait} và nhận {radarPoints}. Không cần đăng ký."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Tình trạng hoạt động"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes. London is next.",
-      "text": "Hiện có ở Milton Keynes. Tiếp theo là London."
+      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
+      "text": "Hiện có ở Milton Keynes và Chicago. Tiếp theo là London và New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,20 +243,28 @@
       "text": "Một điểm lấy hàng đủ điều kiện gần bạn, không có thời gian chờ gần đây và không có {likelyFast} hay {likelySlow}. Bạn nhận 15 RP cho báo cáo đó thay vì 10."
     },
     "home.cities.body": {
-      "en": "These are the UK cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Đây là các thành phố ở Vương quốc Anh trong ứng dụng. Không thấy thành phố của bạn? Yêu cầu trong ứng dụng. Hoặc chạm {notify} ở thành phố {comingSoon}. Chúng tôi sẽ gửi email khi thành phố hoạt động."
+      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Đây là các thành phố ở Vương quốc Anh và Hoa Kỳ trong ứng dụng. Không thấy thành phố của bạn? Yêu cầu trong ứng dụng. Hoặc chạm {notify} ở thành phố {comingSoon}. Chúng tôi sẽ gửi email khi thành phố hoạt động."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Đang hoạt động"
+    },
+    "home.cities.countryUK": {
+      "en": "United Kingdom",
+      "text": "Vương quốc Anh"
+    },
+    "home.cities.countryUS": {
+      "en": "United States",
+      "text": "Hoa Kỳ"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Không thuộc ứng dụng giao hàng nào"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar độc lập. Nó không thuộc Uber Eats, Deliveroo, Just Eat hay ứng dụng giao hàng nào khác. Nó không bao giờ dùng tài khoản của bạn ở đó."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar độc lập. Nó không thuộc Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub hay ứng dụng giao hàng nào khác. Nó không bao giờ dùng tài khoản của bạn ở đó."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -267,8 +275,8 @@
       "text": "Không cần đăng nhập ứng dụng giao hàng."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo or Just Eat username or password.",
-      "text": "{lead} Chúng tôi không bao giờ hỏi tên đăng nhập hoặc mật khẩu Uber Eats, Deliveroo hay Just Eat."
+      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "text": "{lead} Chúng tôi không bao giờ hỏi tên đăng nhập hoặc mật khẩu Uber Eats, Deliveroo, Just Eat, DoorDash hay Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -295,8 +303,8 @@
       "text": "Khi nào tôi tải được ứng dụng?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes pickup points and waits.",
-      "text": "Ứng dụng cho iPhone và Android sắp ra mắt. Hiện tại, {preview} cho thấy điểm lấy hàng và thời gian chờ thật ở Milton Keynes."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "text": "Ứng dụng cho iPhone và Android sắp ra mắt. Hiện tại, {preview} cho thấy điểm lấy hàng và thời gian chờ thật ở Milton Keynes và Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -323,16 +331,16 @@
       "text": "Xem trước ứng dụng trực tiếp — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes data. Look around, search for pickup points and see the report screen.",
-      "text": "Thử ứng dụng PickupRadar với dữ liệu thật của Milton Keynes. Xem quanh, tìm điểm lấy hàng và xem màn hình báo cáo."
+      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Thử ứng dụng PickupRadar với dữ liệu thật của Milton Keynes và Chicago. Xem quanh, tìm điểm lấy hàng và xem màn hình báo cáo."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Đây là PickupRadar với dữ liệu thật của Milton Keynes. Xem quanh. Tìm một điểm lấy hàng và mở nó. Không có gì bạn chạm ở đây được gửi đi. Bạn chỉ báo cáo được trong ứng dụng điện thoại."
+      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Đây là PickupRadar với dữ liệu thật của Milton Keynes và Chicago. Xem quanh. Tìm một điểm lấy hàng và mở nó. Không có gì bạn chạm ở đây được gửi đi. Bạn chỉ báo cáo được trong ứng dụng điện thoại."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes data",
-      "text": "Bản xem trước đầy đủ ứng dụng PickupRadar với dữ liệu thật của Milton Keynes"
+      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
+      "text": "Bản xem trước đầy đủ ứng dụng PickupRadar với dữ liệu thật của Milton Keynes và Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -435,16 +443,16 @@
       "text": "Tài khoản ứng dụng giao hàng của bạn"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar không kết nối với tài khoản Uber Eats, Deliveroo, Just Eat hay ứng dụng giao hàng khác của bạn. Chúng tôi không bao giờ hỏi thông tin đăng nhập, mật khẩu, chi tiết tài khoản, thông tin khách hàng hay chi tiết đơn hàng. Tài xế chỉ chia sẻ báo cáo lấy hàng, như thời gian chờ và sự cố điểm lấy hàng."
+      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar không kết nối với tài khoản Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub hay ứng dụng giao hàng khác của bạn. Chúng tôi không bao giờ hỏi thông tin đăng nhập, mật khẩu, chi tiết tài khoản, thông tin khách hàng hay chi tiết đơn hàng. Tài xế chỉ chia sẻ báo cáo lấy hàng, như thời gian chờ và sự cố điểm lấy hàng."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Thử PickupRadar trước khi ứng dụng ra mắt."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Bản xem trước trực tiếp hiện điểm lấy hàng và thời gian chờ thật ở Milton Keynes. Báo cáo và {radarPoints} chỉ có trong ứng dụng điện thoại."
+      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Bản xem trước trực tiếp hiện điểm lấy hàng và thời gian chờ thật ở Milton Keynes và Chicago. Báo cáo và {radarPoints} chỉ có trong ứng dụng điện thoại."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

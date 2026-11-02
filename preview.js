@@ -660,12 +660,23 @@ function mountPickupRadarPreview(container, options) {
     '10-15 min': '10–15',
     '15+ min': '15+',
   };
-  const PLATFORMS = ['Uber Eats', 'Deliveroo', 'Just Eat'];
-  const PLATFORM_COLORS = {
-    'Uber Eats': { selected: '#06C167', unselectedBg: 'rgba(6, 193, 103, 0.14)', border: 'rgba(6, 193, 103, 0.55)' },
-    Deliveroo: { selected: '#00CCBC', unselectedBg: 'rgba(0, 204, 188, 0.14)', border: 'rgba(0, 204, 188, 0.55)' },
-    'Just Eat': { selected: '#F36D00', unselectedBg: 'rgba(243, 109, 0, 0.14)', border: 'rgba(243, 109, 0, 0.55)' },
+  // App: get_public_delivery_platforms(p_country_code, p_city). Same lists, order and
+  // colours as the database returns for each country (checked 2 Nov 2026).
+  const PLATFORMS_BY_COUNTRY = {
+    GB: ['Uber Eats', 'Deliveroo', 'Just Eat'],
+    US: ['DoorDash', 'Uber Eats', 'Grubhub'],
   };
+  const PLATFORM_COLORS = {
+    'Uber Eats': { selected: '#06C167', unselectedBg: 'rgba(6, 193, 103, 0.14)', border: 'rgba(6, 193, 103, 0.55)', darkText: true },
+    Deliveroo: { selected: '#00CCBC', unselectedBg: 'rgba(0, 204, 188, 0.14)', border: 'rgba(0, 204, 188, 0.55)', darkText: true },
+    'Just Eat': { selected: '#F36D00', unselectedBg: 'rgba(243, 109, 0, 0.14)', border: 'rgba(243, 109, 0, 0.55)', darkText: true },
+    DoorDash: { selected: '#FF3008', unselectedBg: 'rgba(255, 48, 8, 0.16)', border: 'rgba(255, 48, 8, 0.60)', darkText: false },
+    Grubhub: { selected: '#F63440', unselectedBg: 'rgba(246, 52, 64, 0.16)', border: 'rgba(246, 52, 64, 0.60)', darkText: false },
+  };
+  function platformsForCity(city) {
+    const code = CC && CC.getCountryCodeForCity ? CC.getCountryCodeForCity(city) : 'GB';
+    return PLATFORMS_BY_COUNTRY[code] || [];
+  }
   const ISSUE_OPTIONS = [
     { key: 'wrong_address', label: 'Wrong address' },
     { key: 'wrong_branch', label: 'Wrong branch/name' },
@@ -1546,10 +1557,21 @@ function mountPickupRadarPreview(container, options) {
     }
   }
 
+  // The browser's time zone stands in for the phone's (App: deviceTimeZone).
+  function deviceTimeZone() {
+    try {
+      return Intl.DateTimeFormat().resolvedOptions().timeZone || null;
+    } catch (error) {
+      return null;
+    }
+  }
+
   // App: nearestCity (App.tsx) - the nearest live city within NEAREST_CITY_MAX_MILES.
   function nearestLiveCityName() {
     if (!userCoords || !GEO) return null;
-    const pool = liveCities.filter((city) => !CC || CC.getCountryForCity(city) === 'UK');
+    // The website cannot detect the visitor's country, so like the app without a
+    // detected country it uses every live city (still limited to NEAREST_CITY_MAX_MILES).
+    const pool = liveCities.slice();
     const nearest = GEO.findNearestCity(userCoords, pool, venueStats);
     return nearest && nearest.distance <= NEAREST_CITY_MAX_MILES ? nearest.city : null;
   }
@@ -1563,7 +1585,8 @@ function mountPickupRadarPreview(container, options) {
         activeCity: activeCity,
         userCoords: userCoords,
         venues: venueStats,
-        gpsCountryIso: 'GB',
+        gpsCountryIso: null,
+        deviceTimeZone: deviceTimeZone(),
         query: query,
       });
       rows = view.rows;
@@ -1910,7 +1933,7 @@ function mountPickupRadarPreview(container, options) {
       );
     }).join('');
 
-    const platformChips = PLATFORMS.map(function (platform) {
+    const platformChips = platformsForCity(activeCity).map(function (platform) {
       const active = reportFormState.platform === platform;
       return (
         '<button type="button" class="platform-chip' + (active ? ' active' : '') + '" data-platform="' + escapeHtml(platform) + '" style="' +
@@ -2047,7 +2070,7 @@ function mountPickupRadarPreview(container, options) {
     const brand = PLATFORM_COLORS[platform];
     if (!brand) return '';
     if (active) {
-      return 'background:' + brand.selected + ';border-color:' + brand.selected + ';color:#081018;';
+      return 'background:' + brand.selected + ';border-color:' + brand.selected + ';color:' + (brand.darkText ? '#081018' : '#FFFFFF') + ';';
     }
     return 'background:' + brand.unselectedBg + ';border-color:' + brand.border + ';color:#A8BED1;';
   }
@@ -2244,6 +2267,16 @@ function mountPickupRadarPreview(container, options) {
       }
     } catch (error) {
       // Ignore storage errors in private browsing or restricted contexts.
+    }
+
+    // First visit: the live city of the visitor's country, from the browser's time zone
+    // (App: launchCountryForTimeZone + PUBLIC_LAUNCH_MARKETS). Otherwise Milton Keynes.
+    if (LCS && LCS.launchCountryForTimeZone && LCS.PUBLIC_LAUNCH_MARKETS) {
+      const country = LCS.launchCountryForTimeZone(deviceTimeZone());
+      const market = country ? LCS.PUBLIC_LAUNCH_MARKETS[country] : null;
+      if (market && liveList.includes(market.liveCity)) {
+        return market.liveCity;
+      }
     }
 
     if (liveList.includes(DEFAULT_CITY)) {

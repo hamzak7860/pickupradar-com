@@ -93,7 +93,12 @@ jobs:
       contents: write
       pages: write
     steps:
+      # Start from the newest main (not the commit the run began on), with enough
+      # history for the rebase below.
       - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 20
 
       - name: Replace v/ with the new pages
         run: rm -rf v
@@ -113,8 +118,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Venue share pages: update from public venue list"
-          git push
-          echo "pushed=yes" >> "$GITHUB_ENV"
+          # main may have moved while the pages were being built (for example a website
+          # commit). This commit only touches v/, so rebase it onto the latest main and
+          # push. Never force-push. Gives up after 5 attempts.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "pushed=yes" >> "$GITHUB_ENV"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt). Rebasing onto the latest main."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "Rebase failed: someone else changed v/. Stopping without pushing."
+              exit 1
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "Could not push after 5 attempts."
+          exit 1
 
       # Same effect as pushing to main: GitHub Pages rebuilds from the latest commit.
       - name: Ask GitHub Pages to rebuild

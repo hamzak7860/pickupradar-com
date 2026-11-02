@@ -2,7 +2,7 @@
 'use strict';
 
 /*
- * Venue share pages for pickupradar.co.uk (GitHub Pages, no server).
+ * Venue share pages for pickupradar.com (GitHub Pages, no server).
  *
  * For each active venue this writes:
  *   v/<venue-id>/index.html   small page with the venue's own link-preview tags
@@ -50,7 +50,7 @@ const crypto = require('crypto');
 const SITE = path.resolve(__dirname, '..');
 const OUT = path.join(SITE, 'v');
 const MANIFEST = path.join(OUT, 'venues.json');
-const ORIGIN = 'https://pickupradar.co.uk';
+const ORIGIN = 'https://pickupradar.com';
 const DESIGN = 2; // Change this to redraw every image after a card design change.
 const ID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 const FIELDS = 'id,name,area,brand,branch,address,postcode,city,zone,venue_type,is_active';
@@ -252,7 +252,7 @@ function cardHtml(info, icons, logoDataUrl, fontUrl) {
     </div>
     <div class="foot">
       <span class="cta"><svg viewBox="0 0 24 24">${icons.stopwatch || ''}</svg>Check the latest pickup wait</span>
-      <span class="site">pickupradar.co.uk</span>
+      <span class="site">pickupradar.com</span>
     </div>
   </div>
   <script>

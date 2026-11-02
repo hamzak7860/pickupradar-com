@@ -231,9 +231,9 @@ const PREVIEW_MARKUP = `
           <h3 class="support-section-title" data-i18n="support.about.title">PickupRadar</h3>
           <p class="support-body" data-i18n="support.about.body">PickupRadar helps delivery drivers see and report pickup wait times.</p>
           <h3 class="support-section-title" data-i18n="support.email.title">Support email</h3>
-          <p class="support-body"><a class="support-link" href="mailto:support@pickupradar.co.uk">support@pickupradar.co.uk</a></p>
+          <p class="support-body"><a class="support-link" href="mailto:support@pickupradar.com">support@pickupradar.com</a></p>
           <h3 class="support-section-title" data-i18n="support.website.title">Website</h3>
-          <p class="support-body"><a class="support-link" href="https://pickupradar.co.uk" target="_blank" rel="noopener noreferrer">pickupradar.co.uk</a></p>
+          <p class="support-body"><a class="support-link" href="https://pickupradar.com" target="_blank" rel="noopener noreferrer">pickupradar.com</a></p>
           <h3 class="support-section-title" data-i18n="support.privacy.title">Privacy summary</h3>
           <ul class="info-list support-privacy-list">
             <li data-i18n="support.privacy.noLogin" data-i18n-bullet>No login is required to use PickupRadar or earn RadarPoints</li>
@@ -619,7 +619,7 @@ function mountPickupRadarPreview(container, options) {
   const SUPABASE_URL = 'https://jvsseskherxmtcuumldq.supabase.co';
   const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp2c3Nlc2toZXJ4bXRjdXVtbGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1MTQwMTcsImV4cCI6MjA5NDA5MDAxN30.lsbs-umYa1a05GUi3sLZUvS609XlyPQjrcgAPp7HvOU';
   const DEFAULT_CITY = 'Milton Keynes';
-  const SITE_CITIES = ['Milton Keynes'];
+  const SITE_CITIES = ['Milton Keynes', 'Chicago'];
   const CITY_STORAGE_KEY = 'pickupradar_active_city';
 
   const TAG_LABELS = {
@@ -3176,7 +3176,7 @@ function mountPickupRadarPreview(container, options) {
   // Venues with their own share page (made by tools/venue-pages.js) get /v/<id>/, which shows
   // that venue's card in WhatsApp. Others get the direct live preview link, which still opens
   // the venue. The list is read once in the background so the share sheet opens straight away.
-  const SITE_ORIGIN = 'https://pickupradar.co.uk';
+  const SITE_ORIGIN = 'https://pickupradar.com';
   let venuePageIds = null;
   function loadVenuePageIds() {
     if (venuePageIds || !options.deepLink) return;

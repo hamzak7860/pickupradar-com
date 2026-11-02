@@ -1374,6 +1374,17 @@ body.page-live-preview #livePreview {
 
 .w-cities { display: grid; gap: 26px; }
 
+.w-city-country-block { display: grid; gap: 18px; }
+.w-city-country-block + .w-city-country-block { padding-top: 26px; border-top: 1px solid var(--w-line); }
+
+.w-city-country {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: var(--w-display);
+  color: var(--w-paper);
+}
+
 .w-city-label {
   margin: 0 0 10px;
   font-size: 15px;

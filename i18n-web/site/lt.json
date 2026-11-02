@@ -43,8 +43,8 @@
       "text": "Sužinok laukimą prieš įeidamas."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. Nepriklausoma ir nesusijusi su Uber Eats, Deliveroo, Just Eat, DoorDash ar Grubhub."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. Nepriklausoma ir nesusijusi su Uber Eats, DoorDash ar Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Nėra naujų pranešimų? PickupRadar gali rodyti {likelyFast} arba {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): laukimo laikas atsiimant užsakymus kurjeriams Jungtinėje Karalystėje ir JAV"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): laukimo laikas atsiimant užsakymus kurjeriams"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "Pažiūrėk, kiek kurjeriai laukia restoranuose ir parduotuvėse, prieš įeidamas. Uber Eats, Deliveroo, Just Eat, DoorDash ir Grubhub kurjeriams Jungtinėje Karalystėje ir JAV. Registruotis nereikia."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "Pažiūrėk, kiek kurjeriai laukia restoranuose ir parduotuvėse, prieš įeidamas. Uber Eats, DoorDash ir Grubhub kurjeriams. Registruotis nereikia."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Sužinok laukimą prieš įeidamas."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Veži Uber Eats, Deliveroo, Just Eat, DoorDash ar Grubhub? Matyk naują laukimą atsiėmimo vietose restoranuose ir parduotuvėse. Venk ilgo laukimo. Bakstelėk {reportWait} ir gauk {radarPoints}. Registruotis nereikia."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Veži Uber Eats, DoorDash ar Grubhub? Matyk naują laukimą atsiėmimo vietose restoranuose ir parduotuvėse. Venk ilgo laukimo. Bakstelėk {reportWait} ir gauk {radarPoints}. Registruotis nereikia."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Prieinamumas"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "Dabar Milton Keynes ir Chicago. Toliau London ir New York."
+      "en": "Now in Chicago. New York is next.",
+      "text": "Dabar Chicago. Toliau New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "Tinkama atsiėmimo vieta netoli tavęs, be neseniai buvusio laukimo ir be {likelyFast} ar {likelySlow}. Už pranešimą gauni 15 RP vietoj 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Tai Jungtinės Karalystės ir JAV miestai programėlėje. Nerandi savo miesto? Paprašyk jo programėlėje. Arba bakstelėk {notify} prie miesto, kuris yra {comingSoon}. Parašysime el. laišką, kai jis veiks."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Nerandi savo miesto? Paprašyk jo programėlėje. Arba bakstelėk {notify} prie miesto, kuris yra {comingSoon}. Parašysime el. laišką, kai jis veiks."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Veikia dabar"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "Jungtinė Karalystė"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "Jungtinės Valstijos"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "Veikiančios šalys"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "Veikiantys miestai"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "Daugiau planuojamų šalių"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "Daugiau planuojamų miestų"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Nepriklauso jokiai pristatymo programėlei"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar yra nepriklausoma. Ji nepriklauso Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub ar kitai pristatymo programėlei. Ji niekada nenaudoja tavo paskyrų ten."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar yra nepriklausoma. Ji nepriklauso Uber Eats, DoorDash, Grubhub ar kitai pristatymo programėlei. Ji niekada nenaudoja tavo paskyrų ten."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "Be prisijungimo prie pristatymo programėlių."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} Niekada neprašome Uber Eats, Deliveroo, Just Eat, DoorDash ar Grubhub vartotojo vardo ar slaptažodžio."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} Niekada neprašome Uber Eats, DoorDash ar Grubhub vartotojo vardo ar slaptažodžio."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "Kada galėsiu atsisiųsti programėlę?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "iPhone ir Android programėlės netrukus pasirodys. Kol kas {preview} rodo tikras atsiėmimo vietas ir laukimą Milton Keynes ir Chicago."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "iPhone ir Android programėlės netrukus pasirodys. Kol kas {preview} rodo tikras atsiėmimo vietas ir laukimą Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "Tiesioginė programėlės peržiūra — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "Išbandyk PickupRadar programėlę su tikrais Milton Keynes ir Chicago duomenimis. Apsižvalgyk, ieškok atsiėmimo vietų ir matyk pranešimo ekraną."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Išbandyk PickupRadar programėlę su tikrais Chicago duomenimis. Apsižvalgyk, ieškok atsiėmimo vietų ir matyk pranešimo ekraną."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Tai PickupRadar su tikrais Milton Keynes ir Chicago duomenimis. Apsižvalgyk. Rask atsiėmimo vietą ir ją atidaryk. Nieko, ką baksteli čia, nesiunčiama. Pranešti gali tik telefono programėlėje."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Tai PickupRadar su tikrais Chicago duomenimis. Apsižvalgyk. Rask atsiėmimo vietą ir ją atidaryk. Nieko, ką baksteli čia, nesiunčiama. Pranešti gali tik telefono programėlėje."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "Visa PickupRadar programėlės peržiūra su tikrais Milton Keynes ir Chicago duomenimis"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "Visa PickupRadar programėlės peržiūra su tikrais Chicago duomenimis"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "Tavo pristatymo programėlių paskyros"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar nesijungia prie tavo Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub ar kitų pristatymo programėlių paskyrų. Niekada neprašome prisijungimų, slaptažodžių, paskyros duomenų, kliento duomenų ar užsakymo duomenų. Kurjeriai dalijasi tik atsiėmimo pranešimais, pavyzdžiui laukimo laiku ir atsiėmimo vietų problemomis."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar nesijungia prie tavo Uber Eats, DoorDash, Grubhub ar kitų pristatymo programėlių paskyrų. Niekada neprašome prisijungimų, slaptažodžių, paskyros duomenų, kliento duomenų ar užsakymo duomenų. Kurjeriai dalijasi tik atsiėmimo pranešimais, pavyzdžiui laukimo laiku ir atsiėmimo vietų problemomis."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Išbandyk PickupRadar prieš programėlės paleidimą."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Tiesioginė peržiūra rodo tikras atsiėmimo vietas ir laukimą Milton Keynes ir Chicago. Pranešimai ir {radarPoints} yra tik telefono programėlėje."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Tiesioginė peržiūra rodo tikras atsiėmimo vietas ir laukimą Chicago. Pranešimai ir {radarPoints} yra tik telefono programėlėje."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

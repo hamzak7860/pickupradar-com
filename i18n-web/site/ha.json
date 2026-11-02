@@ -43,8 +43,8 @@
       "text": "San lokacin jira kafin ka shiga."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. Mai zaman kansa ne, ba shi da alaƙa da Uber Eats, Deliveroo, Just Eat, DoorDash ko Grubhub."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. Mai zaman kansa ne, ba shi da alaƙa da Uber Eats, DoorDash ko Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Babu sabon rahoto? PickupRadar na iya nuna {likelyFast} ko {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): lokacin jiran ɗauka ga direbobi a Birtaniya da Amurka"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): lokacin jiran ɗauka ga direbobi"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "Duba tsawon lokacin da direbobi ke jira a gidajen abinci da shaguna kafin ka shiga. Ga direbobin Uber Eats, Deliveroo, Just Eat, DoorDash da Grubhub a Birtaniya da Amurka. Babu rajista."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "Duba tsawon lokacin da direbobi ke jira a gidajen abinci da shaguna kafin ka shiga. Ga direbobin Uber Eats, DoorDash da Grubhub. Babu rajista."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. San lokacin jira kafin ka shiga."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Kana kai kaya ga Uber Eats, Deliveroo, Just Eat, DoorDash ko Grubhub? Duba sabon lokacin jira a wuraren ɗauka na gidajen abinci da shaguna. Guji jira mai tsawo. Danna {reportWait} ka samu {radarPoints}. Babu rajista."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Kana kai kaya ga Uber Eats, DoorDash ko Grubhub? Duba sabon lokacin jira a wuraren ɗauka na gidajen abinci da shaguna. Guji jira mai tsawo. Danna {reportWait} ka samu {radarPoints}. Babu rajista."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Samuwa"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "Yanzu a Milton Keynes da Chicago. Na gaba London da New York."
+      "en": "Now in Chicago. New York is next.",
+      "text": "Yanzu a Chicago. Na gaba New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "Wuri na ɗauka da ya cancanci kusa da kai, babu sabon lokacin jira, kuma babu {likelyFast} ko {likelySlow}. Kana samun 15 RP don wannan rahoto, ba 10 ba."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Waɗannan garuruwan Birtaniya da Amurka ne a cikin manhaja. Ba ka ganin garinka? Nemi shi a cikin manhaja. Ko danna {notify} a garin da yake {comingSoon}. Za mu aika imel idan ya fara aiki."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Ba ka ganin garinka? Nemi shi a cikin manhaja. Ko danna {notify} a garin da yake {comingSoon}. Za mu aika imel idan ya fara aiki."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Yana aiki yanzu"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "Birtaniya"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "Amurka"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "Ƙasashen da ke aiki"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "Garuruwan da ke aiki"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "Ƙarin ƙasashen da aka tsara"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "Ƙarin garuruwan da aka tsara"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Ba wani ɓangare na manhajar isarwa ba"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar mai zaman kansa ne. Ba wani ɓangare na Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub ko wata manhajar isarwa ba. Ba ya taɓa amfani da asusunka a can."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar mai zaman kansa ne. Ba wani ɓangare na Uber Eats, DoorDash, Grubhub ko wata manhajar isarwa ba. Ba ya taɓa amfani da asusunka a can."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "Babu shiga manhajar isarwa."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} Ba ma taɓa neman sunan mai amfani ko kalmar sirri ta Uber Eats, Deliveroo, Just Eat, DoorDash ko Grubhub."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} Ba ma taɓa neman sunan mai amfani ko kalmar sirri ta Uber Eats, DoorDash ko Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "Yaushe zan iya sauke manhaja?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "Manhajojin iPhone da Android na zuwa nan ba da jimawa ba. A yanzu, {preview} yana nuna wuraren ɗauka na gaskiya da lokacin jira a Milton Keynes da Chicago."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "Manhajojin iPhone da Android na zuwa nan ba da jimawa ba. A yanzu, {preview} yana nuna wuraren ɗauka na gaskiya da lokacin jira a Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "Duban kai tsaye na manhaja — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "Gwada manhajar PickupRadar da bayanan gaskiya na Milton Keynes da Chicago. Duba kewaye, nemi wuri na ɗauka ka duba allon rahoto."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Gwada manhajar PickupRadar da bayanan gaskiya na Chicago. Duba kewaye, nemi wuri na ɗauka ka duba allon rahoto."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Wannan PickupRadar ne da bayanan gaskiya na Milton Keynes da Chicago. Duba kewaye. Nemi wuri na ɗauka ka buɗe shi. Babu abin da ka danna a nan da ake aikawa. Kana iya bayar da rahoto a manhajar waya kawai."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Wannan PickupRadar ne da bayanan gaskiya na Chicago. Duba kewaye. Nemi wuri na ɗauka ka buɗe shi. Babu abin da ka danna a nan da ake aikawa. Kana iya bayar da rahoto a manhajar waya kawai."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "Cikakken dubawa na manhajar PickupRadar da bayanan gaskiya na Milton Keynes da Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "Cikakken dubawa na manhajar PickupRadar da bayanan gaskiya na Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "Asusunka na manhajar isarwa"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar baya haɗuwa da asusunka na Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub ko wata manhajar isarwa. Ba ma taɓa neman shiga, kalmar sirri, bayanan asusu, bayanan abokin ciniki ko bayanan oda. Direbobi suna raba rahotannin ɗauka kawai, kamar lokacin jira da matsalar wuri na ɗauka."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar baya haɗuwa da asusunka na Uber Eats, DoorDash, Grubhub ko wata manhajar isarwa. Ba ma taɓa neman shiga, kalmar sirri, bayanan asusu, bayanan abokin ciniki ko bayanan oda. Direbobi suna raba rahotannin ɗauka kawai, kamar lokacin jira da matsalar wuri na ɗauka."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Gwada PickupRadar kafin manhaja ta fito."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Duban kai tsaye yana nuna wuraren ɗauka na gaskiya da lokacin jira a Milton Keynes da Chicago. Bayar da rahoto da {radarPoints} a cikin manhajar waya kawai suke."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Duban kai tsaye yana nuna wuraren ɗauka na gaskiya da lokacin jira a Chicago. Bayar da rahoto da {radarPoints} a cikin manhajar waya kawai suke."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

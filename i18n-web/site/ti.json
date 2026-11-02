@@ -43,8 +43,8 @@
       "text": "ቅድሚ ምእታውካ ናይ ምጽባይ ግዜ ፍለጥ።"
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar። ናጻ እዩ። ምስ Uber Eats፣ Deliveroo፣ Just Eat፣ DoorDash ወይ Grubhub ኣይተኣሳሰርን።"
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar። ናጻ እዩ። ምስ Uber Eats፣ DoorDash ወይ Grubhub ኣይተኣሳሰርን።"
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "ሓድሽ ጸብጻብ የለን? PickupRadar {likelyFast} ወይ {likelySlow} ከርኢ ይኽእል፦"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar)፦ ኣብ ሕቡር ንግስነትን ኣሜሪካን ንመራሕቲ ናይ ምውሳድ ምጽባይ"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar)፦ ንመራሕቲ ናይ ምውሳድ ምጽባይ"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "ቅድሚ ምእታውካ መራሕቲ ኣብ ቤት መግቢን ድኳናትን ክንደይ ከም ዝጽበዩ ርአ። ንመራሕቲ Uber Eats፣ Deliverooን፣ Just Eatን፣ DoorDashን Grubhubን ኣብ ሕቡር ንግስነትን ኣሜሪካን። ምዝገባ ኣየድሊን።"
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "ቅድሚ ምእታውካ መራሕቲ ኣብ ቤት መግቢን ድኳናትን ክንደይ ከም ዝጽበዩ ርአ። ንመራሕቲ Uber Eats፣ DoorDashን Grubhubን። ምዝገባ ኣየድሊን።"
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar። ቅድሚ ምእታውካ ናይ ምጽባይ ግዜ ፍለጥ።"
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "ን Uber Eats፣ Deliveroo፣ Just Eat፣ DoorDash ወይ Grubhub ትወስድ ዲኻ? ኣብ ናይ ቤት መግቢን ድኳንን ናይ ምውሳድ ቦታታት እዋናዊ ምጽባይ ርአ። ነዊሕ ምጽባይ ርሓቕ። {reportWait} ጠውቕ እሞ {radarPoints} ውሰድ። ምዝገባ ኣየድሊን።"
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "ን Uber Eats፣ DoorDash ወይ Grubhub ትወስድ ዲኻ? ኣብ ናይ ቤት መግቢን ድኳንን ናይ ምውሳድ ቦታታት እዋናዊ ምጽባይ ርአ። ነዊሕ ምጽባይ ርሓቕ። {reportWait} ጠውቕ እሞ {radarPoints} ውሰድ። ምዝገባ ኣየድሊን።"
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "ምህላው"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "ሕጂ ኣብ Milton Keynes ከምኡውን Chicago። ድሕሪኡ London ከምኡውን New York።"
+      "en": "Now in Chicago. New York is next.",
+      "text": "ሕጂ ኣብ Chicago። ድሕሪኡ New York።"
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "ኣብ ቀረባኻ ዝሰማማዕ ናይ ምውሳድ ቦታ፣ ሓድሽ ምጽባይ የለን፣ {likelyFast} ወይ {likelySlow} የለን። ነቲ ጸብጻብ 15 RP ትረክብ፣ 10 ኣይኮነን።"
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "እዚኦም ኣብ መተግበሪ ዘለዉ ከተማታት ሕቡር ንግስነትን ኣሜሪካን እዮም። ከተማኻ ኣይትርኢን? ኣብ መተግበሪ ሕተታ። ወይ ኣብ {comingSoon} ዝኾነት ከተማ {notify} ጠውቕ። ምስ ኣተወት ኢመይል ንሰድድ።"
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "ከተማኻ ኣይትርኢን? ኣብ መተግበሪ ሕተታ። ወይ ኣብ {comingSoon} ዝኾነት ከተማ {notify} ጠውቕ። ምስ ኣተወት ኢመይል ንሰድድ።"
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "ሕጂ ቀጥታ"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "ሕቡር ንግስነት"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "ኣሜሪካ"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "ዘለዉ ሃገራት"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "ዘለዋ ከተማታት"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "ዝተወጠኑ ተወሰኽቲ ሃገራት"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "ዝተወጠና ተወሰኽቲ ከተማታት"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "ናይ ዝኾነ መተግበሪ ምብጻሕ ክፋል ኣይኮነን"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar ናጻ እዩ። ናይ Uber Eats፣ Deliveroo፣ Just Eat፣ DoorDash፣ Grubhub ወይ ካልእ መተግበሪ ምብጻሕ ክፋል ኣይኮነን። ነቲ ኣብኡ ዘሎ ኣካውንትካ ፈጺሙ ኣይጥቀመሉን።"
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar ናጻ እዩ። ናይ Uber Eats፣ DoorDash፣ Grubhub ወይ ካልእ መተግበሪ ምብጻሕ ክፋል ኣይኮነን። ነቲ ኣብኡ ዘሎ ኣካውንትካ ፈጺሙ ኣይጥቀመሉን።"
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "ናይ መተግበሪ ምብጻሕ መእተዊ የለን።"
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} ስም ተጠቃሚ ወይ መሕለፊ ቃል Uber Eats፣ Deliveroo፣ Just Eat፣ DoorDash ወይ Grubhub ፈጺምና ኣይንሓትትን።"
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} ስም ተጠቃሚ ወይ መሕለፊ ቃል Uber Eats፣ DoorDash ወይ Grubhub ፈጺምና ኣይንሓትትን።"
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "መተግበሪ መዓስ ክወርድ እኽእል?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "መተግበሪታት iPhoneን Androidን ቀልጢፎም ክመጹ እዮም። ንሕጂ {preview} ሓቀኛ ናይ ምውሳድ ቦታታትን ምጽባይን ኣብ Milton Keynes ከምኡውን Chicago የርኢ።"
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "መተግበሪታት iPhoneን Androidን ቀልጢፎም ክመጹ እዮም። ንሕጂ {preview} ሓቀኛ ናይ ምውሳድ ቦታታትን ምጽባይን ኣብ Chicago የርኢ።"
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "ቀጥታ ቅድመ ምርኢት መተግበሪ — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "መተግበሪ PickupRadar ብሓቀኛ ሓበሬታ Milton Keynes ከምኡውን Chicago ፈትን። ኣብ ከባቢ ርአ፣ ናይ ምውሳድ ቦታ ድለ፣ መርኣዪ ጸብጻብ ርአ።"
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "መተግበሪ PickupRadar ብሓቀኛ ሓበሬታ Chicago ፈትን። ኣብ ከባቢ ርአ፣ ናይ ምውሳድ ቦታ ድለ፣ መርኣዪ ጸብጻብ ርአ።"
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "እዚ PickupRadar ብሓቀኛ ሓበሬታ Milton Keynes ከምኡውን Chicago እዩ። ኣብ ከባቢ ርአ። ናይ ምውሳድ ቦታ ድለ እሞ ክፈቶ። ኣብዚ እትጠውቖ ነገር ኣይለኣኽን። ኣብ መተግበሪ ተሌፎን ጥራይ ክትሕብር ትኽእል።"
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "እዚ PickupRadar ብሓቀኛ ሓበሬታ Chicago እዩ። ኣብ ከባቢ ርአ። ናይ ምውሳድ ቦታ ድለ እሞ ክፈቶ። ኣብዚ እትጠውቖ ነገር ኣይለኣኽን። ኣብ መተግበሪ ተሌፎን ጥራይ ክትሕብር ትኽእል።"
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "ምሉእ ቅድመ ምርኢት መተግበሪ PickupRadar ብሓቀኛ ሓበሬታ Milton Keynes ከምኡውን Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "ምሉእ ቅድመ ምርኢት መተግበሪ PickupRadar ብሓቀኛ ሓበሬታ Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "ናይ መተግበሪ ምብጻሕ ኣካውንትካ"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar ምስ ኣካውንትካ ናይ Uber Eats፣ Deliveroo፣ Just Eat፣ DoorDash፣ Grubhub ወይ ካልእ መተግበሪ ምብጻሕ ኣይተኣሳሰርን። መእተዊ፣ መሕለፊ ቃል፣ ዝርዝር ኣካውንት፣ ዝርዝር ዓማዊል ወይ ዝርዝር ትእዛዝ ፈጺምና ኣይንሓትትን። መራሕቲ ዝካፈልዎ ናይ ምውሳድ ጸብጻባት ጥራይ እዩ፣ ከም ምጽባይን ጸገም ናይ ምውሳድ ቦታን።"
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar ምስ ኣካውንትካ ናይ Uber Eats፣ DoorDash፣ Grubhub ወይ ካልእ መተግበሪ ምብጻሕ ኣይተኣሳሰርን። መእተዊ፣ መሕለፊ ቃል፣ ዝርዝር ኣካውንት፣ ዝርዝር ዓማዊል ወይ ዝርዝር ትእዛዝ ፈጺምና ኣይንሓትትን። መራሕቲ ዝካፈልዎ ናይ ምውሳድ ጸብጻባት ጥራይ እዩ፣ ከም ምጽባይን ጸገም ናይ ምውሳድ ቦታን።"
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "ቅድሚ ምውጻእ መተግበሪ PickupRadar ፈትን።"
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "ቀጥታ ቅድመ ምርኢት ሓቀኛ ናይ ምውሳድ ቦታታትን ምጽባይን ኣብ Milton Keynes ከምኡውን Chicago የርኢ። ምሕባርን {radarPoints}ን ኣብ መተግበሪ ተሌፎን ጥራይ እዮም።"
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "ቀጥታ ቅድመ ምርኢት ሓቀኛ ናይ ምውሳድ ቦታታትን ምጽባይን ኣብ Chicago የርኢ። ምሕባርን {radarPoints}ን ኣብ መተግበሪ ተሌፎን ጥራይ እዮም።"
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

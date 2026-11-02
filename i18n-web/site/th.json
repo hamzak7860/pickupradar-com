@@ -43,8 +43,8 @@
       "text": "รู้เวลารอก่อนเดินเข้าไป"
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar เป็นอิสระและไม่เกี่ยวข้องกับ Uber Eats, Deliveroo, Just Eat, DoorDash หรือ Grubhub"
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar เป็นอิสระและไม่เกี่ยวข้องกับ Uber Eats, DoorDash หรือ Grubhub"
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "ไม่มีรายงานล่าสุด? PickupRadar อาจแสดง {likelyFast} หรือ {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): เวลารอรับของสำหรับคนขับส่งของในสหราชอาณาจักรและสหรัฐอเมริกา"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): เวลารอรับของสำหรับคนขับส่งของ"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "ดูก่อนเข้าไปว่าคนขับรอที่ร้านอาหารและร้านค้านานแค่ไหน สำหรับคนขับ Uber Eats, Deliveroo, Just Eat, DoorDash และ Grubhub ในสหราชอาณาจักรและสหรัฐอเมริกา ไม่ต้องสมัคร"
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "ดูก่อนเข้าไปว่าคนขับรอที่ร้านอาหารและร้านค้านานแค่ไหน สำหรับคนขับ Uber Eats, DoorDash และ Grubhub ไม่ต้องสมัคร"
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar รู้เวลารอก่อนเดินเข้าไป"
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "คุณส่งของให้ Uber Eats, Deliveroo, Just Eat, DoorDash หรือ Grubhub ใช่ไหม ดูเวลารอล่าสุดที่จุดรับสินค้าของร้านอาหารและร้านค้า เลี่ยงการรอนาน แตะ {reportWait} แล้วรับ {radarPoints} ไม่ต้องสมัคร"
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "คุณส่งของให้ Uber Eats, DoorDash หรือ Grubhub ใช่ไหม ดูเวลารอล่าสุดที่จุดรับสินค้าของร้านอาหารและร้านค้า เลี่ยงการรอนาน แตะ {reportWait} แล้วรับ {radarPoints} ไม่ต้องสมัคร"
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "ความพร้อมใช้งาน"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "ตอนนี้มีที่ Milton Keynes และ Chicago ต่อไปคือ London และ New York"
+      "en": "Now in Chicago. New York is next.",
+      "text": "ตอนนี้มีที่ Chicago ต่อไปคือ New York"
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "จุดรับสินค้าที่เข้าเงื่อนไขใกล้คุณ ไม่มีเวลารอล่าสุด และไม่มี {likelyFast} หรือ {likelySlow} คุณได้ 15 RP สำหรับรายงานนี้ แทนที่จะได้ 10"
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "นี่คือเมืองในสหราชอาณาจักรและสหรัฐอเมริกาในแอป ไม่เจอเมืองของคุณ? ขอในแอป หรือแตะ {notify} ที่เมืองซึ่ง {comingSoon} เราจะส่งอีเมลเมื่อเปิดใช้"
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "ไม่เจอเมืองของคุณ? ขอในแอป หรือแตะ {notify} ที่เมืองซึ่ง {comingSoon} เราจะส่งอีเมลเมื่อเปิดใช้"
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "เปิดใช้แล้ว"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "สหราชอาณาจักร"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "สหรัฐอเมริกา"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "ประเทศที่เปิดให้บริการ"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "เมืองที่เปิดให้บริการ"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "ประเทศที่วางแผนเพิ่ม"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "เมืองที่วางแผนเพิ่ม"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "ไม่ได้เป็นส่วนหนึ่งของแอปส่งของใด ๆ"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar เป็นอิสระ ไม่ได้เป็นส่วนหนึ่งของ Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub หรือแอปส่งของอื่น และไม่ใช้บัญชีของคุณที่นั่น"
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar เป็นอิสระ ไม่ได้เป็นส่วนหนึ่งของ Uber Eats, DoorDash, Grubhub หรือแอปส่งของอื่น และไม่ใช้บัญชีของคุณที่นั่น"
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "ไม่ต้องเข้าสู่ระบบแอปส่งของ"
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} เราไม่ขอชื่อผู้ใช้หรือรหัสผ่าน Uber Eats, Deliveroo, Just Eat, DoorDash หรือ Grubhub"
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} เราไม่ขอชื่อผู้ใช้หรือรหัสผ่าน Uber Eats, DoorDash หรือ Grubhub"
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "ดาวน์โหลดแอปได้เมื่อไร"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "แอป iPhone และ Android จะมาเร็ว ๆ นี้ ตอนนี้ {preview} แสดงจุดรับสินค้าและเวลารอจริงใน Milton Keynes และ Chicago"
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "แอป iPhone และ Android จะมาเร็ว ๆ นี้ ตอนนี้ {preview} แสดงจุดรับสินค้าและเวลารอจริงใน Chicago"
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "ตัวอย่างแอปแบบสด — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "ลองแอป PickupRadar ด้วยข้อมูลจริงจาก Milton Keynes และ Chicago มองรอบ ๆ ค้นหาจุดรับสินค้า และดูหน้าจอรายงาน"
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "ลองแอป PickupRadar ด้วยข้อมูลจริงจาก Chicago มองรอบ ๆ ค้นหาจุดรับสินค้า และดูหน้าจอรายงาน"
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "นี่คือ PickupRadar ด้วยข้อมูลจริงจาก Milton Keynes และ Chicago มองรอบ ๆ ค้นหาจุดรับสินค้าแล้วเปิด สิ่งที่คุณแตะที่นี่จะไม่ถูกส่ง คุณรายงานได้เฉพาะในแอปมือถือ"
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "นี่คือ PickupRadar ด้วยข้อมูลจริงจาก Chicago มองรอบ ๆ ค้นหาจุดรับสินค้าแล้วเปิด สิ่งที่คุณแตะที่นี่จะไม่ถูกส่ง คุณรายงานได้เฉพาะในแอปมือถือ"
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "ตัวอย่างเต็มของแอป PickupRadar ด้วยข้อมูลจริงจาก Milton Keynes และ Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "ตัวอย่างเต็มของแอป PickupRadar ด้วยข้อมูลจริงจาก Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "บัญชีแอปส่งของของคุณ"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar ไม่เชื่อมกับบัญชี Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub หรือแอปส่งของอื่นของคุณ เราไม่ขอข้อมูลเข้าสู่ระบบ รหัสผ่าน รายละเอียดบัญชี ข้อมูลลูกค้า หรือรายละเอียดออเดอร์ คนขับแชร์เฉพาะรายงานการรับ เช่น เวลารอและปัญหาจุดรับสินค้า"
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar ไม่เชื่อมกับบัญชี Uber Eats, DoorDash, Grubhub หรือแอปส่งของอื่นของคุณ เราไม่ขอข้อมูลเข้าสู่ระบบ รหัสผ่าน รายละเอียดบัญชี ข้อมูลลูกค้า หรือรายละเอียดออเดอร์ คนขับแชร์เฉพาะรายงานการรับ เช่น เวลารอและปัญหาจุดรับสินค้า"
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "ลอง PickupRadar ก่อนแอปเปิดตัว"
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "ตัวอย่างสดแสดงจุดรับสินค้าและเวลารอจริงใน Milton Keynes และ Chicago การรายงานและ {radarPoints} มีเฉพาะในแอปมือถือ"
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "ตัวอย่างสดแสดงจุดรับสินค้าและเวลารอจริงใน Chicago การรายงานและ {radarPoints} มีเฉพาะในแอปมือถือ"
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

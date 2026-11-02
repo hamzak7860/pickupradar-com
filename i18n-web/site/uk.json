@@ -43,8 +43,8 @@
       "text": "Дізнайтеся про очікування, перш ніж зайти."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. Незалежний і не пов’язаний з Uber Eats, Deliveroo, Just Eat, DoorDash чи Grubhub."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. Незалежний і не пов’язаний з Uber Eats, DoorDash чи Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Немає свіжих звітів? PickupRadar може показати {likelyFast} або {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): час очікування на точках видачі для кур’єрів у Великій Британії та США"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): час очікування на точках видачі для кур’єрів"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "Подивіться, скільки кур’єри чекають у ресторанах і магазинах, перш ніж зайти. Для кур’єрів Uber Eats, Deliveroo, Just Eat, DoorDash і Grubhub у Великій Британії та США. Реєстрація не потрібна."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "Подивіться, скільки кур’єри чекають у ресторанах і магазинах, перш ніж зайти. Для кур’єрів Uber Eats, DoorDash і Grubhub. Реєстрація не потрібна."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Дізнайтеся про очікування, перш ніж зайти."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Ви доставляєте для Uber Eats, Deliveroo, Just Eat, DoorDash чи Grubhub? Дивіться недавнє очікування на точках видачі в ресторанах і магазинах. Уникайте довгого очікування. Натисніть {reportWait} і отримуйте {radarPoints}. Реєстрація не потрібна."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Ви доставляєте для Uber Eats, DoorDash чи Grubhub? Дивіться недавнє очікування на точках видачі в ресторанах і магазинах. Уникайте довгого очікування. Натисніть {reportWait} і отримуйте {radarPoints}. Реєстрація не потрібна."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Доступність"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "Зараз у Milton Keynes і Chicago. Далі London і New York."
+      "en": "Now in Chicago. New York is next.",
+      "text": "Зараз у Chicago. Далі New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "Підхожа точка видачі поруч із вами, без недавнього очікування і без {likelyFast} або {likelySlow}. За звіт ви отримуєте 15 RP замість 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Це міста Великої Британії та США в застосунку. Немає вашого міста? Запросіть його в застосунку. Або натисніть {notify} біля міста {comingSoon}. Ми напишемо, коли воно стане доступним."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Немає вашого міста? Запросіть його в застосунку. Або натисніть {notify} біля міста {comingSoon}. Ми напишемо, коли воно стане доступним."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Уже доступно"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "Велика Британія"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "США"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "Країни, де ми працюємо"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "Міста, де ми працюємо"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "Ще заплановано країн"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "Ще заплановано міст"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Не входить у жоден застосунок доставки"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar незалежний. Він не входить в Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub і в жоден інший застосунок доставки. Він ніколи не використовує ваші облікові записи там."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar незалежний. Він не входить в Uber Eats, DoorDash, Grubhub і в жоден інший застосунок доставки. Він ніколи не використовує ваші облікові записи там."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "Без входу в застосунки доставки."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} Ми ніколи не просимо ім’я користувача чи пароль Uber Eats, Deliveroo, Just Eat, DoorDash або Grubhub."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} Ми ніколи не просимо ім’я користувача чи пароль Uber Eats, DoorDash або Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "Коли можна завантажити застосунок?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "Застосунки для iPhone і Android незабаром з’являться. Поки {preview} показує справжні точки видачі й очікування в Milton Keynes і Chicago."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "Застосунки для iPhone і Android незабаром з’являться. Поки {preview} показує справжні точки видачі й очікування в Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "Живий попередній перегляд застосунку — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "Спробуйте застосунок PickupRadar із реальними даними Milton Keynes і Chicago. Огляньтеся, знайдіть точки видачі й відкрийте екран звіту."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Спробуйте застосунок PickupRadar із реальними даними Chicago. Огляньтеся, знайдіть точки видачі й відкрийте екран звіту."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Це PickupRadar із реальними даними Milton Keynes і Chicago. Огляньтеся. Знайдіть точку видачі й відкрийте її. Нічого з того, що ви натискаєте тут, не надсилається. Звіти можна надсилати лише в мобільному застосунку."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Це PickupRadar із реальними даними Chicago. Огляньтеся. Знайдіть точку видачі й відкрийте її. Нічого з того, що ви натискаєте тут, не надсилається. Звіти можна надсилати лише в мобільному застосунку."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "Повний попередній перегляд застосунку PickupRadar із реальними даними Milton Keynes і Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "Повний попередній перегляд застосунку PickupRadar із реальними даними Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "Ваші облікові записи в застосунках доставки"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar не підключається до ваших облікових записів Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub та інших застосунків доставки. Ми ніколи не просимо логіни, паролі, дані облікового запису, дані клієнтів або дані замовлень. Кур’єри діляться лише звітами про видачу, наприклад часом очікування і проблемами на точках видачі."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar не підключається до ваших облікових записів Uber Eats, DoorDash, Grubhub та інших застосунків доставки. Ми ніколи не просимо логіни, паролі, дані облікового запису, дані клієнтів або дані замовлень. Кур’єри діляться лише звітами про видачу, наприклад часом очікування і проблемами на точках видачі."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Спробуйте PickupRadar до запуску застосунку."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Живий попередній перегляд показує справжні точки видачі й очікування в Milton Keynes і Chicago. Звіти і {radarPoints} є лише в мобільному застосунку."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Живий попередній перегляд показує справжні точки видачі й очікування в Chicago. Звіти і {radarPoints} є лише в мобільному застосунку."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

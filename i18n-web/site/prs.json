@@ -43,8 +43,8 @@
       "text": "زمان انتظار را پیش از داخل شدن بدانید."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. مستقل است و با Uber Eats، Deliveroo، Just Eat، DoorDash یا Grubhub رابطه ندارد."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. مستقل است و با Uber Eats، DoorDash یا Grubhub رابطه ندارد."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "گزارش تازه نیست؟ PickupRadar ممکن است {likelyFast} یا {likelySlow} را نشان بدهد:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): زمان انتظار تحویل برای راننده‌ها در بریتانیا و امریکا"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): زمان انتظار تحویل برای راننده‌ها"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "ببینید راننده‌ها پیش از داخل شدن شما چقدر در رستوران‌ها و دکان‌ها منتظر می‌مانند. برای راننده‌های Uber Eats، Deliveroo، Just Eat، DoorDash و Grubhub در بریتانیا و امریکا. بدون ثبت‌نام."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "ببینید راننده‌ها پیش از داخل شدن شما چقدر در رستوران‌ها و دکان‌ها منتظر می‌مانند. برای راننده‌های Uber Eats، DoorDash و Grubhub. بدون ثبت‌نام."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. زمان انتظار را پیش از داخل شدن بدانید."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "برای Uber Eats، Deliveroo، Just Eat، DoorDash یا Grubhub تحویل می‌دهید؟ تازه‌ترین زمان انتظار را در نقطه تحویل رستوران‌ها و دکان‌ها ببینید. از انتظار دراز دور بمانید. {reportWait} را بزنید و {radarPoints} بگیرید. بدون ثبت‌نام."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "برای Uber Eats، DoorDash یا Grubhub تحویل می‌دهید؟ تازه‌ترین زمان انتظار را در نقطه تحویل رستوران‌ها و دکان‌ها ببینید. از انتظار دراز دور بمانید. {reportWait} را بزنید و {radarPoints} بگیرید. بدون ثبت‌نام."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "دسترسی"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "اکنون در Milton Keynes و Chicago. بعدی London و New York."
+      "en": "Now in Chicago. New York is next.",
+      "text": "اکنون در Chicago. بعدی New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "یک نقطه تحویل واجد شرایط نزدیک شما، بدون زمان انتظار تازه، و بدون {likelyFast} یا {likelySlow}. برای همان گزارش 15 RP می‌گیرید، نه 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "این‌ها شهرهای بریتانیا و امریکا در اپ هستند. شهر خود را نمی‌بینید؟ در اپ درخواست کنید. یا روی شهری که {comingSoon} است {notify} را بزنید. وقتی فعال شد ایمیل می‌فرستیم."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "شهر خود را نمی‌بینید؟ در اپ درخواست کنید. یا روی شهری که {comingSoon} است {notify} را بزنید. وقتی فعال شد ایمیل می‌فرستیم."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "اکنون فعال"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "بریتانیا"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "امریکا"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "کشورهای فعال"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "شهرهای فعال"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "کشورهای بیشتر در برنامه"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "شهرهای بیشتر در برنامه"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "بخش هیچ اپ تحویل نیست"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar مستقل است. بخش Uber Eats، Deliveroo، Just Eat، DoorDash، Grubhub یا هیچ اپ تحویل دیگر نیست. هرگز از حساب شما در آنجا کار نمی‌گیرد."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar مستقل است. بخش Uber Eats، DoorDash، Grubhub یا هیچ اپ تحویل دیگر نیست. هرگز از حساب شما در آنجا کار نمی‌گیرد."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "بدون داخل شدن به اپ تحویل."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} هرگز نام کاربری یا رمز عبور Uber Eats، Deliveroo، Just Eat، DoorDash یا Grubhub را نمی‌خواهیم."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} هرگز نام کاربری یا رمز عبور Uber Eats، DoorDash یا Grubhub را نمی‌خواهیم."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "چه وقت می‌توانم اپ را دانلود کنم؟"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "اپ‌های iPhone و Android به‌زودی می‌آیند. تا آن وقت، {preview} نقطه‌های تحویل واقعی و زمان انتظار در Milton Keynes و Chicago را نشان می‌دهد."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "اپ‌های iPhone و Android به‌زودی می‌آیند. تا آن وقت، {preview} نقطه‌های تحویل واقعی و زمان انتظار در Chicago را نشان می‌دهد."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "پیش‌نمایش زنده اپ — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "اپ PickupRadar را با معلومات واقعی Milton Keynes و Chicago امتحان کنید. بگردید، نقطه تحویل پیدا کنید و صفحه گزارش را ببینید."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "اپ PickupRadar را با معلومات واقعی Chicago امتحان کنید. بگردید، نقطه تحویل پیدا کنید و صفحه گزارش را ببینید."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "این PickupRadar با معلومات واقعی Milton Keynes و Chicago است. بگردید. یک نقطه تحویل را پیدا کنید و بازش کنید. هیچ چیزی که اینجا می‌زنید فرستاده نمی‌شود. تنها در اپ موبایل می‌توانید گزارش بدهید."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "این PickupRadar با معلومات واقعی Chicago است. بگردید. یک نقطه تحویل را پیدا کنید و بازش کنید. هیچ چیزی که اینجا می‌زنید فرستاده نمی‌شود. تنها در اپ موبایل می‌توانید گزارش بدهید."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "پیش‌نمایش کامل اپ PickupRadar با معلومات واقعی Milton Keynes و Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "پیش‌نمایش کامل اپ PickupRadar با معلومات واقعی Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "حساب اپ تحویل شما"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar به حساب Uber Eats، Deliveroo، Just Eat، DoorDash، Grubhub یا هیچ اپ تحویل دیگر شما وصل نیست. هرگز داخل شدن، رمز عبور، جزئیات حساب، جزئیات مشتری یا جزئیات سفارش را نمی‌خواهیم. راننده‌ها تنها گزارش تحویل را شریک می‌سازند، مانند زمان انتظار و مشکل نقطه تحویل."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar به حساب Uber Eats، DoorDash، Grubhub یا هیچ اپ تحویل دیگر شما وصل نیست. هرگز داخل شدن، رمز عبور، جزئیات حساب، جزئیات مشتری یا جزئیات سفارش را نمی‌خواهیم. راننده‌ها تنها گزارش تحویل را شریک می‌سازند، مانند زمان انتظار و مشکل نقطه تحویل."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "پیش از نشر اپ، PickupRadar را امتحان کنید."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "پیش‌نمایش زنده نقطه‌های تحویل واقعی و زمان انتظار در Milton Keynes و Chicago را نشان می‌دهد. گزارش و {radarPoints} تنها در اپ موبایل هستند."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "پیش‌نمایش زنده نقطه‌های تحویل واقعی و زمان انتظار در Chicago را نشان می‌دهد. گزارش و {radarPoints} تنها در اپ موبایل هستند."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

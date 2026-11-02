@@ -72,7 +72,7 @@
     line('shared.footer.help', 'Help', 'Footer heading above support and the email address.');
     line('shared.footer.legal', 'Legal', 'Footer heading above privacy and delete account. Do not change the legal pages.');
     line('shared.tagline', 'Know the wait before you walk in.', 'Homepage heading and the short line under the footer logo.');
-    line('shared.footer.copyright', '© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.', 'Footer copyright line. Keep PickupRadar, Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub and 2026.');
+    line('shared.footer.copyright', '© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.', 'Footer copyright line. Keep PickupRadar, Uber Eats, DoorDash, Grubhub and 2026.');
     line('shared.scale.aria', 'Wait ranges', 'Accessible name for the four wait-range examples. Not shown on screen.');
     line('shared.scale.quick', 'Quick', 'Caption under the shortest wait range.');
     line('shared.scale.short', 'Short wait', 'Caption under the 5–10 minute range.');
@@ -80,13 +80,13 @@
     line('shared.scale.veryLong', 'Very long wait', 'Caption under the 15+ minute range.');
     line('shared.scale.estimate', 'No recent reports? PickupRadar may show {likelyFast} or {likelySlow}:', 'Line above the Likely fast and Likely slow examples. {likelyFast} and {likelySlow} are the app labels.', { appSlots: { likelyFast: 'home.likelyFast', likelySlow: 'home.likelySlow' } });
 
-    line('home.meta.title', 'PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA', 'Browser title and social title for the homepage. Keep both PickupRadar and Pickup Radar.');
-    line('home.meta.description', 'See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.', 'Homepage description for search and social cards. Keep Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. UK is the United Kingdom; USA is the United States.');
+    line('home.meta.title', 'PickupRadar (Pickup Radar): pickup wait times for delivery drivers', 'Browser title and social title for the homepage. Keep both PickupRadar and Pickup Radar.');
+    line('home.meta.description', 'See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.', 'Homepage description for search and social cards. Keep Uber Eats, DoorDash and Grubhub.');
     line('home.meta.imageAlt', 'PickupRadar. Know the wait before you walk in.', 'Description of the homepage share image. Keep PickupRadar.');
-    line('home.hero.lede', 'Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.', 'Homepage introduction. Keep the delivery-app names. {reportWait} and {radarPoints} are the app labels.', { appSlots: { reportWait: 'home.reportWait', radarPoints: 'radar.balance' } });
+    line('home.hero.lede', 'Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.', 'Homepage introduction. Keep the delivery-app names. {reportWait} and {radarPoints} are the app labels.', { appSlots: { reportWait: 'home.reportWait', radarPoints: 'radar.balance' } });
     line('home.hero.try', 'Try it with real data', 'Button that jumps to the live preview on the homepage.');
     line('home.hero.availability', 'Availability', 'Accessible name for the live-city and app-status notes. Not shown on screen.');
-    line('home.hero.cities', 'Now in Milton Keynes and Chicago. London and New York are next.', 'Homepage status line and the cities heading. Keep the city names Milton Keynes, Chicago, London and New York.');
+    line('home.hero.cities', 'Now in Chicago. New York is next.', 'Homepage status line and the cities heading. Keep the city names Chicago and New York.');
     line('home.hero.apps', 'The iPhone and Android apps are coming soon.', 'Homepage note under the city status. Do not say the apps can be downloaded.');
     line('home.example.aria', 'Example PickupRadar Home screen with the {nearby} tab open, showing pickup points coloured by their wait', 'Accessible description of the example phone picture. British spelling. {nearby} is the app label.', { appSlots: { nearby: 'home.tab.nearby' } });
     line('home.example.banner', 'Example screen: sample waits, not live driver reports', 'Banner on the example phone. These waits are samples.');
@@ -123,22 +123,25 @@
     line('home.points.aria', 'How to earn {radarPoints}', 'Accessible name for the points table. {radarPoints} is the app label.', { appSlots: { radarPoints: 'radar.balance' } });
     line('home.points.neededLine', '{reportNeeded}{help}', 'Report needed row. {reportNeeded} is the app label. {help} is the smaller explanation.', { appSlots: { reportNeeded: 'radar.earning.reportNeeded' }, domSlots: ['help'] });
     line('home.points.neededHelp', 'An eligible pickup point near you with no recent wait and no {likelyFast} or {likelySlow}. You earn 15 RP for the report instead of 10.', 'Smaller explanation under Report needed. {likelyFast} and {likelySlow} are the app labels. Keep 15 and 10.', { appSlots: { likelyFast: 'home.likelyFast', likelySlow: 'home.likelySlow' } });
-    line('home.cities.body', 'These are the UK and US cities in the app. Can\'t find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We\'ll email you when it\'s live.', 'Text beside the city list. {notify} and {comingSoon} are app labels. Do not translate the city names in the list.', { appSlots: { notify: 'cityAlert.notifyLine', comingSoon: 'common.comingSoon' } });
+    line('home.cities.body', 'Can\'t find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We\'ll email you when it\'s live.', 'Text beside the city list. {notify} and {comingSoon} are app labels. Do not translate the city names in the list.', { appSlots: { notify: 'cityAlert.notifyLine', comingSoon: 'common.comingSoon' } });
     line('home.cities.live', 'Live now', 'Heading for cities where PickupRadar is available.');
-    line('home.cities.countryUK', 'United Kingdom', 'Country heading above the UK city list.');
     line('home.cities.countryUS', 'United States', 'Country heading above the US city list.');
+    line('home.reach.countriesLive', 'Countries live', 'Label under a number, for example "2 Countries live". Countries where PickupRadar is available now.');
+    line('home.reach.citiesLive', 'Cities live', 'Label under a number, for example "2 Cities live". Cities where PickupRadar is available now.');
+    line('home.reach.countriesPlanned', 'More countries planned', 'Label under a number, for example "20 More countries planned". Also the heading above the list of planned countries.');
+    line('home.reach.citiesPlanned', 'More cities planned', 'Label under a number, for example "161 More cities planned".');
     line('home.trust.title', 'Not part of any delivery app', 'Heading for the independence section.');
-    line('home.trust.body', 'PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.', 'Explains that PickupRadar is independent. Keep the delivery-app names and PickupRadar.');
+    line('home.trust.body', 'PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.', 'Explains that PickupRadar is independent. Keep the delivery-app names and PickupRadar.');
     line('home.trust.privacy', 'Read the privacy policy', 'Link to the English privacy policy.');
     line('home.trust.loginLead', 'No delivery app logins.', 'Bold start of the first trust point.');
-    line('home.trust.login', '{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.', 'First trust point. {lead} stays bold. Keep the delivery-app names.', { domSlots: ['lead'] });
+    line('home.trust.login', '{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.', 'First trust point. {lead} stays bold. Keep the delivery-app names.', { domSlots: ['lead'] });
     line('home.trust.detailsLead', 'No customer or order details.', 'Bold start of the second trust point.');
     line('home.trust.details', '{lead} No names, addresses or order numbers.', 'Second trust point. {lead} stays bold.', { domSlots: ['lead'] });
     line('home.faq.title', 'Questions from drivers', 'Frequently asked questions heading.');
     line('home.faq.account.q', 'Do I need an account?', 'FAQ question.');
     line('home.faq.account.a', 'No. The app gives you a Radar profile automatically. You can report waits straight away. To protect your {radarPoints}, add your email later. No password needed. The app emails you a 6-digit code.', 'FAQ answer. {radarPoints} is the app label.', { appSlots: { radarPoints: 'radar.balance' } });
     line('home.faq.download.q', 'When can I download the app?', 'FAQ question. Do not say the app can be downloaded today.');
-    line('home.faq.download.a', 'The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.', 'FAQ answer. {preview} is the link. Keep Milton Keynes and Chicago. Do not say the apps are in the stores.', { domSlots: ['preview'] });
+    line('home.faq.download.a', 'The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.', 'FAQ answer. {preview} is the link. Keep Chicago. Do not say the apps are in the stores.', { domSlots: ['preview'] });
     line('home.faq.download.link', 'live preview', 'Link text inside the download answer. It opens the live preview page.');
     line('home.faq.track.q', 'Does it track my location?', 'FAQ question.');
     line('home.faq.track.a', 'No background tracking. The app uses your location while you use it, to show nearby pickup points and check you are at a pickup point when reporting. The website asks for location only when you choose to use it. Read the {privacy} for more.', 'FAQ answer. {privacy} is the link to the English privacy policy.', { domSlots: ['privacy'] });
@@ -146,9 +149,9 @@
     line('home.closer.cta', 'Open the live preview', 'Closing button. It opens the live preview page.');
 
     line('app.meta.title', 'Live app preview — PickupRadar', 'Browser title and social title for the live preview page. Keep PickupRadar.');
-    line('app.meta.description', 'Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.', 'Description for the live preview page. Keep PickupRadar, Milton Keynes and Chicago.');
-    line('app.hero.lede', 'This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.', 'Introduction on the live preview page. Keep PickupRadar, Milton Keynes and Chicago.');
-    line('app.preview.aria', 'Full PickupRadar app preview with real Milton Keynes and Chicago data', 'Accessible name for the full phone preview. Keep PickupRadar, Milton Keynes and Chicago.');
+    line('app.meta.description', 'Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.', 'Description for the live preview page. Keep PickupRadar and Chicago.');
+    line('app.hero.lede', 'This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.', 'Introduction on the live preview page. Keep PickupRadar and Chicago.');
+    line('app.preview.aria', 'Full PickupRadar app preview with real Chicago data', 'Accessible name for the full phone preview. Keep PickupRadar and Chicago.');
 
     line('support.meta.title', 'Support — PickupRadar', 'Browser title for the support page. Keep PickupRadar.');
     line('support.meta.description', 'Get help with PickupRadar: contact support, report a pickup point problem, and find answers about your Radar profile, {radarPoints} and deleting your account.', 'Description for the support page. Keep PickupRadar. {radarPoints} is the app label.', { appSlots: { radarPoints: 'radar.balance' } });
@@ -175,9 +178,9 @@
     line('support.topics.delete.body', 'Delete your account in the app: {profile} → {deleteAccount}. Or email {email}. If you did not add an email, the app shows {deleteProfile} instead. See the {page} page for the steps.', 'Support topic. Keep the arrow → and the email address. {profile}, {deleteAccount} and {deleteProfile} are app labels. {email} and {page} stay links.', { appSlots: { profile: 'radar.title', deleteAccount: 'radar.delete.protected.action', deleteProfile: 'radar.delete.anonymous.action' }, domSlots: ['email', 'page'] });
     line('support.topics.missing.body', 'Is a pickup point missing? Tap {suggest} in the app. Is one wrong? Tap {reportProblem}. Or email us and we will check it.', 'Support topic. {suggest} and {reportProblem} are app labels.', { appSlots: { suggest: 'missing.button', reportProblem: 'problem.report' } });
     line('support.topics.delivery.title', 'Your delivery app accounts', 'Support topic heading.');
-    line('support.topics.delivery.body', 'PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.', 'Support topic. Keep PickupRadar, Uber Eats, Deliveroo and Just Eat.');
+    line('support.topics.delivery.body', 'PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.', 'Support topic. Keep PickupRadar, Uber Eats, DoorDash and Grubhub.');
     line('support.closer.title', 'Try PickupRadar before the app launches.', 'Closing heading on the support page. Keep PickupRadar.');
-    line('support.closer.body', 'The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.', 'Closing text. Keep Milton Keynes and Chicago. {radarPoints} is the app label.', { appSlots: { radarPoints: 'radar.balance' } });
+    line('support.closer.body', 'The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.', 'Closing text. Keep Chicago. {radarPoints} is the app label.', { appSlots: { radarPoints: 'radar.balance' } });
 
     line('notfound.meta.title', 'Page not found — PickupRadar', 'Browser title for the not-found page. Keep PickupRadar.');
     line('notfound.meta.description', 'That page is not on the PickupRadar website.', 'Description for the not-found page. Keep PickupRadar.');
@@ -254,26 +257,61 @@
   var CC = window.PickupRadarLogic && window.PickupRadarLogic.countryConfig;
   var LCS = window.PickupRadarLogic && window.PickupRadarLogic.liveCitySelection;
 
-  // The city whose country decides the language order (App: buildLanguagePickerSections
-  // with the active city). Same choice as the live preview: the city the visitor picked
-  // there, else the live city of their country from the browser's time zone, else Chicago.
+  // pickupradar.com is for US drivers: the language order is the app's US order (Chicago).
   function languageRankingCity() {
-    var markets = (LCS && LCS.PUBLIC_LAUNCH_MARKETS) || {};
-    var liveCities = Object.keys(markets).map(function (key) { return markets[key].liveCity; });
-    try {
-      var saved = localStorage.getItem('pickupradar_active_city');
-      if (saved && liveCities.indexOf(saved) !== -1) return saved;
-    } catch (error) {
-      // Storage can be unavailable (private browsing); fall through.
-    }
-    try {
-      var zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-      var country = LCS && LCS.launchCountryForTimeZone ? LCS.launchCountryForTimeZone(zone) : null;
-      if (country && markets[country]) return markets[country].liveCity;
-    } catch (error) {
-      // No time zone available; fall through.
-    }
     return 'Chicago';
+  }
+
+  // Homepage reach strip: counts from the app's own city lists (countryConfig and
+  // liveCitySelection in the logic bundle), and planned country names in the page
+  // language from the browser (Intl.DisplayNames). The HTML holds the same English values.
+  function renderReach() {
+    var box = document.querySelector('[data-site-reach]');
+    if (!box || !LCS || !LCS.PUBLIC_LAUNCH_MARKETS || !CC || !CC.INTERNATIONAL_COMING_SOON) return;
+    var markets = LCS.PUBLIC_LAUNCH_MARKETS;
+    var live = {};
+    var all = {};
+    Object.keys(markets).forEach(function (key) {
+      var m = markets[key];
+      live[m.liveCity] = true;
+      [m.liveCity, m.comingNextCity].concat(m.comingSoonCities).forEach(function (c) { all[c] = true; });
+    });
+    var planned = [];
+    CC.INTERNATIONAL_COMING_SOON.forEach(function (group) {
+      group.cities.forEach(function (c) { all[c] = true; });
+      if (!markets[group.country]) planned.push(group.country);
+    });
+    var lang = pageLanguage();
+    var nf = null;
+    try { nf = new Intl.NumberFormat(lang); } catch (error) { nf = null; }
+    var counts = {
+      countriesLive: Object.keys(markets).length,
+      citiesLive: Object.keys(live).length,
+      countriesPlanned: planned.length,
+      citiesPlanned: Object.keys(all).filter(function (c) { return !live[c]; }).length,
+    };
+    Object.keys(counts).forEach(function (key) {
+      var el = box.querySelector('[data-reach="' + key + '"]');
+      if (el) el.textContent = nf ? nf.format(counts[key]) : String(counts[key]);
+    });
+    var iso = {};
+    var isoMap = CC.ISO_COUNTRY_TO_PICKUPRADAR || {};
+    Object.keys(isoMap).forEach(function (code) { iso[isoMap[code]] = code; });
+    var names = null;
+    try { names = new Intl.DisplayNames([lang, 'en'], { type: 'region' }); } catch (error) { names = null; }
+    var list = box.querySelector('[data-reach="countries"]');
+    if (!list) return;
+    list.textContent = '';
+    planned.forEach(function (country) {
+      var li = document.createElement('li');
+      li.className = 'w-city';
+      var label = country;
+      if (names && iso[country]) {
+        try { label = names.of(iso[country]) || country; } catch (error) { label = country; }
+      }
+      li.textContent = label;
+      list.appendChild(li);
+    });
   }
   var RTL = (CC && CC.RTL_LANGUAGE_CODES) || ['ur', 'ar', 'fa', 'ps', 'prs'];
   var LANGUAGE_ENTRIES = CC && CC.getAllLanguageEntries
@@ -587,6 +625,7 @@
   }
 
   function render() {
+    renderReach();
     // English until this language's website translation is published. Structured data stays
     // en-GB: the pages have one English URL each.
     var page = pageLanguage();

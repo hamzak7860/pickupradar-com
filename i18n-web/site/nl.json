@@ -43,8 +43,8 @@
       "text": "Ken de wachttijd voordat je naar binnen gaat."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. Onafhankelijk en niet verbonden met Uber Eats, Deliveroo, Just Eat, DoorDash of Grubhub."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. Onafhankelijk en niet verbonden met Uber Eats, DoorDash of Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Geen recente meldingen? PickupRadar kan {likelyFast} of {likelySlow} tonen:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): wachttijden bij afhaalpunten voor bezorgers in het Verenigd Koninkrijk en de VS"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): wachttijden bij afhaalpunten voor bezorgers"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "Zie hoe lang bezorgers wachten bij restaurants en winkels voordat je naar binnen gaat. Voor bezorgers van Uber Eats, Deliveroo, Just Eat, DoorDash en Grubhub in het Verenigd Koninkrijk en de VS. Geen account nodig."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "Zie hoe lang bezorgers wachten bij restaurants en winkels voordat je naar binnen gaat. Voor bezorgers van Uber Eats, DoorDash en Grubhub. Geen account nodig."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Ken de wachttijd voordat je naar binnen gaat."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Bezorg je voor Uber Eats, Deliveroo, Just Eat, DoorDash of Grubhub? Zie recente wachttijden bij afhaalpunten van restaurants en winkels. Vermijd lange wachttijden. Tik op {reportWait} en verdien {radarPoints}. Geen account nodig."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Bezorg je voor Uber Eats, DoorDash of Grubhub? Zie recente wachttijden bij afhaalpunten van restaurants en winkels. Vermijd lange wachttijden. Tik op {reportWait} en verdien {radarPoints}. Geen account nodig."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Beschikbaarheid"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "Nu in Milton Keynes en Chicago. Daarna London en New York."
+      "en": "Now in Chicago. New York is next.",
+      "text": "Nu in Chicago. Daarna New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "Een geschikt afhaalpunt bij jou in de buurt, zonder recente wachttijd en zonder {likelyFast} of {likelySlow}. Je krijgt 15 RP voor de melding in plaats van 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Dit zijn de steden in het Verenigd Koninkrijk en de VS in de app. Vind je jouw stad niet? Vraag hem aan in de app. Of tik op {notify} bij een stad die {comingSoon} is. We mailen je als de stad beschikbaar is."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Vind je jouw stad niet? Vraag hem aan in de app. Of tik op {notify} bij een stad die {comingSoon} is. We mailen je als de stad beschikbaar is."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Nu beschikbaar"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "Verenigd Koninkrijk"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "Verenigde Staten"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "Landen live"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "Steden live"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "Meer geplande landen"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "Meer geplande steden"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Geen onderdeel van een bezorgapp"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar is onafhankelijk. Het hoort niet bij Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub of een andere bezorgapp. Het gebruikt nooit je accounts daar."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar is onafhankelijk. Het hoort niet bij Uber Eats, DoorDash, Grubhub of een andere bezorgapp. Het gebruikt nooit je accounts daar."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "Geen logins van bezorgapps."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} We vragen nooit om je gebruikersnaam of wachtwoord van Uber Eats, Deliveroo, Just Eat, DoorDash of Grubhub."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} We vragen nooit om je gebruikersnaam of wachtwoord van Uber Eats, DoorDash of Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "Wanneer kan ik de app downloaden?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "De apps voor iPhone en Android komen binnenkort. Voor nu toont het {preview} echte afhaalpunten en wachttijden in Milton Keynes en Chicago."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "De apps voor iPhone en Android komen binnenkort. Voor nu toont het {preview} echte afhaalpunten en wachttijden in Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "Live app-voorbeeld — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "Probeer de PickupRadar-app met echte gegevens uit Milton Keynes en Chicago. Kijk rond, zoek afhaalpunten en bekijk het meldscherm."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Probeer de PickupRadar-app met echte gegevens uit Chicago. Kijk rond, zoek afhaalpunten en bekijk het meldscherm."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Dit is PickupRadar met echte gegevens uit Milton Keynes en Chicago. Kijk rond. Zoek een afhaalpunt en open het. Niets wat je hier aantikt wordt verstuurd. Melden kan alleen in de mobiele app."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Dit is PickupRadar met echte gegevens uit Chicago. Kijk rond. Zoek een afhaalpunt en open het. Niets wat je hier aantikt wordt verstuurd. Melden kan alleen in de mobiele app."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "Volledig voorbeeld van de PickupRadar-app met echte gegevens uit Milton Keynes en Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "Volledig voorbeeld van de PickupRadar-app met echte gegevens uit Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "Je accounts bij bezorgapps"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar maakt geen verbinding met je accounts bij Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub of andere bezorgapps. We vragen nooit om logins, wachtwoorden, accountgegevens, klantgegevens of bestelgegevens. Bezorgers delen alleen afhaalmeldingen, zoals wachttijden en problemen bij afhaalpunten."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar maakt geen verbinding met je accounts bij Uber Eats, DoorDash, Grubhub of andere bezorgapps. We vragen nooit om logins, wachtwoorden, accountgegevens, klantgegevens of bestelgegevens. Bezorgers delen alleen afhaalmeldingen, zoals wachttijden en problemen bij afhaalpunten."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Probeer PickupRadar voordat de app start."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Het live voorbeeld toont echte afhaalpunten en wachttijden in Milton Keynes en Chicago. Melden en {radarPoints} zijn alleen in de mobiele app."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Het live voorbeeld toont echte afhaalpunten en wachttijden in Chicago. Melden en {radarPoints} zijn alleen in de mobiele app."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

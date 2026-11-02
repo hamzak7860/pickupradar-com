@@ -43,8 +43,8 @@
       "text": "Vit ventetiden før du går inn."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. Uavhengig og ikke tilknyttet Uber Eats, Deliveroo, Just Eat, DoorDash eller Grubhub."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. Uavhengig og ikke tilknyttet Uber Eats, DoorDash eller Grubhub."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Ingen nye rapporter? PickupRadar kan vise {likelyFast} eller {likelySlow}:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): ventetider ved henting for bud i Storbritannia og USA"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): ventetider ved henting for bud"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "Se hvor lenge bud venter på restauranter og i butikker før du går inn. For bud hos Uber Eats, Deliveroo, Just Eat, DoorDash og Grubhub i Storbritannia og USA. Ingen registrering."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "Se hvor lenge bud venter på restauranter og i butikker før du går inn. For bud hos Uber Eats, DoorDash og Grubhub. Ingen registrering."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Vit ventetiden før du går inn."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Kjører du for Uber Eats, Deliveroo, Just Eat, DoorDash eller Grubhub? Se nye ventetider ved hentesteder på restauranter og i butikker. Unngå lange ventetider. Trykk på {reportWait} og tjen {radarPoints}. Ingen registrering."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Kjører du for Uber Eats, DoorDash eller Grubhub? Se nye ventetider ved hentesteder på restauranter og i butikker. Unngå lange ventetider. Trykk på {reportWait} og tjen {radarPoints}. Ingen registrering."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Tilgjengelighet"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "Nå i Milton Keynes og Chicago. London og New York er de neste."
+      "en": "Now in Chicago. New York is next.",
+      "text": "Nå i Chicago. New York er neste."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "Et egnet hentested nær deg uten nylig ventetid og uten {likelyFast} eller {likelySlow}. Du får 15 RP for rapporten i stedet for 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Dette er byene i Storbritannia og USA i appen. Finner du ikke byen din? Be om den i appen. Eller trykk på {notify} ved en by som er {comingSoon}. Vi sender e-post når den er live."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Finner du ikke byen din? Be om den i appen. Eller trykk på {notify} ved en by som er {comingSoon}. Vi sender e-post når den er live."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Live nå"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "Storbritannia"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "USA"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "Land live nå"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "Byer live nå"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "Flere planlagte land"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "Flere planlagte byer"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Ikke en del av noen leveringsapp"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar er uavhengig. Den er ikke en del av Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub eller noen annen leveringsapp. Den bruker aldri kontoene dine der."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar er uavhengig. Den er ikke en del av Uber Eats, DoorDash, Grubhub eller noen annen leveringsapp. Den bruker aldri kontoene dine der."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "Ingen innlogging til leveringsapper."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} Vi ber aldri om brukernavn eller passord til Uber Eats, Deliveroo, Just Eat, DoorDash eller Grubhub."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} Vi ber aldri om brukernavn eller passord til Uber Eats, DoorDash eller Grubhub."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "Når kan jeg laste ned appen?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "Apper for iPhone og Android kommer snart. Inntil da viser {preview} ekte hentesteder og ventetider i Milton Keynes og Chicago."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "Apper for iPhone og Android kommer snart. Inntil da viser {preview} ekte hentesteder og ventetider i Chicago."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "Direkt forhåndsvisning av appen — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "Prøv PickupRadar-appen med ekte data fra Milton Keynes og Chicago. Se deg rundt, søk etter hentesteder og se rapportskjermen."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Prøv PickupRadar-appen med ekte data fra Chicago. Se deg rundt, søk etter hentesteder og se rapportskjermen."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Dette er PickupRadar med ekte data fra Milton Keynes og Chicago. Se deg rundt. Søk etter et hentested og åpne det. Ingenting du trykker på her, blir sendt. Du kan bare rapportere i mobilappen."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Dette er PickupRadar med ekte data fra Chicago. Se deg rundt. Søk etter et hentested og åpne det. Ingenting du trykker på her, blir sendt. Du kan bare rapportere i mobilappen."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "Full forhåndsvisning av PickupRadar-appen med ekte data fra Milton Keynes og Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "Full forhåndsvisning av PickupRadar-appen med ekte data fra Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "Kontoene dine hos leveringsapper"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar kobler seg ikke til kontoene dine hos Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub eller andre leveringsapper. Vi ber aldri om innlogging, passord, kontodetaljer, kundedetaljer eller ordredetaljer. Bud deler bare henterapporter, for eksempel ventetider og problemer ved hentesteder."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar kobler seg ikke til kontoene dine hos Uber Eats, DoorDash, Grubhub eller andre leveringsapper. Vi ber aldri om innlogging, passord, kontodetaljer, kundedetaljer eller ordredetaljer. Bud deler bare henterapporter, for eksempel ventetider og problemer ved hentesteder."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Prøv PickupRadar før appen lanseres."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Direkt forhåndsvisning viser ekte hentesteder og ventetider i Milton Keynes og Chicago. Rapporter og {radarPoints} finnes bare i mobilappen."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Direkt forhåndsvisning viser ekte hentesteder og ventetider i Chicago. Rapporter og {radarPoints} finnes bare i mobilappen."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

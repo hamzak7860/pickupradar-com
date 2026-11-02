@@ -253,8 +253,8 @@
       "note": "Homepage heading and the short line under the footer logo."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "note": "Footer copyright line. Keep PickupRadar, Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub and 2026."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "note": "Footer copyright line. Keep PickupRadar, Uber Eats, DoorDash, Grubhub and 2026."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -285,19 +285,19 @@
       "note": "Line above the Likely fast and Likely slow examples. {likelyFast} and {likelySlow} are the app labels."
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
       "note": "Browser title and social title for the homepage. Keep both PickupRadar and Pickup Radar."
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "note": "Homepage description for search and social cards. Keep Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. UK is the United Kingdom; USA is the United States."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "note": "Homepage description for search and social cards. Keep Uber Eats, DoorDash and Grubhub."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "note": "Description of the homepage share image. Keep PickupRadar."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
       "appSlots": {
         "reportWait": "home.reportWait",
         "radarPoints": "radar.balance"
@@ -313,8 +313,8 @@
       "note": "Accessible name for the live-city and app-status notes. Not shown on screen."
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "note": "Homepage status line and the cities heading. Keep the city names Milton Keynes, Chicago, London and New York."
+      "en": "Now in Chicago. New York is next.",
+      "note": "Homepage status line and the cities heading. Keep the city names Chicago and New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -525,7 +525,7 @@
       "note": "Smaller explanation under Report needed. {likelyFast} and {likelySlow} are the app labels. Keep 15 and 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
       "appSlots": {
         "notify": "cityAlert.notifyLine",
         "comingSoon": "common.comingSoon"
@@ -536,20 +536,32 @@
       "en": "Live now",
       "note": "Heading for cities where PickupRadar is available."
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "note": "Country heading above the UK city list."
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "note": "Country heading above the US city list."
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "note": "Label under a number, for example \"2 Countries live\". Countries where PickupRadar is available now."
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "note": "Label under a number, for example \"2 Cities live\". Cities where PickupRadar is available now."
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "note": "Label under a number, for example \"20 More countries planned\". Also the heading above the list of planned countries."
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "note": "Label under a number, for example \"161 More cities planned\"."
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "note": "Heading for the independence section."
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
       "note": "Explains that PickupRadar is independent. Keep the delivery-app names and PickupRadar."
     },
     "home.trust.privacy": {
@@ -561,7 +573,7 @@
       "note": "Bold start of the first trust point."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
       "domSlots": [
         "lead"
       ],
@@ -598,11 +610,11 @@
       "note": "FAQ question. Do not say the app can be downloaded today."
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
       "domSlots": [
         "preview"
       ],
-      "note": "FAQ answer. {preview} is the link. Keep Milton Keynes and Chicago. Do not say the apps are in the stores."
+      "note": "FAQ answer. {preview} is the link. Keep Chicago. Do not say the apps are in the stores."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -632,16 +644,16 @@
       "note": "Browser title and social title for the live preview page. Keep PickupRadar."
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "note": "Description for the live preview page. Keep PickupRadar, Milton Keynes and Chicago."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "note": "Description for the live preview page. Keep PickupRadar and Chicago."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "note": "Introduction on the live preview page. Keep PickupRadar, Milton Keynes and Chicago."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "note": "Introduction on the live preview page. Keep PickupRadar and Chicago."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "note": "Accessible name for the full phone preview. Keep PickupRadar, Milton Keynes and Chicago."
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "note": "Accessible name for the full phone preview. Keep PickupRadar and Chicago."
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -784,19 +796,19 @@
       "note": "Support topic heading."
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "note": "Support topic. Keep PickupRadar, Uber Eats, Deliveroo and Just Eat."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "note": "Support topic. Keep PickupRadar, Uber Eats, DoorDash and Grubhub."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "note": "Closing heading on the support page. Keep PickupRadar."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
       "appSlots": {
         "radarPoints": "radar.balance"
       },
-      "note": "Closing text. Keep Milton Keynes and Chicago. {radarPoints} is the app label."
+      "note": "Closing text. Keep Chicago. {radarPoints} is the app label."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

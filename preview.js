@@ -103,7 +103,7 @@ const PREVIEW_MARKUP = `
               <div class="city-pill-row">
                 <button type="button" data-city-pill class="city-pill-btn" aria-label="Browse cities" data-i18n-aria="city.title">
                   ${prIcon('location', 13)}
-                  <span data-city-name>Milton Keynes</span>
+                  <span data-city-name>Chicago</span>
                   ${prIcon('chevron', 12)}
                 </button>
                 <span class="city-pill-spacer"></span>
@@ -620,7 +620,7 @@ function mountPickupRadarPreview(container, options) {
   const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp2c3Nlc2toZXJ4bXRjdXVtbGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1MTQwMTcsImV4cCI6MjA5NDA5MDAxN30.lsbs-umYa1a05GUi3sLZUvS609XlyPQjrcgAPp7HvOU';
   // pickupradar.com is the international site: Chicago when the visitor's country is unknown.
   const DEFAULT_CITY = 'Chicago';
-  const SITE_CITIES = ['Milton Keynes', 'Chicago'];
+  const SITE_CITIES = ['Chicago'];
   const CITY_STORAGE_KEY = 'pickupradar_active_city';
 
   const TAG_LABELS = {
@@ -634,15 +634,15 @@ function mountPickupRadarPreview(container, options) {
     staff_issue: 'Staff issue',
   };
 
+  // Well-known Chicago chains first when there are no nearby or reported venues to show.
   const VENUE_ORDER = [
-    "McDonald's - Winchester Circle",
-    "McDonald's - Watling Street",
-    'KFC - Bletchley',
-    "Nando's - Xscape",
-    'Co-op - Fishermead',
-    'Asda - Milton Keynes',
-    'Tesco - Kingston',
-    'Greggs - Central Milton Keynes',
+    "McDonald's",
+    'Chipotle Mexican Grill',
+    'Chick-fil-A',
+    'Starbucks Coffee Company',
+    'Popeyes Louisiana Kitchen',
+    'Taco Bell',
+    'Shake Shack River North',
   ];
 
   const CURATED_FALLBACK_LIMIT = 6;
@@ -1586,8 +1586,8 @@ function mountPickupRadarPreview(container, options) {
         activeCity: activeCity,
         userCoords: userCoords,
         venues: venueStats,
-        gpsCountryIso: null,
-        deviceTimeZone: deviceTimeZone(),
+        // pickupradar.com is for US drivers: always the US city list.
+        gpsCountryIso: 'US',
         query: query,
       });
       rows = view.rows;
@@ -2271,7 +2271,7 @@ function mountPickupRadarPreview(container, options) {
     }
 
     // First visit: the live city of the visitor's country, from the browser's time zone
-    // (App: launchCountryForTimeZone + PUBLIC_LAUNCH_MARKETS). Otherwise Milton Keynes.
+    // (App: launchCountryForTimeZone + PUBLIC_LAUNCH_MARKETS). Otherwise Chicago.
     if (LCS && LCS.launchCountryForTimeZone && LCS.PUBLIC_LAUNCH_MARKETS) {
       const country = LCS.launchCountryForTimeZone(deviceTimeZone());
       const market = country ? LCS.PUBLIC_LAUNCH_MARKETS[country] : null;

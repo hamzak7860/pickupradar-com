@@ -36,6 +36,9 @@
  *   --allow-large-removal  let --prune remove more than 10 pages (or 5% of a
  *              city's pages) in one run. Without it the run stops before
  *              writing anything, in case the venue list was incomplete.
+ *   --retire-other-cities  with --fetch --prune: also delete the pages of cities that are
+ *              no longer live on this site (not in --city / SITE_CITIES). Used once on
+ *              pickupradar.com to remove the Milton Keynes pages; pickupradar.co.uk keeps them.
  *   --check    check v/ against v/venues.json without writing anything.
  *
  * Files are only written when their content changes, and images are only
@@ -68,6 +71,7 @@ function args() {
     else if (k === '--check') out.check = true;
     else if (k === '--prune') out.prune = true;
     else if (k === '--allow-large-removal') out.allowLargeRemoval = true;
+    else if (k === '--retire-other-cities') out.retireOtherCities = true;
     else throw new Error('Unknown option ' + k);
   }
   if (!out.cities.length) out.cities = liveCities();
@@ -381,7 +385,8 @@ async function main() {
   const fullRun = opt.fetch && !opt.only;
   const active = new Set(venues.map((v) => v.id));
   const stale = fullRun
-    ? Object.keys(manifest.venues).filter((id) => !active.has(id) && opt.cities.includes(manifest.venues[id].city))
+    ? Object.keys(manifest.venues).filter((id) => !active.has(id) && (opt.cities.includes(manifest.venues[id].city) ||
+        (opt.retireOtherCities && !opt.cities.includes(manifest.venues[id].city))))
     : [];
   if (opt.prune && fullRun) {
     stale.forEach((id) => fs.rmSync(path.join(OUT, id), { recursive: true, force: true }));

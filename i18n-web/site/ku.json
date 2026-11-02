@@ -43,8 +43,8 @@
       "text": "Berî ku têkevî, dema bendê bizane."
     },
     "shared.footer.copyright": {
-      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app.",
-      "text": "© 2026 PickupRadar. Serbixwe ye û bi Uber Eats, Deliveroo, Just Eat, DoorDash an Grubhub ve ne girêdayî ye."
+      "en": "© 2026 PickupRadar. Independent and not affiliated with Uber Eats, DoorDash or Grubhub.",
+      "text": "© 2026 PickupRadar. Serbixwe ye û bi Uber Eats, DoorDash an Grubhub ve ne girêdayî ye."
     },
     "shared.scale.aria": {
       "en": "Wait ranges",
@@ -71,20 +71,20 @@
       "text": "Raporeke nû tune? PickupRadar dikare {likelyFast} an {likelySlow} nîşan bide:"
     },
     "home.meta.title": {
-      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers in the UK and USA",
-      "text": "PickupRadar (Pickup Radar): dema bendê ya wergirtinê ji bo ajokaran li Keyaniya Yekbûyî û DYA"
+      "en": "PickupRadar (Pickup Radar): pickup wait times for delivery drivers",
+      "text": "PickupRadar (Pickup Radar): dema bendê ya wergirtinê ji bo ajokaran"
     },
     "home.meta.description": {
-      "en": "See how long drivers wait at restaurants and shops before you go in. For delivery drivers in the UK and USA, including Uber Eats, Deliveroo, Just Eat, DoorDash and Grubhub. No sign-up needed.",
-      "text": "Bibîne ajokar berî ku tu têkevî çiqas li restorant û dikanan disekinin. Ji bo ajokarên Uber Eats, Deliveroo, Just Eat, DoorDash û Grubhub li Keyaniya Yekbûyî û DYA. Bê tomarkirin."
+      "en": "See how long drivers wait at restaurants and stores before you go in. For Uber Eats, DoorDash and Grubhub drivers. No sign-up needed.",
+      "text": "Bibîne ajokar berî ku tu têkevî çiqas li restorant û dikanan disekinin. Ji bo ajokarên Uber Eats, DoorDash û Grubhub. Bê tomarkirin."
     },
     "home.meta.imageAlt": {
       "en": "PickupRadar. Know the wait before you walk in.",
       "text": "PickupRadar. Berî ku têkevî, dema bendê bizane."
     },
     "home.hero.lede": {
-      "en": "Do you deliver for Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub? See recent pickup waits at restaurants and shops. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
-      "text": "Tu ji bo Uber Eats, Deliveroo, Just Eat, DoorDash an Grubhub radest dikî? Dema bendê ya nû li xalên wergirtinê yên restorant û dikanan bibîne. Ji bendeke dirêj dûr bikeve. {reportWait} bitikîne û {radarPoints} bistîne. Bê tomarkirin."
+      "en": "Do you deliver for Uber Eats, DoorDash or Grubhub? See recent pickup waits at restaurants and stores. Avoid long waits. Tap {reportWait} and earn {radarPoints}. No sign-up needed.",
+      "text": "Tu ji bo Uber Eats, DoorDash an Grubhub radest dikî? Dema bendê ya nû li xalên wergirtinê yên restorant û dikanan bibîne. Ji bendeke dirêj dûr bikeve. {reportWait} bitikîne û {radarPoints} bistîne. Bê tomarkirin."
     },
     "home.hero.try": {
       "en": "Try it with real data",
@@ -95,8 +95,8 @@
       "text": "Hebûn"
     },
     "home.hero.cities": {
-      "en": "Now in Milton Keynes and Chicago. London and New York are next.",
-      "text": "Niha li Milton Keynes û Chicago. Piştre London û New York."
+      "en": "Now in Chicago. New York is next.",
+      "text": "Niha li Chicago. Piştre New York."
     },
     "home.hero.apps": {
       "en": "The iPhone and Android apps are coming soon.",
@@ -243,28 +243,40 @@
       "text": "Xaleke wergirtinê ya guncaw nêzî te, bê dema bendê ya nû, û bê {likelyFast} an {likelySlow}. Tu ji bo wê raporê 15 RP distînî, ne 10."
     },
     "home.cities.body": {
-      "en": "These are the UK and US cities in the app. Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
-      "text": "Ev bajarên Keyaniya Yekbûyî û DYA di sepanê de ne. Bajarê xwe nabînî? Di sepanê de bixwaze. An li bajarekî ku {comingSoon} e {notify} bitikîne. Dema ew zindî bibe em e-nameyê dişînin."
+      "en": "Can't find your city? Request it in the app. Or tap {notify} on a {comingSoon} city. We'll email you when it's live.",
+      "text": "Bajarê xwe nabînî? Di sepanê de bixwaze. An li bajarekî ku {comingSoon} e {notify} bitikîne. Dema ew zindî bibe em e-nameyê dişînin."
     },
     "home.cities.live": {
       "en": "Live now",
       "text": "Niha zindî"
     },
-    "home.cities.countryUK": {
-      "en": "United Kingdom",
-      "text": "Keyaniya Yekbûyî"
-    },
     "home.cities.countryUS": {
       "en": "United States",
       "text": "Dewletên Yekbûyî yên Amerîkayê"
+    },
+    "home.reach.countriesLive": {
+      "en": "Countries live",
+      "text": "Welatên çalak"
+    },
+    "home.reach.citiesLive": {
+      "en": "Cities live",
+      "text": "Bajarên çalak"
+    },
+    "home.reach.countriesPlanned": {
+      "en": "More countries planned",
+      "text": "Welatên din ên plankirî"
+    },
+    "home.reach.citiesPlanned": {
+      "en": "More cities planned",
+      "text": "Bajarên din ên plankirî"
     },
     "home.trust.title": {
       "en": "Not part of any delivery app",
       "text": "Ne beşek ji tu sepana radestkirinê ye"
     },
     "home.trust.body": {
-      "en": "PickupRadar is independent. It is not part of Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
-      "text": "PickupRadar serbixwe ye. Ne beşek ji Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub an tu sepana radestkirinê ya din e. Ew qet hesabê te li wir bi kar nayîne."
+      "en": "PickupRadar is independent. It is not part of Uber Eats, DoorDash, Grubhub or any other delivery app. It never uses your accounts with them.",
+      "text": "PickupRadar serbixwe ye. Ne beşek ji Uber Eats, DoorDash, Grubhub an tu sepana radestkirinê ya din e. Ew qet hesabê te li wir bi kar nayîne."
     },
     "home.trust.privacy": {
       "en": "Read the privacy policy",
@@ -275,8 +287,8 @@
       "text": "Bê têketina sepana radestkirinê."
     },
     "home.trust.login": {
-      "en": "{lead} We never ask for your Uber Eats, Deliveroo, Just Eat, DoorDash or Grubhub username or password.",
-      "text": "{lead} Em qet navê bikarhêner an şîfreya Uber Eats, Deliveroo, Just Eat, DoorDash an Grubhub naxwazin."
+      "en": "{lead} We never ask for your Uber Eats, DoorDash or Grubhub username or password.",
+      "text": "{lead} Em qet navê bikarhêner an şîfreya Uber Eats, DoorDash an Grubhub naxwazin."
     },
     "home.trust.detailsLead": {
       "en": "No customer or order details.",
@@ -303,8 +315,8 @@
       "text": "Kengê ez dikarim sepanê daxînim?"
     },
     "home.faq.download.a": {
-      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Milton Keynes and Chicago pickup points and waits.",
-      "text": "Sepanên iPhone û Androidê dê zû werin. Heta wê demê, {preview} xalên wergirtinê yên rast û dema bendê li Milton Keynes û Chicago nîşan dide."
+      "en": "The iPhone and Android apps are coming soon. For now, the {preview} shows real Chicago pickup points and waits.",
+      "text": "Sepanên iPhone û Androidê dê zû werin. Heta wê demê, {preview} xalên wergirtinê yên rast û dema bendê li Chicago nîşan dide."
     },
     "home.faq.download.link": {
       "en": "live preview",
@@ -331,16 +343,16 @@
       "text": "Pêşdîtina zindî ya sepanê — PickupRadar"
     },
     "app.meta.description": {
-      "en": "Try the PickupRadar app with real Milton Keynes and Chicago data. Look around, search for pickup points and see the report screen.",
-      "text": "Sepana PickupRadar bi daneyên rast ên Milton Keynes û Chicago biceribîne. Li derdorê binêre, xaleke wergirtinê bibîne û ekrana raporê bibîne."
+      "en": "Try the PickupRadar app with real Chicago data. Look around, search for pickup points and see the report screen.",
+      "text": "Sepana PickupRadar bi daneyên rast ên Chicago biceribîne. Li derdorê binêre, xaleke wergirtinê bibîne û ekrana raporê bibîne."
     },
     "app.hero.lede": {
-      "en": "This is PickupRadar with real Milton Keynes and Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
-      "text": "Ev PickupRadar bi daneyên rast ên Milton Keynes û Chicago e. Li derdorê binêre. Xaleke wergirtinê bibîne û wê veke. Tiştê ku tu li vir ditikînî naçe. Tu tenê di sepana têlefonê de dikarî ragihînî."
+      "en": "This is PickupRadar with real Chicago data. Look around. Search for a pickup point and open it. Nothing you tap here is sent. You can only report in the mobile app.",
+      "text": "Ev PickupRadar bi daneyên rast ên Chicago e. Li derdorê binêre. Xaleke wergirtinê bibîne û wê veke. Tiştê ku tu li vir ditikînî naçe. Tu tenê di sepana têlefonê de dikarî ragihînî."
     },
     "app.preview.aria": {
-      "en": "Full PickupRadar app preview with real Milton Keynes and Chicago data",
-      "text": "Pêşdîtina tevahî ya sepana PickupRadar bi daneyên rast ên Milton Keynes û Chicago"
+      "en": "Full PickupRadar app preview with real Chicago data",
+      "text": "Pêşdîtina tevahî ya sepana PickupRadar bi daneyên rast ên Chicago"
     },
     "support.meta.title": {
       "en": "Support — PickupRadar",
@@ -443,16 +455,16 @@
       "text": "Hesabê sepana radestkirinê ya te"
     },
     "support.topics.delivery.body": {
-      "en": "PickupRadar does not connect to your Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
-      "text": "PickupRadar bi hesabê te yê Uber Eats, Deliveroo, Just Eat, DoorDash, Grubhub an tu sepana radestkirinê ya din ve ne girêdayî ye. Em qet têketin, şîfre, hûrgiliyên hesabê, hûrgiliyên xerîdar an hûrgiliyên siparîşê naxwazin. Ajokar tenê raporên wergirtinê parve dikin, wekî dema bendê û pirsgirêka xala wergirtinê."
+      "en": "PickupRadar does not connect to your Uber Eats, DoorDash, Grubhub or other delivery app accounts. We never ask for your delivery app logins, passwords, account details, customer details or order details. Drivers only share pickup reports, like wait times and pickup point problems.",
+      "text": "PickupRadar bi hesabê te yê Uber Eats, DoorDash, Grubhub an tu sepana radestkirinê ya din ve ne girêdayî ye. Em qet têketin, şîfre, hûrgiliyên hesabê, hûrgiliyên xerîdar an hûrgiliyên siparîşê naxwazin. Ajokar tenê raporên wergirtinê parve dikin, wekî dema bendê û pirsgirêka xala wergirtinê."
     },
     "support.closer.title": {
       "en": "Try PickupRadar before the app launches.",
       "text": "Berî ku sepan were weşandin PickupRadar biceribîne."
     },
     "support.closer.body": {
-      "en": "The live preview shows real Milton Keynes and Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
-      "text": "Pêşdîtina zindî xalên wergirtinê yên rast û dema bendê li Milton Keynes û Chicago nîşan dide. Ragihandin û {radarPoints} tenê di sepana têlefonê de ne."
+      "en": "The live preview shows real Chicago pickup points and waits. Reporting and {radarPoints} are only in the mobile app.",
+      "text": "Pêşdîtina zindî xalên wergirtinê yên rast û dema bendê li Chicago nîşan dide. Ragihandin û {radarPoints} tenê di sepana têlefonê de ne."
     },
     "notfound.meta.title": {
       "en": "Page not found — PickupRadar",

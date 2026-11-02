@@ -28,6 +28,10 @@ on:
         description: Commit the pages to main (leave unticked for a test run)
         type: boolean
         default: false
+      retire_other_cities:
+        description: Also remove pages of cities no longer live on pickupradar.com (one-off)
+        type: boolean
+        default: false
   schedule:
     - cron: '47 4 * * *' # every day at 04:47 UTC, 30 minutes after the .co.uk run
 
@@ -60,7 +64,9 @@ jobs:
 
       # Uses the public venue list (the same public key as the live preview).
       - name: Build venue pages
-        run: node tools/venue-pages.js --fetch --images --prune
+        env:
+          RETIRE: ${{ inputs.retire_other_cities && '--retire-other-cities' || '' }}
+        run: node tools/venue-pages.js --fetch --images --prune $RETIRE
 
       - name: Check venue pages
         run: node tools/venue-pages.js --check

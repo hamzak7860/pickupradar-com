@@ -143,8 +143,8 @@
       "text": "Saili se nofoaga piki."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Taumafai se igoa, eria po o le numera meli, e pei o KFC po o Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Taumafai se igoa, eria po o le numera meli, e pei o KFC po o Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

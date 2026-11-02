@@ -143,8 +143,8 @@
       "text": "Αναζήτηση σημείων παραλαβής."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Δοκίμασε όνομα, περιοχή ή ταχυδρομικό κώδικα, όπως KFC ή Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Δοκίμασε όνομα, περιοχή ή ταχυδρομικό κώδικα, όπως KFC ή Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

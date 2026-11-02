@@ -143,8 +143,8 @@
       "text": "Sök upphämtningsställen."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Prova ett namn, ett område eller ett postnummer, till exempel KFC eller Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Prova ett namn, ett område eller ett postnummer, till exempel KFC eller Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

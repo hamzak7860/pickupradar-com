@@ -143,8 +143,8 @@
       "text": "Afhaalpunten zoeken."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Probeer een naam, een wijk of een postcode, zoals KFC of Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Probeer een naam, een wijk of een postcode, zoals KFC of Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

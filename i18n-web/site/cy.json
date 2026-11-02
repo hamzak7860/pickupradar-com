@@ -143,8 +143,8 @@
       "text": "Chwilio pwyntiau casglu."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Rho gynnig ar enw, ardal neu god post, fel KFC neu Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Rho gynnig ar enw, ardal neu god post, fel KFC neu Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

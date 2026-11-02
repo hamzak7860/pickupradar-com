@@ -143,8 +143,8 @@
       "text": "பிக்கப் புள்ளிகளைத் தேடு."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} பெயர், பகுதி அல்லது அஞ்சல் குறியீட்டை முயல்க, KFC அல்லது Bletchley போல."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} பெயர், பகுதி அல்லது அஞ்சல் குறியீட்டை முயல்க, KFC அல்லது Lincoln Park போல."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

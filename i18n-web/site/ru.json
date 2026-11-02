@@ -143,8 +143,8 @@
       "text": "Поиск точек выдачи."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Попробуйте название, район или почтовый индекс, например KFC или Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Попробуйте название, район или почтовый индекс, например KFC или Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Cuardaigh pointí bailithe."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Bain triail as ainm, ceantar nó cód poist, mar shampla KFC nó Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Bain triail as ainm, ceantar nó cód poist, mar shampla KFC nó Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

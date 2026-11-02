@@ -375,11 +375,11 @@
       "note": "Bold start of the second preview instruction. Same words as the app search label, with a full stop."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
       "domSlots": [
         "lead"
       ],
-      "note": "Second preview instruction. {lead} stays bold. Keep KFC and Bletchley."
+      "note": "Second preview instruction. {lead} stays bold. Keep KFC and Lincoln Park (a Chicago neighbourhood)."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

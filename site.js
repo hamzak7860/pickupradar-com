@@ -98,7 +98,7 @@
     line('home.try.tabLead', 'Pick a tab.', 'Bold start of the first preview instruction.');
     line('home.try.tab', '{lead} Use {nearby} to find pickup points close to you when location is on. Use {fast} and {slow} to check waits and estimates.', 'First preview instruction. {lead} stays bold. The other placeholders are app labels.', { appSlots: { nearby: 'home.tab.nearby', fast: 'home.tab.fast', slow: 'home.tab.slow' }, domSlots: ['lead'] });
     line('home.try.searchLead', 'Search pickup points.', 'Bold start of the second preview instruction. Same words as the app search label, with a full stop.');
-    line('home.try.search', '{lead} Try a name, area or postcode, like KFC or Bletchley.', 'Second preview instruction. {lead} stays bold. Keep KFC and Bletchley.', { domSlots: ['lead'] });
+    line('home.try.search', '{lead} Try a name, area or postcode, like KFC or Lincoln Park.', 'Second preview instruction. {lead} stays bold. Keep KFC and Lincoln Park (a Chicago neighbourhood).', { domSlots: ['lead'] });
     line('home.try.openLead', 'Open a pickup point.', 'Bold start of the third preview instruction.');
     line('home.try.open', '{lead} The {reportWait} screen opens. Choose a wait time. Nothing is sent.', 'Third preview instruction. {lead} stays bold. {reportWait} is the app label.', { appSlots: { reportWait: 'home.reportWait' }, domSlots: ['lead'] });
     line('home.signals.title', 'What you can see before you go in', 'Heading for the section that explains the labels on a pickup point.');
@@ -252,6 +252,29 @@
   var STORAGE_KEY = 'pickupradar_language_v1';
   var I18N_VERSION = '5dcfec4';
   var CC = window.PickupRadarLogic && window.PickupRadarLogic.countryConfig;
+  var LCS = window.PickupRadarLogic && window.PickupRadarLogic.liveCitySelection;
+
+  // The city whose country decides the language order (App: buildLanguagePickerSections
+  // with the active city). Same choice as the live preview: the city the visitor picked
+  // there, else the live city of their country from the browser's time zone, else Chicago.
+  function languageRankingCity() {
+    var markets = (LCS && LCS.PUBLIC_LAUNCH_MARKETS) || {};
+    var liveCities = Object.keys(markets).map(function (key) { return markets[key].liveCity; });
+    try {
+      var saved = localStorage.getItem('pickupradar_active_city');
+      if (saved && liveCities.indexOf(saved) !== -1) return saved;
+    } catch (error) {
+      // Storage can be unavailable (private browsing); fall through.
+    }
+    try {
+      var zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      var country = LCS && LCS.launchCountryForTimeZone ? LCS.launchCountryForTimeZone(zone) : null;
+      if (country && markets[country]) return markets[country].liveCity;
+    } catch (error) {
+      // No time zone available; fall through.
+    }
+    return 'Chicago';
+  }
   var RTL = (CC && CC.RTL_LANGUAGE_CODES) || ['ur', 'ar', 'fa', 'ps', 'prs'];
   var LANGUAGE_ENTRIES = CC && CC.getAllLanguageEntries
     ? CC.getAllLanguageEntries()
@@ -697,7 +720,7 @@
     } else if (!CC || !CC.buildLanguagePickerSections) {
       rows = LANGUAGE_ENTRIES.slice();
     } else {
-      var sections = CC.buildLanguagePickerSections('Milton Keynes', LANGUAGE_ENTRIES, languageCode, function () { return true; });
+      var sections = CC.buildLanguagePickerSections(languageRankingCity(), LANGUAGE_ENTRIES, languageCode, function () { return true; });
       sections.more.forEach(function (entry) { moreCodes[entry.code] = true; });
       if (moreExpanded) rows = sections.recommended.concat(sections.more);
       else {

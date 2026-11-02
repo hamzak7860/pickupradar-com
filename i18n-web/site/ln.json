@@ -143,8 +143,8 @@
       "text": "Luka esika ya kozwa."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Meka nkombo, etuka to kode ya poste, lokola KFC to Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Meka nkombo, etuka to kode ya poste, lokola KFC to Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

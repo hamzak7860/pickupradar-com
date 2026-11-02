@@ -143,8 +143,8 @@
       "text": "یک نقطه تحویل را پیدا کنید."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} نام، ساحه یا کود پستی را امتحان کنید، مانند KFC یا Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} نام، ساحه یا کود پستی را امتحان کنید، مانند KFC یا Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

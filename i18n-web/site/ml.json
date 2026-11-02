@@ -143,8 +143,8 @@
       "text": "ഒരു പിക്കപ്പ് പോയിന്റ് കണ്ടെത്തുക."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} പേര്, പ്രദേശം അല്ലെങ്കിൽ പോസ്റ്റ്‌കോഡ് ശ്രമിക്കുക, ഉദാഹരണം KFC അല്ലെങ്കിൽ Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} പേര്, പ്രദേശം അല്ലെങ്കിൽ പോസ്റ്റ്‌കോഡ് ശ്രമിക്കുക, ഉദാഹരണം KFC അല്ലെങ്കിൽ Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

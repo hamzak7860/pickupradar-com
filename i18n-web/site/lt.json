@@ -143,8 +143,8 @@
       "text": "Ieškoti atsiėmimo vietų."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Pabandyk pavadinimą, rajoną ar pašto kodą, pavyzdžiui KFC arba Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Pabandyk pavadinimą, rajoną ar pašto kodą, pavyzdžiui KFC arba Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Tìm điểm lấy hàng."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Thử tên, khu vực hoặc mã bưu chính, ví dụ KFC hoặc Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Thử tên, khu vực hoặc mã bưu chính, ví dụ KFC hoặc Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

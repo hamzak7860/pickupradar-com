@@ -143,8 +143,8 @@
       "text": "Teslim alma noktalarını ara."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} KFC veya Bletchley gibi bir ad, bölge veya posta kodu deneyin."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} KFC veya Lincoln Park gibi bir ad, bölge veya posta kodu deneyin."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

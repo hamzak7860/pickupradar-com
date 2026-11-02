@@ -143,8 +143,8 @@
       "text": "Bakka fudhannaa barbaadi."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Maqaa, naannoo yookaan koodii poostaa yaali, fakkeenyaaf KFC yookaan Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Maqaa, naannoo yookaan koodii poostaa yaali, fakkeenyaaf KFC yookaan Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

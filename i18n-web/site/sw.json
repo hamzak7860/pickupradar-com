@@ -143,8 +143,8 @@
       "text": "Tafuta sehemu za kuchukua."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Jaribu jina, eneo au msimbo wa posta, kama KFC au Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Jaribu jina, eneo au msimbo wa posta, kama KFC au Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Szukaj punktów odbioru."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Spróbuj nazwy, dzielnicy lub kodu pocztowego, na przykład KFC albo Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Spróbuj nazwy, dzielnicy lub kodu pocztowego, na przykład KFC albo Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

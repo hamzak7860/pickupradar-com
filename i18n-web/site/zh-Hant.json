@@ -143,8 +143,8 @@
       "text": "搜尋取餐點。"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} 試試名稱、區域或郵遞區號，例如 KFC 或 Bletchley。"
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} 試試名稱、區域或郵遞區號，例如 KFC 或 Lincoln Park。"
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

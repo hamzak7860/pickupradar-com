@@ -143,8 +143,8 @@
       "text": "受け取り場所を検索。"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} 店名、エリア、郵便番号を試せます。例: KFC や Bletchley。"
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} 店名、エリア、郵便番号を試せます。例: KFC や Lincoln Park。"
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

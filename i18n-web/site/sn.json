@@ -143,8 +143,8 @@
       "text": "Tsvaga nzvimbo yekutora."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Edza zita, nharaunda kana kodhi yepositi, semuenzaniso KFC kana Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Edza zita, nharaunda kana kodhi yepositi, semuenzaniso KFC kana Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

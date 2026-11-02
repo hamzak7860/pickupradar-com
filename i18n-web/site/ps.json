@@ -143,8 +143,8 @@
       "text": "د اخیستلو ټکی ومومئ."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} نوم، سیمه یا پوستي کوډ وازمویئ، لکه KFC یا Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} نوم، سیمه یا پوستي کوډ وازمویئ، لکه KFC یا Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Caută puncte de preluare."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Încearcă un nume, o zonă sau un cod poștal, de exemplu KFC sau Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Încearcă un nume, o zonă sau un cod poștal, de exemplu KFC sau Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Raadi meelaha qaadista."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Isku day magac, aag ama sumad boosto, sida KFC ama Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Isku day magac, aag ama sumad boosto, sida KFC ama Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

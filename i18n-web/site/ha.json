@@ -143,8 +143,8 @@
       "text": "Nemi wuri na ɗauka."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Gwada suna, yanki ko lambar gidan waya, kamar KFC ko Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Gwada suna, yanki ko lambar gidan waya, kamar KFC ko Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "ናይ ምውሳድ ቦታ ድለ።"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} ስም፣ ቦታ ወይ ፖስታ ኮድ ፈትን፣ ከም KFC ወይ Bletchley።"
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} ስም፣ ቦታ ወይ ፖስታ ኮድ ፈትን፣ ከም KFC ወይ Lincoln Park።"
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

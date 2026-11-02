@@ -618,7 +618,8 @@ function mountPickupRadarPreview(container, options) {
 
   const SUPABASE_URL = 'https://jvsseskherxmtcuumldq.supabase.co';
   const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp2c3Nlc2toZXJ4bXRjdXVtbGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1MTQwMTcsImV4cCI6MjA5NDA5MDAxN30.lsbs-umYa1a05GUi3sLZUvS609XlyPQjrcgAPp7HvOU';
-  const DEFAULT_CITY = 'Milton Keynes';
+  // pickupradar.com is the international site: Chicago when the visitor's country is unknown.
+  const DEFAULT_CITY = 'Chicago';
   const SITE_CITIES = ['Milton Keynes', 'Chicago'];
   const CITY_STORAGE_KEY = 'pickupradar_active_city';
 

@@ -143,8 +143,8 @@
       "text": "픽업 지점 검색."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} 이름, 지역 또는 우편번호를 입력해 보세요. 예: KFC 또는 Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} 이름, 지역 또는 우편번호를 입력해 보세요. 예: KFC 또는 Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Chèche yon pwen pou pran kòmand."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Eseye yon non, yon zòn oswa yon kòd postal, tankou KFC oswa Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Eseye yon non, yon zòn oswa yon kòd postal, tankou KFC oswa Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "የመውሰጃ ቦታ ያግኙ።"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} ስም፣ አካባቢ ወይም የፖስታ ኮድ ይሞክሩ፣ ለምሳሌ KFC ወይም Bletchley።"
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} ስም፣ አካባቢ ወይም የፖስታ ኮድ ይሞክሩ፣ ለምሳሌ KFC ወይም Lincoln Park።"
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

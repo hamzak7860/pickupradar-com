@@ -143,8 +143,8 @@
       "text": "රැගෙන යාමේ ස්ථානයක් සොයන්න."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} නමක්, ප්‍රදේශයක් හෝ තැපැල් කේතයක් උත්සාහ කරන්න, උදාහරණයක් ලෙස KFC හෝ Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} නමක්, ප්‍රදේශයක් හෝ තැපැල් කේතයක් උත්සාහ කරන්න, උදාහරණයක් ලෙස KFC හෝ Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

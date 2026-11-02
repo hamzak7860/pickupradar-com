@@ -143,8 +143,8 @@
       "text": "Pangitaa ang pickup point."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Sulayi ang ngalan, lugar o postcode, sama sa KFC o Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Sulayi ang ngalan, lugar o postcode, sama sa KFC o Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

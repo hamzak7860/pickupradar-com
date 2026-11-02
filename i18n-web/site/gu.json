@@ -143,8 +143,8 @@
       "text": "પિકઅપ પોઈન્ટ શોધો."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} નામ, વિસ્તાર અથવા પોસ્ટકોડ અજમાવો, જેમ કે KFC અથવા Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} નામ, વિસ્તાર અથવા પોસ્ટકોડ અજમાવો, જેમ કે KFC અથવા Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

@@ -143,8 +143,8 @@
       "text": "Hwehwɛ pickup beae."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Sɔ din, mpɔtam anaa post koodu hwɛ, te sɛ KFC anaa Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Sɔ din, mpɔtam anaa post koodu hwɛ, te sɛ KFC anaa Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

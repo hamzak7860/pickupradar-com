@@ -143,8 +143,8 @@
       "text": "Abholorte suchen."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Bletchley.",
-      "text": "{lead} Probiere einen Namen, ein Gebiet oder eine Postleitzahl, zum Beispiel KFC oder Bletchley."
+      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "text": "{lead} Probiere einen Namen, ein Gebiet oder eine Postleitzahl, zum Beispiel KFC oder Lincoln Park."
     },
     "home.try.openLead": {
       "en": "Open a pickup point.",

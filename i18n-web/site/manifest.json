@@ -1,388 +1,388 @@
 {
   "languages": {
     "ak": {
-      "v": "c522621cf6de",
-      "keys": 120,
+      "v": "c6c109997965",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "am": {
-      "v": "7cd7128c7c5e",
-      "keys": 120,
+      "v": "7792c3cc4559",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ar": {
-      "v": "15c8b68e938a",
-      "keys": 120,
+      "v": "bfd2c13633df",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "bg": {
-      "v": "51621abed8bb",
-      "keys": 120,
+      "v": "b45eacdacfe4",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "bn": {
-      "v": "05d3fee58ad0",
-      "keys": 120,
+      "v": "5b26abff24c3",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ceb": {
-      "v": "b1a6dea8cbab",
-      "keys": 120,
+      "v": "7abecd478cb1",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "cs": {
-      "v": "d8b4170c053c",
-      "keys": 120,
+      "v": "24bb84515043",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "cy": {
-      "v": "6b432e5c6a25",
-      "keys": 120,
+      "v": "ab488de857d7",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "da": {
-      "v": "1c7abc9198eb",
-      "keys": 120,
+      "v": "9367a94b2497",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "de": {
-      "v": "62b781505eef",
-      "keys": 120,
+      "v": "55cb483c1633",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "el": {
-      "v": "53a61c4196bf",
-      "keys": 120,
+      "v": "a57a3595ab2b",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "es": {
-      "v": "83b8fe41d3b2",
-      "keys": 120,
+      "v": "24bf13588e9d",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "fa": {
-      "v": "feee0994e34a",
-      "keys": 120,
+      "v": "2a5781d8eeb8",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "fi": {
-      "v": "ee45676afa42",
-      "keys": 120,
+      "v": "3c05152e25ed",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "fr": {
-      "v": "9c3a25b558a4",
-      "keys": 120,
+      "v": "f776610eb1e9",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ga": {
-      "v": "270a53b99be0",
-      "keys": 120,
+      "v": "74fb96684e8c",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "gu": {
-      "v": "600ce6ac007b",
-      "keys": 120,
+      "v": "c8bf8ac31cb1",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ha": {
-      "v": "ea0440829b3d",
-      "keys": 120,
+      "v": "26d46487d060",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "hi": {
-      "v": "b8711b957b69",
-      "keys": 120,
+      "v": "8168de47936a",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ht": {
-      "v": "719acf6b4f32",
-      "keys": 120,
+      "v": "7226d2ee34e5",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "hu": {
-      "v": "ced960e5ba40",
-      "keys": 120,
+      "v": "f537064af7b9",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "id": {
-      "v": "74c4dd210968",
-      "keys": 120,
+      "v": "db533ce89e7e",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ig": {
-      "v": "0dbff6addef1",
-      "keys": 120,
+      "v": "1b07ab2c039a",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "it": {
-      "v": "bf97e8c4718a",
-      "keys": 120,
+      "v": "a6b8ab64e3c8",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ja": {
-      "v": "f9b9c39bd67d",
-      "keys": 120,
+      "v": "1da6bbf9760b",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ko": {
-      "v": "7a4180356b79",
-      "keys": 120,
+      "v": "572e29cc1b1e",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ku": {
-      "v": "36e52b56f32b",
-      "keys": 120,
+      "v": "165048957eed",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "lg": {
-      "v": "2f478a1ffc8b",
-      "keys": 120,
+      "v": "56d5e8c44f0e",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ln": {
-      "v": "360c083b4cf6",
-      "keys": 120,
+      "v": "c7d644658f15",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "lt": {
-      "v": "415761ba1c04",
-      "keys": 120,
+      "v": "bc4bc92032be",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ml": {
-      "v": "a0b5a0f975b2",
-      "keys": 120,
+      "v": "e2d7ca4a0701",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ms": {
-      "v": "8eb12c559c0c",
-      "keys": 120,
+      "v": "aba2f8f6d4a1",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "nb": {
-      "v": "f9cb061a097d",
-      "keys": 120,
+      "v": "482d2753ab5f",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ne": {
-      "v": "3fc648bf0928",
-      "keys": 120,
+      "v": "1f9ea2071795",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "nl": {
-      "v": "4a7ad74e1d74",
-      "keys": 120,
+      "v": "66aa357d9a5f",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "om": {
-      "v": "b63dd4067b3d",
-      "keys": 120,
+      "v": "f5c65d604ff4",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "pa": {
-      "v": "c2ebb49a340b",
-      "keys": 120,
+      "v": "af995c326ff4",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "pl": {
-      "v": "a681bc6490fb",
-      "keys": 120,
+      "v": "c91965818ae8",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "prs": {
-      "v": "04ba5e6fdd40",
-      "keys": 120,
+      "v": "fdcd53ce051b",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ps": {
-      "v": "4f49f50ab75f",
-      "keys": 120,
+      "v": "2b31e6ba39ad",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "pt": {
-      "v": "7f7141cb456d",
-      "keys": 120,
+      "v": "8e7f0268d6f1",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ro": {
-      "v": "a9d8756a3db4",
-      "keys": 120,
+      "v": "9b4ba0cff0ec",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ru": {
-      "v": "19feb112af80",
-      "keys": 120,
+      "v": "35c954e48e63",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "rw": {
-      "v": "afbb3cf1e44d",
-      "keys": 120,
+      "v": "ca2d2605d85a",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "si": {
-      "v": "8e78d58f7385",
-      "keys": 120,
+      "v": "33b883b32b36",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "sm": {
-      "v": "05256a944629",
-      "keys": 120,
+      "v": "a46d33f6f726",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "sn": {
-      "v": "bfbbfaf42faf",
-      "keys": 120,
+      "v": "770033978759",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "so": {
-      "v": "d2821b76da2f",
-      "keys": 120,
+      "v": "66d362ceb883",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "sq": {
-      "v": "692f83f497b0",
-      "keys": 120,
+      "v": "90a86b0b5233",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "sv": {
-      "v": "764480c95fb6",
-      "keys": 120,
+      "v": "a433a0e35602",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "sw": {
-      "v": "22f20fa508ff",
-      "keys": 120,
+      "v": "b97fa47faf32",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ta": {
-      "v": "0170257f58b1",
-      "keys": 120,
+      "v": "26c40fc563a2",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "te": {
-      "v": "73747f6de9d6",
-      "keys": 120,
+      "v": "9aabea962076",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "th": {
-      "v": "4d81766f8b31",
-      "keys": 120,
+      "v": "ec476c378879",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ti": {
-      "v": "2ce65237beae",
-      "keys": 120,
+      "v": "51dcf621a03d",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "tl": {
-      "v": "fcc6e74084b4",
-      "keys": 120,
+      "v": "95dd8c708913",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "tr": {
-      "v": "7a3ac7f4ec74",
-      "keys": 120,
+      "v": "dea5800e8f70",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "uk": {
-      "v": "dca9ce032c5c",
-      "keys": 120,
+      "v": "34e028b7cfc2",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "ur": {
-      "v": "ffbf055ee67d",
-      "keys": 120,
+      "v": "64eb10ad075a",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "vi": {
-      "v": "38736630fad1",
-      "keys": 120,
+      "v": "45362e1a8bc8",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "wo": {
-      "v": "c48aa7e04486",
-      "keys": 120,
+      "v": "6ddc0bf4621a",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "yo": {
-      "v": "530fa97b150a",
-      "keys": 120,
+      "v": "2fd6ca5082b8",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "zh-Hans": {
-      "v": "54fcd2bf38ba",
-      "keys": 120,
+      "v": "0f1f0a633f1b",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     "zh-Hant": {
-      "v": "d214a852f6ae",
-      "keys": 120,
+      "v": "48ff06dafe3b",
+      "keys": 191,
       "quality": "machine",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     }
   }
 }

@@ -338,6 +338,22 @@ function mountPickupRadarPreview(container, options) {
     return interpolate(value, params);
   }
 
+  // US English says "ZIP code" where UK English says "postcode" (same rule as the app, Stage 3).
+  // Other languages keep their own translation.
+  function cityText(key, fallback) {
+    const usEnglish = String(languageCode).toLowerCase().indexOf('en') === 0 &&
+      CC && CC.getCountryCodeForCity && CC.getCountryCodeForCity(activeCity) === 'US';
+    if (usEnglish && key === 'report.search.placeholder') return 'Name, area or ZIP code';
+    if (usEnglish && key === 'missing.postcode') return 'ZIP code';
+    return t(key, fallback);
+  }
+
+  function refreshCityWording() {
+    rootFindAll('[data-i18n-placeholder="report.search.placeholder"]').forEach((el) => {
+      el.setAttribute('placeholder', cityText('report.search.placeholder', el.getAttribute('data-i18n-en-placeholder') || 'Name, area or postcode'));
+    });
+  }
+
   // ---- Website-only words (no matching key in the app's dictionaries) ----
   // WEB_TEXT is the English source. Reviewed translations are kept apart from the app's
   // dictionaries, in i18n-web/<code>.json, and only languages listed in i18n-web/manifest.json
@@ -591,7 +607,7 @@ function mountPickupRadarPreview(container, options) {
     });
     rootFindAll('[data-i18n-placeholder]').forEach((el) => {
       if (!el.hasAttribute('data-i18n-en-placeholder')) el.setAttribute('data-i18n-en-placeholder', el.getAttribute('placeholder') || '');
-      el.setAttribute('placeholder', t(el.getAttribute('data-i18n-placeholder'), el.getAttribute('data-i18n-en-placeholder')));
+      el.setAttribute('placeholder', cityText(el.getAttribute('data-i18n-placeholder'), el.getAttribute('data-i18n-en-placeholder')));
     });
     rootFindAll('[data-i18n-aria]').forEach((el) => {
       if (!el.hasAttribute('data-i18n-en-aria')) el.setAttribute('data-i18n-en-aria', el.getAttribute('aria-label') || '');
@@ -1539,6 +1555,7 @@ function mountPickupRadarPreview(container, options) {
           return;
         }
         activeCity = city;
+        refreshCityWording();
         saveSelectedCity(activeCity);
         updateCityPill();
         updateFirstTab();
@@ -1719,7 +1736,7 @@ function mountPickupRadarPreview(container, options) {
       '<input type="text" class="missing-venue-input" data-suggestion-address dir="auto" placeholder="' + escapeHtml(t('missing.address', 'Address or area')) + '" aria-label="' + escapeHtml(t('missing.address', 'Address or area')) + '" value="' +
       escapeHtml(suggestionVenueAddress) +
       '" autocomplete="off" autocapitalize="off" spellcheck="false" data-lpignore="true" />' +
-      '<input type="text" class="missing-venue-input" data-suggestion-postcode dir="ltr" placeholder="' + escapeHtml(t('missing.postcode', 'Postcode')) + '" aria-label="' + escapeHtml(t('missing.postcode', 'Postcode')) + '" value="' +
+      '<input type="text" class="missing-venue-input" data-suggestion-postcode dir="ltr" placeholder="' + escapeHtml(cityText('missing.postcode', 'Postcode')) + '" aria-label="' + escapeHtml(cityText('missing.postcode', 'Postcode')) + '" value="' +
       escapeHtml(suggestionVenuePostcode) +
       '" autocomplete="off" autocapitalize="characters" spellcheck="false" data-lpignore="true" />' +
       '<textarea class="missing-venue-input missing-venue-note" data-suggestion-note dir="auto" placeholder="' + escapeHtml(t('missing.note', 'Note (optional)')) + '" aria-label="' + escapeHtml(t('missing.note', 'Note (optional)')) + '" rows="3">' +
@@ -3356,6 +3373,7 @@ function mountPickupRadarPreview(container, options) {
       liveCities = await loadLiveCities();
       if (liveCities.length === 0) liveCities = [DEFAULT_CITY];
       activeCity = resolveActiveCity(liveCities);
+      refreshCityWording();
       saveSelectedCity(activeCity);
       updateCityPill();
       if (options.resetOnLoad && !onboardingActive) resetPreviewHome();

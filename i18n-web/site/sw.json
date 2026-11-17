@@ -143,7 +143,7 @@
       "text": "Tafuta sehemu za kuchukua."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Jaribu jina, eneo au msimbo wa posta, kama KFC au Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Jina la sehemu ya kuchukua"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Eneo au msimbo wa posta, ukiujua"
     },
     "support.include.wrong": {

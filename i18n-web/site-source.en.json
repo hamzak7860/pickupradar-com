@@ -380,7 +380,7 @@
       "note": "Bold start of the second preview instruction. Same words as the app search label, with a full stop."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "domSlots": [
         "lead"
       ],
@@ -711,7 +711,7 @@
       "note": "First detail to include."
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "note": "Second detail to include."
     },
     "support.include.wrong": {

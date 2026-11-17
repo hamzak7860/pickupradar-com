@@ -99,7 +99,7 @@
     line('home.try.tabLead', 'Pick a tab.', 'Bold start of the first preview instruction.');
     line('home.try.tab', '{lead} Use {nearby} to find pickup points close to you when location is on. Use {fast} and {slow} to check waits and estimates.', 'First preview instruction. {lead} stays bold. The other placeholders are app labels.', { appSlots: { nearby: 'home.tab.nearby', fast: 'home.tab.fast', slow: 'home.tab.slow' }, domSlots: ['lead'] });
     line('home.try.searchLead', 'Search pickup points.', 'Bold start of the second preview instruction. Same words as the app search label, with a full stop.');
-    line('home.try.search', '{lead} Try a name, area or postcode, like KFC or Lincoln Park.', 'Second preview instruction. {lead} stays bold. Keep KFC and Lincoln Park (a Chicago neighbourhood).', { domSlots: ['lead'] });
+    line('home.try.search', '{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.', 'Second preview instruction. {lead} stays bold. Keep KFC and Lincoln Park (a Chicago neighbourhood).', { domSlots: ['lead'] });
     line('home.try.openLead', 'Open a pickup point.', 'Bold start of the third preview instruction.');
     line('home.try.open', '{lead} The {reportWait} screen opens. Choose a wait time. Nothing is sent.', 'Third preview instruction. {lead} stays bold. {reportWait} is the app label.', { appSlots: { reportWait: 'home.reportWait' }, domSlots: ['lead'] });
     line('home.signals.title', 'What you can see before you go in', 'Heading for the section that explains the labels on a pickup point.');
@@ -165,7 +165,7 @@
     line('support.include.title', 'What to include', 'Heading for the list of details to send with a problem report.');
     line('support.include.body', 'If you report a problem, please tell us:', 'Line above that list.');
     line('support.include.name', 'The pickup point name', 'First detail to include.');
-    line('support.include.area', 'The area or postcode, if you know it', 'Second detail to include.');
+    line('support.include.area', 'The area or ZIP code, if you know it', 'Second detail to include.');
     line('support.include.wrong', 'What went wrong', 'Third detail to include.');
     line('support.include.phone', 'Your phone model, if the app has a problem', 'Fourth detail to include.');
     line('support.topics.title', 'Common questions', 'Heading for the support topics.');

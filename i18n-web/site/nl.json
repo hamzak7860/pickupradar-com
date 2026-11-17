@@ -143,7 +143,7 @@
       "text": "Afhaalpunten zoeken."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Probeer een naam, een wijk of een postcode, zoals KFC of Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "De naam van het afhaalpunt"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "De wijk of postcode, als je die weet"
     },
     "support.include.wrong": {

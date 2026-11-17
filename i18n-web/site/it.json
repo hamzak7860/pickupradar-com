@@ -143,7 +143,7 @@
       "text": "Cerca punti di ritiro."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Prova un nome, una zona o un codice postale, come KFC o Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Il nome del punto di ritiro"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "La zona o il codice postale, se lo conosci"
     },
     "support.include.wrong": {

@@ -143,7 +143,7 @@
       "text": "搜索取餐点。"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} 试试名称、区域或邮编，例如 KFC 或 Lincoln Park。"
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "取餐点名称"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "区域或邮编（如果知道）"
     },
     "support.include.wrong": {

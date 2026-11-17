@@ -143,7 +143,7 @@
       "text": "Hwehwɛ pickup beae."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Sɔ din, mpɔtam anaa post koodu hwɛ, te sɛ KFC anaa Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Pickup beae no din"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Mpɔtam anaa post koodu, sɛ wonim a"
     },
     "support.include.wrong": {

@@ -143,7 +143,7 @@
       "text": "受け取り場所を検索。"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} 店名、エリア、郵便番号を試せます。例: KFC や Lincoln Park。"
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "受け取り場所の名前"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "エリアまたは郵便番号（分かる場合）"
     },
     "support.include.wrong": {

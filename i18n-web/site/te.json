@@ -143,7 +143,7 @@
       "text": "ఒక పికప్ పాయింట్ కనుగొనండి."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} పేరు, ప్రాంతం లేదా పోస్ట్‌కోడ్ ప్రయత్నించండి, ఉదాహరణకు KFC లేదా Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "పికప్ పాయింట్ పేరు"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "ప్రాంతం లేదా పోస్ట్‌కోడ్, తెలిస్తే"
     },
     "support.include.wrong": {

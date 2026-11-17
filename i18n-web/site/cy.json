@@ -143,7 +143,7 @@
       "text": "Chwilio pwyntiau casglu."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Rho gynnig ar enw, ardal neu god post, fel KFC neu Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Enw'r pwynt casglu"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Yr ardal neu'r cod post, os wyt ti'n ei wybod"
     },
     "support.include.wrong": {

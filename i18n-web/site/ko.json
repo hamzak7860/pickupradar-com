@@ -143,7 +143,7 @@
       "text": "픽업 지점 검색."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} 이름, 지역 또는 우편번호를 입력해 보세요. 예: KFC 또는 Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "픽업 지점 이름"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "지역 또는 우편번호(아는 경우)"
     },
     "support.include.wrong": {

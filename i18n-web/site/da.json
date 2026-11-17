@@ -143,7 +143,7 @@
       "text": "Søg afhentningssteder."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Prøv et navn, et område eller et postnummer, for eksempel KFC eller Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Navnet på afhentningsstedet"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Området eller postnummeret, hvis du kender det"
     },
     "support.include.wrong": {

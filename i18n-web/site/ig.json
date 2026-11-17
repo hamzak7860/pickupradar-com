@@ -143,7 +143,7 @@
       "text": "Chọọ ebe mmịnye."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Nwaa aha, mpaghara ma ọ bụ koodu ozi, dịka KFC ma ọ bụ Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Aha ebe mmịnye"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Mpaghara ma ọ bụ koodu ozi, ma ọ bụrụ na ị maara ya"
     },
     "support.include.wrong": {

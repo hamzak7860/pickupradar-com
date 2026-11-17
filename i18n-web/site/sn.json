@@ -143,7 +143,7 @@
       "text": "Tsvaga nzvimbo yekutora."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Edza zita, nharaunda kana kodhi yepositi, semuenzaniso KFC kana Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Zita renzvimbo yekutora"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Nharaunda kana kodhi yepositi, kana uchiziva"
     },
     "support.include.wrong": {

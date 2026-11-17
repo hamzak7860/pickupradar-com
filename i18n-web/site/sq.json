@@ -143,7 +143,7 @@
       "text": "Kërko pika marrjeje."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Provo një emër, zonë ose kod postar, si KFC ose Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Emrin e pikës së marrjes"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Zonën ose kodin postar, nëse e di"
     },
     "support.include.wrong": {

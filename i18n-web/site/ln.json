@@ -143,7 +143,7 @@
       "text": "Luka esika ya kozwa."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Meka nkombo, etuka to kode ya poste, lokola KFC to Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Nkombo ya esika ya kozwa"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Etuka to kode ya poste, soki oyebi"
     },
     "support.include.wrong": {

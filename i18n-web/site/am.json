@@ -143,7 +143,7 @@
       "text": "የመውሰጃ ቦታ ያግኙ።"
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} ስም፣ አካባቢ ወይም የፖስታ ኮድ ይሞክሩ፣ ለምሳሌ KFC ወይም Lincoln Park።"
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "የመውሰጃ ቦታው ስም"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "አካባቢ ወይም የፖስታ ኮድ፣ ካወቁ"
     },
     "support.include.wrong": {

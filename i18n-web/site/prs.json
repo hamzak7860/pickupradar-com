@@ -143,7 +143,7 @@
       "text": "یک نقطه تحویل را پیدا کنید."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} نام، ساحه یا کود پستی را امتحان کنید، مانند KFC یا Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "نام نقطه تحویل"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "ساحه یا کود پستی، اگر می‌دانید"
     },
     "support.include.wrong": {

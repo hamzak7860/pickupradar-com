@@ -143,7 +143,7 @@
       "text": "Shakisha ahafatirwa."
     },
     "home.try.search": {
-      "en": "{lead} Try a name, area or postcode, like KFC or Lincoln Park.",
+      "en": "{lead} Try a name, area or ZIP code, like KFC or Lincoln Park.",
       "text": "{lead} Gerageza izina, akarere cyangwa kode y'iposita, nk'urugero KFC cyangwa Lincoln Park."
     },
     "home.try.openLead": {
@@ -399,7 +399,7 @@
       "text": "Izina ry'ahafatirwa"
     },
     "support.include.area": {
-      "en": "The area or postcode, if you know it",
+      "en": "The area or ZIP code, if you know it",
       "text": "Akarere cyangwa kode y'iposita, niba ubizi"
     },
     "support.include.wrong": {
